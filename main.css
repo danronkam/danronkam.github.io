@@ -10,9 +10,14 @@
     font-weight: 100;
 }
 
+.company-container{
+    justify-content: space-evenly;
+    display: flex;
+}
+
 .company-logo{
-    width: 300px;
-    height: auto;
+    width: auto;
+    height: 100px;
 }
 
 .project-containers{
@@ -28,6 +33,10 @@
 .landing-container{
     /* background-color: green; */
     height: 80vh;
+}
+
+.about-container{
+    height: 90vh;
 }
 
 .titles{
