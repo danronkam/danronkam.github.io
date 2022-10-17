@@ -5,8 +5,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<link rel="stylesheet" href="./main.css"
-
+<link rel="stylesheet" href="./main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Average+Sans&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -18,10 +20,9 @@
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Home</a> 
-    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button">Projects</a> 
-    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button">About</a> 
-    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button">Publishing</a> 
-    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button">Packages</a> 
+    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">Projects</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a> 
+    <a href="#publishing" onclick="w3_close()" class="w3-bar-item w3-button">Publishing</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
   </div>
 </nav>
@@ -29,7 +30,7 @@
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-  <span>Company Name</span>
+  <span>Dan Kam</span>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -39,25 +40,11 @@
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="showcase">
-    <!-- <h1 class="w3-jumbo"><b>Dan Kam</b></h1> -->
-    <h1 class="w3-xxxlarge w3-text-red"><b>Writing Words and Code</b></h1>
-    <hr style="width:50px;border:5px solid rgb(0, 110, 179)" class="w3-round">
-  </div>
-  
-  <!-- Photo grid (modal) -->
-  <div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
-    </div>
-
-    <div class="w3-half">
-      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
-      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
-      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
-    </div>
+  <div class="w3-container landing-container" style="margin-top:10vh" id="">
+    <h1 class="w3-jumbo heading"><b>Tech & Publishing</b></h1>
+    <h1 class="w3-xxxlarge" id="tagline"><b>writing words and lines of code</b></h1>
+    <hr  class="w3-round lines">
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
   </div>
 
   <!-- Modal for full size images on click-->
@@ -70,9 +57,9 @@
   </div>
 
     <!-- Designers -->
-    <div class="w3-container" id="designers" style="margin-top:75px">
-        <h1 class="w3-xxxlarge w3-text-red"><b>Projects</b></h1>
-        <hr style="width:50px;border:5px solid red" class="w3-round">
+    <div class="w3-container" id="projects" style="margin-top:75px">
+        <h1 class="w3-xxxlarge titles"><b>Projects</b></h1>
+        <hr class="w3-round lines">
         <p>The best team in the world.</p>
         <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
@@ -85,30 +72,30 @@
       <div class="w3-row-padding w3-grayscale">
         <div class="w3-col m4 w3-margin-bottom">
           <div class="w3-light-grey">
-            <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+            <img src="Images/dkfm_wip_white.gif" alt="John" style="width:100%">
             <div class="w3-container">
-              <h3>John Doe</h3>
-              <p class="w3-opacity">CEO & Founder</p>
+              <h3>DK-FM</h3>
+              <p class="w3-opacity">A Javascript music player that selects a list of music and accompanying visuals based on the users mood and preferences      </p>
               <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
             </div>
           </div>
         </div>
         <div class="w3-col m4 w3-margin-bottom">
           <div class="w3-light-grey">
-            <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+            <img src="Images/heard.gif" alt="Jane" style="width:auto">
             <div class="w3-container">
-              <h3>Jane Doe</h3>
-              <p class="w3-opacity">Designer</p>
+              <h3>Heard</h3>
+              <p class="w3-opacity">A MERN stack app where users can share their secrets anonymously, hear other confessions, and chat with other people in similar situations   </p>
               <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
             </div>
           </div>
         </div>
         <div class="w3-col m4 w3-margin-bottom">
           <div class="w3-light-grey">
-            <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+            <img src="Images/derailed.gif" alt="Mike" style="width:100%">
             <div class="w3-container">
-              <h3>Mike Ross</h3>
-              <p class="w3-opacity">Architect</p>
+              <h3>derailed</h3>
+              <p class="w3-opacity">A fullstack Grailed clone where users can search through filtered listings, review other users profiles, create their own listings, and review products</p>
               <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
             </div>
           </div>
@@ -116,9 +103,9 @@
       </div>
 
   <!-- Services -->
-  <div class="w3-container" id="services" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>About Me</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
+  <div class="w3-container" id="about" style="margin-top:75px">
+    <h1 class="w3-xxxlarge titles"><b>About Me</b></h1>
+    <hr class="w3-round lines">
     <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
     <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
     dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
@@ -129,9 +116,9 @@
 
 
   <!-- Packages / Pricing Tables -->
-  <div class="w3-container" id="packages" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Packages.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
+  <div class="w3-container" id="publishing" style="margin-top:75px">
+    <h1 class="w3-xxxlarge titles"><b>Packages.</b></h1>
+    <hr class="w3-round lines">
     <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
   </div>
 
@@ -175,8 +162,8 @@
   
   <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h1 class="w3-xxxlarge titles"><b>Contact.</b></h1>
+    <hr class="w3-round lines">
     <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
     <form action="/action_page.php" target="_blank">
       <div class="w3-section">
