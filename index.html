@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Average+Sans&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f5973f0823.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -20,9 +21,9 @@
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Home</a> 
-    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">Projects</a> 
+    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">Work</a> 
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a> 
-    <a href="#publishing" onclick="w3_close()" class="w3-bar-item w3-button">Publishing</a> 
+    <a href="#publishing" onclick="w3_close()" class="w3-bar-item w3-button">Writing</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
   </div>
 </nav>
@@ -41,10 +42,10 @@
 
   <!-- Header -->
   <div class="w3-container landing-container" style="margin-top:10vh" id="">
-    <h1 class="w3-jumbo heading"><b>Tech & Publishing</b></h1>
-    <h1 class="w3-xxxlarge" id="tagline"><b>writing words and lines of code</b></h1>
+    <h1 class="w3-jumbo heading"><b>Software Developer <br/> & Media Person</b></h1>
+    <h1 class="w3-xxxlarge tagline" id="tagline"><b>writing words and lines of code</b></h1>
     <hr  class="w3-round lines">
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
   </div>
 
   <!-- Modal for full size images on click-->
@@ -56,49 +57,59 @@
     </div>
   </div>
 
-    <!-- Designers -->
+    <!-- Projects -->
     <div class="w3-container" id="projects" style="margin-top:75px">
-        <h1 class="w3-xxxlarge titles"><b>Projects</b></h1>
+        <h1 class="w3-xxxlarge titles"><b>Featured Works</b></h1>
         <hr class="w3-round lines">
-        <p>The best team in the world.</p>
-        <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        <p><b>Our designers are thoughtfully chosen</b>:</p>
-      </div>
+    </div>
     
       <!-- The Team -->
       <div class="w3-row-padding w3-grayscale">
         <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey">
+          <div class="w3-light-grey project-containers">
             <img src="Images/dkfm_wip_white.gif" alt="John" style="width:100%">
             <div class="w3-container">
               <h3>DK-FM</h3>
-              <p class="w3-opacity">A Javascript music player that selects a list of music and accompanying visuals based on the users mood and preferences      </p>
-              <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              <p class="w3-opacity">     </p>
+              <p>A Javascript music player that selects a list of music and accompanying visuals based on the users mood and preferences </p>
             </div>
+            <div class="button-container">
+                <a href="https://github.com/danronkam/DKFM247" target="_blank"><button ><i class="fas fa-laptop-code"></i>Code</button></a>
+                <a href="https://danronkam.github.io/DKFM247/" target="_blank"><button><i class="fas fa-power-off"></i>Demo</button></a>               
+            </div>
+     
           </div>
         </div>
         <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey">
+          <div class="w3-light-grey project-containers">
             <img src="Images/heard.gif" alt="Jane" style="width:auto">
             <div class="w3-container">
               <h3>Heard</h3>
-              <p class="w3-opacity">A MERN stack app where users can share their secrets anonymously, hear other confessions, and chat with other people in similar situations   </p>
-              <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              <p class="w3-opacity">   </p>
+              <p>A MERN stack app where users can share their secrets anonymously, hear other confessions, and chat with other people in similar situations</p>
+            </div>
+            <div class="button-container">
+                <a href="https://github.com/k3tang/Heard---MERN-2" target="_blank"><button ><i class="fas fa-laptop-code"></i>Code</button></a>
+                <a href="https://heard--app.herokuapp.com/" target="_blank"><button><i class="fas fa-power-off"></i>Demo</button></a>
             </div>
           </div>
         </div>
         <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey">
+          <div class="w3-light-grey project-containers">
             <img src="Images/derailed.gif" alt="Mike" style="width:100%">
             <div class="w3-container">
               <h3>derailed</h3>
-              <p class="w3-opacity">A fullstack Grailed clone where users can search through filtered listings, review other users profiles, create their own listings, and review products</p>
-              <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              <p class="w3-opacity"></p>
+              <p>A fullstack Grailed clone where users can search through filtered listings, review other users profiles, create their own listings, and review products</p>
+            </div>
+            <div class="button-container">
+                <a href="https://github.com/danronkam/derailed/" target="_blank"><button ><i class="fas fa-laptop-code"></i>Code</button></a>
+                <a href="https://dk-derailed.herokuapp.com/" target="_blank"><button><i class="fas fa-power-off"></i>Demo</button></a>
             </div>
           </div>
+        </div>
+        <div class="'words-container">
+
         </div>
       </div>
 
@@ -106,58 +117,40 @@
   <div class="w3-container" id="about" style="margin-top:75px">
     <h1 class="w3-xxxlarge titles"><b>About Me</b></h1>
     <hr class="w3-round lines">
-    <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
-    <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <h2>Hi, I'm Dan.</h2>
+    <p>        
+        I'm a full stack software engineer with a passion for designing responsive websites with innovative yet timeless designs. My professional background is as a journalist, but today I use those research skills find solutions to any bugs in my code. Across both fields what's consistant is my attention to detail, and my ability to adapt to the ever-changing day to day challenges that come up.
+        <br />
     </p>
+    <p>Currently I'm looking to join and positively contribute to a team whose passions and values allign with my own.  </p>
   </div>
   
 
 
   <!-- Packages / Pricing Tables -->
   <div class="w3-container" id="publishing" style="margin-top:75px">
-    <h1 class="w3-xxxlarge titles"><b>Packages.</b></h1>
+    <h1 class="w3-xxxlarge titles"><b>Publishing</b></h1>
     <hr class="w3-round lines">
-    <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+    <h2 class="tagline">previously:</h2>
+        <div class="company-container">
+            <img class="company-logo" src="https://mma.prnewswire.com/media/1170491/Modern_Luxury_Media_Logo.jpg?p=facebook" alt="modern luxury">
+            <img class="company-logo" src="https://www.bostonmagazine.com/wp-content/uploads/sites/2/2018/06/BostonMag_Logo_New-wMag.png" alt="Boston Magazine">
+            <img class="company-logo" src="https://teakmedia.com/wp-content/uploads/2022/08/Knock-and-Tour24-Partner-to-Bring-Greater-Efficiency-to-Self-Guided-Tours3.jpeg" alt="Boston Herald">
+            <img class="company-logo" src="http://images.squarespace-cdn.com/content/v1/54c822fce4b0aa52730c2bdd/1424122819046-UTIDX9KS9W0NQZ23TJE0/em+%281%29.png" alt="em Magazine">
+            <img class="company-logo" src="https://advancement.northeastern.edu/womenwhoempower/wp-content/uploads/2021/03/art.png" alt="Boston Art Review">
+            <img class="company-logo" src="https://static.wixstatic.com/media/c95abe_fc62759c99fb4f4fb8280e552c7969ab~mv2.png" alt="College Esports Expo">
+
+        </div>
+        
+    <h2 class="tagline">select works:</h2>
+    <div class="awards">
+        Soceity of Enviormential Journalists
+        Bachelor of Science Journslism, Emerson College
+    </div>
   </div>
 
   <div class="w3-row-padding">
-    <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16">Floorplanning</li>
-        <li class="w3-padding-16">10 hours support</li>
-        <li class="w3-padding-16">Photography</li>
-        <li class="w3-padding-16">20% furniture discount</li>
-        <li class="w3-padding-16">Good deals</li>
-        <li class="w3-padding-16">
-          <h2>$ 199</h2>
-          <span class="w3-opacity">per room</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-        
-    <div class="w3-half">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-red w3-xlarge w3-padding-32">Pro</li>
-        <li class="w3-padding-16">Floorplanning</li>
-        <li class="w3-padding-16">50 hours support</li>
-        <li class="w3-padding-16">Photography</li>
-        <li class="w3-padding-16">50% furniture discount</li>
-        <li class="w3-padding-16">GREAT deals</li>
-        <li class="w3-padding-16">
-          <h2>$ 249</h2>
-          <span class="w3-opacity">per room</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
-        </li>
-      </ul>
-    </div>
+
   </div>
   
   <!-- Contact -->

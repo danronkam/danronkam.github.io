@@ -1,12 +1,28 @@
 .w3-padding-64 {
-    color: blue;
+    color: rgba(250, 249, 246);;
 }
 
-#tagline{
+.tagline{
     font-style: italic;
-    color:  rgb(0, 110, 179);
+    /* color:  rgb(0, 110, 179); */
+    color:  blue;
     font-family: 'Average Sans', sans-serif;
     font-weight: 100;
+}
+
+.company-logo{
+    width: 300px;
+    height: auto;
+}
+
+.project-containers{
+    min-height: 500px;
+}
+
+.button-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .landing-container{
@@ -16,6 +32,8 @@
 
 .titles{
     color:  blue;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .lines{
@@ -212,7 +230,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-pink,.w3-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
 .w3-purple,.w3-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
 .w3-deep-purple,.w3-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
-/* .w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important} */
+.w3-red,.w3-hover-red:hover{color:#fff!important;background-color:blue!important}
 .w3-sand,.w3-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
 .w3-teal,.w3-hover-teal:hover{color:#fff!important;background-color:#009688!important}
 .w3-yellow,.w3-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
