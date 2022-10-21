@@ -1,5 +1,9 @@
 .w3-padding-64 {
-    color: rgba(250, 249, 246);;
+    color: rgba(250, 249, 246);
+}
+
+button{
+    cursor: pointer;
 }
 
 .tagline{
@@ -62,9 +66,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.w3-button{
+    color: white;
+}
+
 .w3-button:hover{
     /* color: rgb(0, 110, 179); */
-    color: blue;
+    /* color: blue; */
+   background-color: rgba(0, 0, 0, 0.527)
 }
 
 body{
