@@ -13,14 +13,44 @@
     max-width: 432px;
 }
 
-.right-img{
-}
-
-.right-img{
-
-}
 
 #name{
     text-decoration: underline;
 }
 
+.project-container{
+    display: flex;
+    align-items: center;
+}
+
+.selected-works-title{
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+    font-size: 5vw;
+
+}
+
+.project-description{
+    font-family: 'Karla', sans-serif;
+}
+
+.pj-title{
+    font-size: 3vw;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 800;
+    margin-bottom: 2vh;
+}
+
+.tag{
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    background-color: rgba(236, 236, 236, 0.2);
+    border-radius: 50px;
+
+}
+
+.reveal-button{
+    background-color: transparent;
+    color: white;
+    font-size: 4vw;
+}

@@ -5,55 +5,63 @@ import "./Tldr.css"
 const TLDR = () => {
 
     return(
-        <>
+        <> 
         <div className="tldr-container">
             <div className="text-container">
                 <p className="tldr-text">Hi I'm <b id="name">Dan</b>. I'm a Full Stack Engineer with expierence building client & server-side web application using Javascript.</p>
-                <p className="tldr-text">I mainly work within <b>React</b>, but I'm always expanding my tools and technologies. I'm currently working on a <b>TypeScript</b> project, but I also have frontend expierence with <b>Next.js</b>, <b>JavaScript</b>, and <b>SEO Optimization</b>.  </p>
-                <p className="tldr-text">On the Backend I have expierence with <b>Ruby on Rails</b>, <b>Node js</b>, <b>MongoDB</b>, <b>AWS S3/IAM</b>, and <b>SQL</b> based <b>WordPress</b> like <b>WordPress</b>. </p>
-                <p className="tldr-text">Previously I worked in Publishing and have expierence in content production, copy editing, and the Adobe Suite.</p>
+                <p className="tldr-text">I mainly work within <b className="lblue">React</b>, but I'm always expanding my tools and technologies. I'm currently working on a <b className="blue">TypeScript</b> project, but I also have frontend expierence with <b>Next.js</b>, <b className="yellow">JavaScript</b>, and <b className="red">SEO Optimization</b>.  </p>
+                <p className="tldr-text">On the Backend I have expierence with <b className="red">Ruby on Rails</b>, <b className="green">Node.js</b>, <b className="green">MongoDB</b>, <b className="orange">AWS S3/IAM</b>, and <b className="orange">SQL</b> based <b className="blue">CMS</b> like <b className="gray">WordPress</b>. </p>
+                <p className="tldr-text">Previously, I've worked in Publishing and have expierence in content production, copy editing, and the <b className="red">Adobe</b> Suite.</p>
             </div>
-            <div className="projects-container">
-                <h1 className="projects-title">Selected Projects</h1>
-                <div className="project-right-container">
-                    <h1 className="left-title pj-title">Derailed</h1>
-                    <p className="project-tags">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum nisl mi, ut molestie est egestas eget.</p>
-                    <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum nisl mi, ut molestie est egestas eget. Cras turpis ligula, 
-                        commodo ac sapien vitae, varius congue risus. Donec dapibus ultrices metus eget ullamcorper. Nullam consectetur, eros sit amet sollicitudin gravida, dolor lorem gravida felis, 
-                        vel scelerisque lacus justo quis nulla. Pellentesque arcu eros, varius in risus at, feugiat molestie libero. Pellentesque faucibus odio eget justo gravida, et lacinia mauris ullamcorper. 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nibh, aliquet at libero et, lobortis gravida metus. Nunc euismod nisi ligula, a vestibulum nibh ornare nec. 
-                        Nulla pulvinar, ex quis cursus pulvinar, mauris sem aliquam ex, id lobortis lectus urna sed mi. Duis eu dignissim libero. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                         Curabitur felis elit, imperdiet id elit vitae, laoreet elementum augue. Proin et velit malesuada, rutrum nibh sit amet, pulvinar mi. Pellentesque commodo sapien tortor, quis fermentum nibh pharetra eu.
-                    </p>
-                    <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/derailed_pc_gif.gif" alt="derailed gif" className="comp-gifs right-img"/>
+            <div className="selected-works-container">
+                <h1 className="selected-works-title">Selected Projects</h1>
+                <div className="project-container">
+                    <div className="project-container-left">
+                        <h1 className="left-title pj-title">Derailed</h1>
+                        <button disabled className="tag">React</button>  <button disabled className="tag">Ruby on Rails</button> <button disabled className="tag">JavaScript</button>  <button disabled className="tag">Ruby</button> <button disabled className="tag">Redux</button> <button disabled className="tag">HTML</button> <button disabled className="tag">CSS</button>
+
+                        <p className="project-tags"> Rails, React, Redux, Ruby, JavaScript, HTML, AWS and CSS</p>
+                        <p className="project-description">A fullstack Grailed clone where users can search through filtered listings, review other users profiles, create their own listings, and review products
+                        </p>
+                    </div>
+                    <div className="project-container-right">
+                        <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/derailed_pc_gif.gif" alt="derailed gif" className="comp-gifs right-img"/>
+                    </div>
+                    
+
                 </div>
-                <div className="project-left-container">
-                    <h1 className="left-title pj-title">DK-FM</h1>
-                    <p className="project-tags">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum nisl mi, ut molestie est egestas eget.</p>
-                    <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum nisl mi, ut molestie est egestas eget. Cras turpis ligula, 
-                        commodo ac sapien vitae, varius congue risus. Donec dapibus ultrices metus eget ullamcorper. Nullam consectetur, eros sit amet sollicitudin gravida, dolor lorem gravida felis, 
-                        vel scelerisque lacus justo quis nulla. Pellentesque arcu eros, varius in risus at, feugiat molestie libero. Pellentesque faucibus odio eget justo gravida, et lacinia mauris ullamcorper. 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nibh, aliquet at libero et, lobortis gravida metus. Nunc euismod nisi ligula, a vestibulum nibh ornare nec. 
-                        Nulla pulvinar, ex quis cursus pulvinar, mauris sem aliquam ex, id lobortis lectus urna sed mi. Duis eu dignissim libero. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                         Curabitur felis elit, imperdiet id elit vitae, laoreet elementum augue. Proin et velit malesuada, rutrum nibh sit amet, pulvinar mi. Pellentesque commodo sapien tortor, quis fermentum nibh pharetra eu.
-                    </p>
-                    <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/dkfm_pc_gif.gif" alt="dkfm rotating 3d chrome logo" className="comp-gifs left-img"/>
+                <div className="project-container">
+                    <div className="project-container-left">
+                        <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/dkfm_pc_gif.gif" alt="dkfm rotating 3d chrome logo" className="comp-gifs left-img"/>
+                    </div>
+                    <div className="project-container-right">
+                        <h1 className="left-title pj-title">DK-FM</h1>
+                        <button disabled className="tag">Javascript</button> <button disabled className="tag">HTML</button> <button disabled className="tag">CSS</button>
+                        <p className="project-tags">Javascript, HTML, CSS</p>
+                        <p className="project-description">A Javascript music player that selects a list of music and accompanying visuals based on the users mood and preferences
+                        </p>
+                    </div>
                 </div>
-                <div className="project-right-container">
-                    <h1 className="left-title pj-title">Heard</h1>
-                    <p className="project-tags">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum nisl mi, ut molestie est egestas eget.</p>
-                    <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum nisl mi, ut molestie est egestas eget. Cras turpis ligula, 
-                        commodo ac sapien vitae, varius congue risus. Donec dapibus ultrices metus eget ullamcorper. Nullam consectetur, eros sit amet sollicitudin gravida, dolor lorem gravida felis, 
-                        vel scelerisque lacus justo quis nulla. Pellentesque arcu eros, varius in risus at, feugiat molestie libero. Pellentesque faucibus odio eget justo gravida, et lacinia mauris ullamcorper. 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nibh, aliquet at libero et, lobortis gravida metus. Nunc euismod nisi ligula, a vestibulum nibh ornare nec. 
-                        Nulla pulvinar, ex quis cursus pulvinar, mauris sem aliquam ex, id lobortis lectus urna sed mi. Duis eu dignissim libero. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                         Curabitur felis elit, imperdiet id elit vitae, laoreet elementum augue. Proin et velit malesuada, rutrum nibh sit amet, pulvinar mi. Pellentesque commodo sapien tortor, quis fermentum nibh pharetra eu.
-                    </p>
-                    <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/heard_pc_gif.gif" alt="heard gif" className="comp-gifs right-img"/>
+                <div className="project-container">
+                    <div className="project-container-left">
+                        <h1 className="left-title pj-title">Heard</h1>
+                        <button disabled className="tag">Node.js</button>  <button disabled className="tag">React</button> <button disabled className="tag">Redux</button> <button disabled className="tag">HTML</button> <button disabled className="tag">AWS</button> <button disabled className="tag">MongoDB</button> <button disabled className="tag">CSS</button>
+                        <p className="project-description">
+                            A MERN stack app where users can share their secrets anonymously, hear other confessions, and chat with other people in similar situations</p>
+                    </div>
+                    <div className="project-container-right">
+                        <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/heard_pc_gif.gif" alt="heard gif" className="comp-gifs right-img"/>
+                    </div>
                 </div>
             </div>
             <div className="contact-container">
                 <h1 className="contact-title">CONTACT</h1>
+                <button className="reveal-button">EMAIL</button>
+                <h1>EMAIL</h1>
+                <h1>LinkedIn</h1>
+                <h1>GitHub</h1>
+
+
             </div>
             
         </div>
