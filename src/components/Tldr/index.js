@@ -16,12 +16,39 @@ const TLDR = () => {
             <div className="projects-container">
                 <h1 className="projects-title">Selected Projects</h1>
                 <div className="project-right-container">
+                    <h1 className="left-title pj-title">Derailed</h1>
+                    <p className="project-tags">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum nisl mi, ut molestie est egestas eget.</p>
+                    <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum nisl mi, ut molestie est egestas eget. Cras turpis ligula, 
+                        commodo ac sapien vitae, varius congue risus. Donec dapibus ultrices metus eget ullamcorper. Nullam consectetur, eros sit amet sollicitudin gravida, dolor lorem gravida felis, 
+                        vel scelerisque lacus justo quis nulla. Pellentesque arcu eros, varius in risus at, feugiat molestie libero. Pellentesque faucibus odio eget justo gravida, et lacinia mauris ullamcorper. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nibh, aliquet at libero et, lobortis gravida metus. Nunc euismod nisi ligula, a vestibulum nibh ornare nec. 
+                        Nulla pulvinar, ex quis cursus pulvinar, mauris sem aliquam ex, id lobortis lectus urna sed mi. Duis eu dignissim libero. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                         Curabitur felis elit, imperdiet id elit vitae, laoreet elementum augue. Proin et velit malesuada, rutrum nibh sit amet, pulvinar mi. Pellentesque commodo sapien tortor, quis fermentum nibh pharetra eu.
+                    </p>
                     <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/derailed_pc_gif.gif" alt="derailed gif" className="comp-gifs right-img"/>
                 </div>
                 <div className="project-left-container">
+                    <h1 className="left-title pj-title">DK-FM</h1>
+                    <p className="project-tags">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum nisl mi, ut molestie est egestas eget.</p>
+                    <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum nisl mi, ut molestie est egestas eget. Cras turpis ligula, 
+                        commodo ac sapien vitae, varius congue risus. Donec dapibus ultrices metus eget ullamcorper. Nullam consectetur, eros sit amet sollicitudin gravida, dolor lorem gravida felis, 
+                        vel scelerisque lacus justo quis nulla. Pellentesque arcu eros, varius in risus at, feugiat molestie libero. Pellentesque faucibus odio eget justo gravida, et lacinia mauris ullamcorper. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nibh, aliquet at libero et, lobortis gravida metus. Nunc euismod nisi ligula, a vestibulum nibh ornare nec. 
+                        Nulla pulvinar, ex quis cursus pulvinar, mauris sem aliquam ex, id lobortis lectus urna sed mi. Duis eu dignissim libero. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                         Curabitur felis elit, imperdiet id elit vitae, laoreet elementum augue. Proin et velit malesuada, rutrum nibh sit amet, pulvinar mi. Pellentesque commodo sapien tortor, quis fermentum nibh pharetra eu.
+                    </p>
                     <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/dkfm_pc_gif.gif" alt="dkfm rotating 3d chrome logo" className="comp-gifs left-img"/>
                 </div>
                 <div className="project-right-container">
+                    <h1 className="left-title pj-title">Heard</h1>
+                    <p className="project-tags">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum nisl mi, ut molestie est egestas eget.</p>
+                    <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum nisl mi, ut molestie est egestas eget. Cras turpis ligula, 
+                        commodo ac sapien vitae, varius congue risus. Donec dapibus ultrices metus eget ullamcorper. Nullam consectetur, eros sit amet sollicitudin gravida, dolor lorem gravida felis, 
+                        vel scelerisque lacus justo quis nulla. Pellentesque arcu eros, varius in risus at, feugiat molestie libero. Pellentesque faucibus odio eget justo gravida, et lacinia mauris ullamcorper. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nibh, aliquet at libero et, lobortis gravida metus. Nunc euismod nisi ligula, a vestibulum nibh ornare nec. 
+                        Nulla pulvinar, ex quis cursus pulvinar, mauris sem aliquam ex, id lobortis lectus urna sed mi. Duis eu dignissim libero. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                         Curabitur felis elit, imperdiet id elit vitae, laoreet elementum augue. Proin et velit malesuada, rutrum nibh sit amet, pulvinar mi. Pellentesque commodo sapien tortor, quis fermentum nibh pharetra eu.
+                    </p>
                     <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/heard_pc_gif.gif" alt="heard gif" className="comp-gifs right-img"/>
                 </div>
             </div>

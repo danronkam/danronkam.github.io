@@ -9,7 +9,16 @@
 
 }
 
-.comp-gifs{}
+.comp-gifs{
+    max-width: 432px;
+}
+
+.right-img{
+}
+
+.right-img{
+
+}
 
 #name{
     text-decoration: underline;
