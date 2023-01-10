@@ -1,6 +1,7 @@
 .text-container{
     font-size: 4vw;
     font-family: 'Inconsolata', monospace;
+    font-weight: 300;
 }
 
 .tldr-container{
@@ -8,6 +9,11 @@
 
 }
 
+.comp-gifs{
+    max-width: 432px;
+}
+
 #name{
     text-decoration: underline;
 }
+

@@ -2,7 +2,6 @@
 #root{
     overflow: hidden;
     background-color: black;
-    min-width: 100vw;
     min-height: 100vh;
 }
 
@@ -12,7 +11,9 @@ body {
 }
 
 .page-container{
-    margin-left: 7vw;
-    margin-right: 7vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    overflow: hidden;
 
 }
+
