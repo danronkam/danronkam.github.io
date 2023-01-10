@@ -12,8 +12,6 @@ function App() {
   return (
     <>
     <div className="page-container">
-      <h1>test</h1>
-
       <Switch>
         <Route exact path="/tldr">
           <TLDR/>
