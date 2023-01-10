@@ -1,0 +1,13 @@
+.text-container{
+    font-size: 4vw;
+    font-family: 'Inconsolata', monospace;
+}
+
+.tldr-container{
+    padding-top: 7vh;
+
+}
+
+#name{
+    text-decoration: underline;
+}

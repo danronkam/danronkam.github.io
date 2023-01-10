@@ -10,3 +10,9 @@ body {
     margin: 0;
     color: white;
 }
+
+.page-container{
+    margin-left: 7vw;
+    margin-right: 7vw;
+
+}
