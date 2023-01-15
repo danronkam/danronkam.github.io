@@ -1,5 +1,6 @@
 .text-container{
     font-size: 4vw;
+    /* font-size: clamp(35px, 4vw, 35px); */
     font-family: 'Inconsolata', monospace;
     font-weight: 300;
 }
@@ -8,6 +9,21 @@
     padding-top: 7vh;
 
 }
+
+ /* mobile VV */
+@media screen and (max-width: 950px) {
+    .text-container{
+        font-size: 4.5vh;
+    }
+
+    .tldr-container{
+        padding-top: 3vh;
+    
+    }
+
+}
+
+
 
 .comp-gifs{
     max-width: 432px;
@@ -18,37 +34,6 @@
     text-decoration: underline;
 }
 
-.project-container{
-    display: flex;
-    align-items: center;
-}
-
-.selected-works-title{
-    text-transform: uppercase;
-    font-family: 'Inconsolata', monospace;
-    font-size: 4.5vw;
-    
-
-}
-
-.project-description{
-    font-family: 'Karla', sans-serif;
-}
-
-.pj-title{
-    font-size: 3vw;
-    font-family: 'Inconsolata', monospace;
-    font-weight: 800;
-    margin-bottom: 2vh;
-}
-
-.tag{
-    font-family: 'Inconsolata', monospace;
-    color: white;
-    background-color: rgba(236, 236, 236, 0.2);
-    border-radius: 50px;
-
-}
 
 .reveal-button{
     background-color: transparent;
@@ -64,6 +49,8 @@
 .contact-link{
     font-size: 3.7vw;
 }
+
+/* ___________________________________________ V Keyword Photos V _______________________________________ */
 
 b{
     -webkit-transition: color .5s;

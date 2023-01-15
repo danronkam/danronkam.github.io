@@ -1,18 +1,52 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Tldr.css"
+import ProjectIndexItem from "../ProjectIndexItem";
 
 
 const TLDR = () => {
 
+    const projects  = [ 
+        {
+            id: 1,
+            title: "Derailed",
+            img: "https://derailed-seed.s3.us-west-1.amazonaws.com/derailed_pc_gif.gif",
+            alt: "derailed gif",
+            tags: ["Rails", "React", "Redux", "Ruby", "JavaScript", "HTML", "AWS", "CSS"],
+            bio: "A fullstack Grailed clone where users can search through filtered listings, review other users profiles, create their own listings, and review products",
+            live: "https://github.com/danronkam/derailed/",
+            code: "https://github.com/danronkam/derailed/"
+        },
+        {
+            id: 2,
+            title: "DK-FM",
+            img: "https://derailed-seed.s3.us-west-1.amazonaws.com/dkfm_pc_gif.gif",
+            alt: "dk-fm gif",
+            tags: ["JavaScript", "HTML", "AWS", "CSS"],
+            bio: ">A Javascript music player that selects a list of music and accompanying visuals based on the users mood and preferences",
+            live: "https://doafavorfor.me/DKFM247/",
+            code: "https://github.com/danronkam/DKFM247"
+        },
+        {
+            id: 3,
+            title: "Heard",
+            img: "https://derailed-seed.s3.us-west-1.amazonaws.com/heard_pc_gif.gif",
+            alt: "heard gif",
+            tags: ["Rails", "React", "Redux", "Ruby", "JavaScript", "HTML", "AWS", "CSS"],
+            bio: "A fullstack Grailed clone where users can search through filtered listings, review other users profiles, create their own listings, and review products",
+            live: "https://github.com/danronkam/derailed/",
+            code: "https://github.com/danronkam/derailed/"
+        },
+    ]
+
     const emailClick = (e) =>{
         e.preventDefault();
         window.location.href = 'mailto:danronkam@gmail.com';
-    
     }
 
     return(
         <> 
+
         <div className="tldr-container">
             <div className="text-container">
                 <p className="tldr-text">Hi I'm <b id="name">Dan</b>. I'm a Full Stack Engineer with expierence building client & server-side web application using Javascript.</p>
@@ -22,55 +56,11 @@ const TLDR = () => {
             </div>
             <div className="selected-works-container">
                 <h1 className="selected-works-title">Selected Projects</h1>
-                <div className="project-container">
-                    <div className="project-container-left">
-                        <h1 className="left-title pj-title">Derailed</h1>
-                        <button disabled className="tag">React</button>  <button disabled className="tag">Ruby on Rails</button> <button disabled className="tag">JavaScript</button>  <button disabled className="tag">Ruby</button> <button disabled className="tag">Redux</button> <button disabled className="tag">HTML</button> <button disabled className="tag">CSS</button>
 
-                        <p className="project-tags"> Rails, React, Redux, Ruby, JavaScript, HTML, AWS and CSS</p>
-                        <p className="project-description">A fullstack Grailed clone where users can search through filtered listings, review other users profiles, create their own listings, and review products
-                        </p>
-                        <br />
-                        <div className="links-container">
-                            <Link to={{ pathname: "hhttps://github.com/danronkam/derailed/" }} target="_blank" className="pj-links">Code</Link> <Link to={{ pathname: "https://dk-derailed.herokuapp.com/" }} target="_blank" className="pj-links">Demo</Link>
-                        </div>
-                    </div>
-                    <div className="project-container-right">
-                        <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/derailed_pc_gif.gif" alt="derailed gif" className="comp-gifs right-img"/>
-                    </div>
-                    
-
-                </div>
-                <div className="project-container">
-                    <div className="project-container-left">
-                        <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/dkfm_pc_gif.gif" alt="dkfm rotating 3d chrome logo" className="comp-gifs left-img"/>
-                    </div>
-                    <div className="project-container-right">
-                        <h1 className="left-title pj-title">DK-FM</h1>
-                        <button disabled className="tag">Javascript</button> <button disabled className="tag">HTML</button> <button disabled className="tag">CSS</button>
-                        <p className="project-tags">Javascript, HTML, CSS</p>
-                        <p className="project-description">A Javascript music player that selects a list of music and accompanying visuals based on the users mood and preferences                        </p>
-                        <br />
-                        <div className="links-container">
-                            <Link to={{ pathname: "https://github.com/danronkam/DKFM247" }} target="_blank" className="pj-links">Code</Link> <Link to={{ pathname: "https://doafavorfor.me/DKFM247/" }} target="_blank" className="pj-links">Demo</Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="project-container">
-                    <div className="project-container-left">
-                        <h1 className="left-title pj-title">Heard</h1>
-                        <button disabled className="tag">Node.js</button>  <button disabled className="tag">React</button> <button disabled className="tag">Redux</button> <button disabled className="tag">HTML</button> <button disabled className="tag">AWS</button> <button disabled className="tag">MongoDB</button> <button disabled className="tag">CSS</button>
-                        <p className="project-description">
-                            A MERN stack app where users can share their secrets anonymously, hear other confessions, and chat with other people in similar situations</p>
-                            <br />
-                        <div className="links-container">
-                            <Link to={{ pathname: "https://github.com/danronkam/Heard" }} target="_blank" className="pj-links">Code</Link> <Link to={{ pathname: "https://heard--app.herokuapp.com/" }} target="_blank" className="pj-links">Demo</Link>
-                        </div>
-                    </div>
-                    <div className="project-container-right">
-                        <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/heard_pc_gif.gif" alt="heard gif" className="comp-gifs right-img"/>
-                    </div>
-                </div>
+                {projects.map(project => {
+                        return <ProjectIndexItem key={project.id} projectData={project} />
+                })}
+                
             </div>
 
             <h1 className="contact-title">CONTACT</h1>
