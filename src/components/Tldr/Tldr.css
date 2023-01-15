@@ -26,7 +26,8 @@
 .selected-works-title{
     text-transform: uppercase;
     font-family: 'Inconsolata', monospace;
-    font-size: 5vw;
+    font-size: 4.5vw;
+    
 
 }
 
@@ -53,4 +54,41 @@
     background-color: transparent;
     color: white;
     font-size: 4vw;
+}
+
+.links-container{
+    justify-content: space-around;
+    display: flex
+}
+
+b{
+    -webkit-transition: color .5s;
+    -moz-transition:    color .5s;
+    -ms-transition:     color .5s;
+    -o-transition:      color .5s;
+    transition:         color .5s;
+}
+
+.blue:hover{
+    color: blue;
+}
+
+.red:hover{
+    color: red;
+}
+
+.green:hover{
+    color: green;
+}
+
+.orange:hover{
+    color: orange;
+}
+
+.gray:hover{
+    color: gray;
+}
+
+.yellow:hover{
+    color: yellow;
 }
