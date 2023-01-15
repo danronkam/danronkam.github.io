@@ -5,6 +5,12 @@ import "./Tldr.css"
 
 const TLDR = () => {
 
+    const emailClick = (e) =>{
+        e.preventDefault();
+        window.location.href = 'mailto:danronkam@gmail.com';
+    
+    }
+
     return(
         <> 
         <div className="tldr-container">
@@ -43,12 +49,11 @@ const TLDR = () => {
                         <h1 className="left-title pj-title">DK-FM</h1>
                         <button disabled className="tag">Javascript</button> <button disabled className="tag">HTML</button> <button disabled className="tag">CSS</button>
                         <p className="project-tags">Javascript, HTML, CSS</p>
-                        <p className="project-description">A Javascript music player that selects a list of music and accompanying visuals based on the users mood and preferences
+                        <p className="project-description">A Javascript music player that selects a list of music and accompanying visuals based on the users mood and preferences                        </p>
                         <br />
                         <div className="links-container">
                             <Link to={{ pathname: "https://github.com/danronkam/DKFM247" }} target="_blank" className="pj-links">Code</Link> <Link to={{ pathname: "https://doafavorfor.me/DKFM247/" }} target="_blank" className="pj-links">Demo</Link>
                         </div>
-                        </p>
                     </div>
                 </div>
                 <div className="project-container">
@@ -67,11 +72,12 @@ const TLDR = () => {
                     </div>
                 </div>
             </div>
+
+            <h1 className="contact-title">CONTACT</h1>
             <div className="contact-container">
-                <h1 className="contact-title">CONTACT</h1>
-                <button className="reveal-button" >EMAIL</button> <br />
-                <Link to={{ pathname: "https://linkedin.com/in/danronkam" }} target="_blank" className="contact-link"> LINKEDIN </Link> <br />
-                <Link to={{ pathname: "https://github.com/danronkam" }} target="_blank" className="contact-link"> GITHUB </Link>
+                <button onClick={emailClick} target="_blank" className="contact-link"> Email </button>  <br />
+                <Link to={{ pathname: "https://linkedin.com/in/danronkam" }} target="_blank" className="contact-link"> Linkedin </Link> <br />
+                <Link to={{ pathname: "https://github.com/danronkam" }} target="_blank" className="contact-link"> Github </Link>
 
             </div>
             

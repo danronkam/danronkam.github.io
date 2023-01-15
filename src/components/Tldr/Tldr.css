@@ -61,12 +61,20 @@
     display: flex
 }
 
+.contact-link{
+    font-size: 3.7vw;
+}
+
 b{
     -webkit-transition: color .5s;
     -moz-transition:    color .5s;
     -ms-transition:     color .5s;
     -o-transition:      color .5s;
     transition:         color .5s;
+}
+
+a:visited{
+    font-style: none;
 }
 
 .blue:hover{
@@ -92,3 +100,4 @@ b{
 .yellow:hover{
     color: yellow;
 }
+
