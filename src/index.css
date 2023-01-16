@@ -6,6 +6,10 @@
     
 }
 
+.page-container{
+    padding-bottom: 25vh;
+}
+
 body {
     margin: 0;
     color: white;

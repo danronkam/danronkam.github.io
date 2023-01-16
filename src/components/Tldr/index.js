@@ -14,7 +14,7 @@ const TLDR = () => {
             alt: "derailed gif",
             tags: ["Rails", "React", "Redux", "Ruby", "JavaScript", "HTML", "AWS", "CSS"],
             bio: "A fullstack Grailed clone where users can search through filtered listings, review other users profiles, create their own listings, and review products",
-            live: "https://github.com/danronkam/derailed/",
+            live: "https://dk-derailed.herokuapp.com/",
             code: "https://github.com/danronkam/derailed/"
         },
         {
@@ -34,8 +34,8 @@ const TLDR = () => {
             alt: "heard gif",
             tags: ["Rails", "React", "Redux", "Ruby", "JavaScript", "HTML", "AWS", "CSS"],
             bio: "A fullstack Grailed clone where users can search through filtered listings, review other users profiles, create their own listings, and review products",
-            live: "https://github.com/danronkam/derailed/",
-            code: "https://github.com/danronkam/derailed/"
+            live: "https://heard--app.herokuapp.com/home",
+            code: "https://github.com/danronkam/Heard"
         },
     ]
 
@@ -65,7 +65,7 @@ const TLDR = () => {
                 
             </div>
 
-            <h1 className="contact-title">CONTACT</h1>
+            <h1 className="selected-works-title">CONTACT</h1>
             <div className="contact-container">
                 <button onClick={emailClick} target="_blank" className="contact-link"> Email </button>  <br />
                 <Link to={{ pathname: "https://linkedin.com/in/danronkam" }} target="_blank" className="contact-link"> Linkedin </Link> <br />
