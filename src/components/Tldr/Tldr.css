@@ -1,0 +1,162 @@
+.text-container{
+    font-size: 4vw;
+    /* font-size: clamp(35px, 4vw, 35px); */
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+}
+
+.tldr-container{
+    padding-top: 7vh;
+
+}
+
+.contact-link{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 3.7vw;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    cursor: pointer;
+    padding-left: 0;
+    padding-bottom: 1vh;
+
+}
+
+/* ------------------------------------------------------ */
+
+
+  
+  .pj-window {
+    display: block;
+    background: #808080;
+    border-width: 1px;
+    border-color: #ffffff #000000 #000000 #ffffff;
+    border-style: solid;
+    height: auto;
+    /* width: 450px; */
+    z-index: 2;
+    padding-bottom: 1vh;
+  }
+
+  .pj-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 24px;
+      background: #000080;
+      color: #fff;
+      padding: 5px;
+}
+  
+.pj-links {
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    text-decoration: none;
+    color: black;
+
+      /* border-width: 1px;
+      border-color: #ffffff #808080 #808080 #ffffff; */
+
+}
+  
+  
+  .new-clone {
+    display: block;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: red;
+    right: 0;
+    top: 0;
+  }
+
+
+
+
+
+/* __________________________________________________ */
+ /* mobile VV */
+@media screen and (max-width: 950px) {
+    .text-container{
+        font-size: 4.5vh;
+    }
+
+    .tldr-container{
+        padding-top: 3vh;
+    
+    }
+
+    .contact-link{
+        font-size: 4.5vh;
+    }
+
+}
+
+
+
+.comp-gifs{
+    width: 98%;
+}
+
+
+#name{
+    text-decoration: underline;
+}
+
+
+.reveal-button{
+    background-color: transparent;
+    color: white;
+    font-size: 4vw;
+}
+
+.links-container{
+    justify-content: space-around;
+    display: flex
+}
+
+
+
+/* ___________________________________________ V Keyword Photos V _______________________________________ */
+
+b{
+    -webkit-transition: color .5s;
+    -moz-transition:    color .5s;
+    -ms-transition:     color .5s;
+    -o-transition:      color .5s;
+    transition:         color .5s;
+}
+
+a:visited{
+    font-style: none;
+}
+
+.blue:hover{
+    color: blue;
+}
+
+.red:hover{
+    color: red;
+}
+
+.green:hover{
+    color: green;
+}
+
+.orange:hover{
+    color: orange;
+}
+
+.gray:hover{
+    color: gray;
+}
+
+.yellow:hover{
+    color: yellow;
+}
+

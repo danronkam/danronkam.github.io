@@ -1,0 +1,43 @@
+/* TODO Add site wide styles */
+#root{
+    overflow: hidden;
+    background-color: #018281;
+    min-height: 100vh;
+    
+}
+
+.page-container{
+    padding-bottom: 25vh;
+}
+
+body {
+    margin: 0;
+    color: white;
+    cursor: default;  
+}
+
+.page-container{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    overflow: hidden;
+
+}
+
+@media screen and (max-width: 950px) {
+    body {
+        background: #EEF0F4;
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+    }
+
+    #page-container {
+        width: 95vw;
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    html {
+        height: -webkit-fill-available;
+    }
+}

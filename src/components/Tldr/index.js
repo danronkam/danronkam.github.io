@@ -23,7 +23,7 @@ const TLDR = () => {
             img: "https://derailed-seed.s3.us-west-1.amazonaws.com/dkfm_pc_gif.gif",
             alt: "dk-fm gif",
             tags: ["JavaScript", "HTML", "AWS", "CSS"],
-            bio: "  A Javascript music player that selects a list of music and accompanying visuals based on the users mood and preferences",
+            bio: "A Javascript music player that selects a list of music and accompanying visuals based on the users mood and preferences",
             live: "https://doafavorfor.me/DKFM247/",
             code: "https://github.com/danronkam/DKFM247"
         },
