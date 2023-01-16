@@ -56,6 +56,7 @@ const TLDR = () => {
                 <p className="tldr-text">On the Backend I have expierence with <b className="red">Ruby on Rails</b>, <b className="green">Node.js</b>, <b className="green">MongoDB</b>, <b className="orange">AWS S3/IAM</b>, and <b className="orange">SQL</b> based <b className="blue">CMS</b> like <b className="gray">WordPress</b>. </p>
                 <p className="tldr-text">Previously, I've worked in Publishing and have expierence in content production, copy editing, and the <b className="red">Adobe</b> Suite.</p>
             </div>
+            
             <h1 className="selected-works-title">Selected Projects</h1>
             <div className="selected-works-container">
                 {projects.map(project => {

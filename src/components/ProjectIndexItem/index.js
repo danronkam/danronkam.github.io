@@ -11,8 +11,9 @@ const ProjectIndexItem = (project) => {
     const altTxt = work.alt;
     const tags = work.tags;
     const bio = work.bio;
-    const liveSrc = work.live;
-    const codeSrc = work.code;
+    const liveSrc = String(work.live);
+    const codeSrc = String(work.code);
+    console.log(typeof liveSrc)
 
     return(
         <>
@@ -38,7 +39,7 @@ const ProjectIndexItem = (project) => {
                     <img src={imgSrc} alt={altTxt} className="comp-gifs right-img"/>
                     <p className="pj-description">{bio}                </p>
                     <div className="links-container">
-                        <Link to={{ pathname: {codeSrc} }} target="_blank" className="pj-links">Code</Link> <Link to={{ pathname: {liveSrc} }} target="_blank" className="pj-links">Demo</Link>
+                        <a href={codeSrc} target="_blank" className="icons pj-links">Code</a> <a href={liveSrc} target="_blank" className="icons pj-links">Demo</a>
                     </div>
 
                 </div>
