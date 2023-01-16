@@ -15,8 +15,21 @@
 
 }
 
-.project-description{
-    font-family: 'Karla', sans-serif;
+.pj-body{
+    background-color: white;
+    margin: auto;
+    width: 94%;
+    height: 94%;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    outline: red;
+}
+
+.pj-description{
+    font-family: 'VT323', monospace;
+    color: black;
 }
 
 .pj-title{
@@ -26,11 +39,22 @@
     margin-bottom: 2vh;
 }
 
+.icons{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255) #000 #000 rgb(255, 255, 255);
+}
+
+
+
 .tag{
+    background-color: transparent;
+    border: none;
     font-family: 'Inconsolata', monospace;
-    color: white;
-    background-color: rgba(236, 236, 236, 0.2);
-    border-radius: 50px;
+    color: black;
+    padding-bottom: 1vh;
+    
+
 
 }
 

@@ -47,6 +47,8 @@ const TLDR = () => {
     return(
         <> 
 
+
+
         <div className="tldr-container">
             <div className="text-container">
                 <p className="tldr-text">Hi I'm <b id="name">Dan</b>. I'm a Full Stack Engineer with expierence building client & server-side web application using Javascript.</p>

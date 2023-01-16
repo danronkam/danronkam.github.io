@@ -16,23 +16,34 @@ const ProjectIndexItem = (project) => {
 
     return(
         <>
-        <div className="project-container">
-            <div className="project-container-left">
-                <h1 className="left-title pj-title">{title}</h1>
+
+        <div class="pj-window">
+            <div class="pj-header">
+                <div className="header-left">
+                    <p>{title}</p>
+                </div>
+                <div className="header-right">
+                    <button className="icons">?</button>
+                    <button className="icons">X</button>
+                </div>
+            </div>
+            <div className="nav-tag">
                 {tags.map(tag => {
-                    return <button disabled  className="tag"> {tag} </button>
+                        return <button disabled  className="tag"> {tag} </button>
                 })}
-                <p className="project-description">{bio}                </p>
-                <br />
+            </div>
+
+            
+            <div className="pj-body">
+                <img src={imgSrc} alt={altTxt} className="comp-gifs right-img"/>
+                <p className="pj-description">{bio}                </p>
                 <div className="links-container">
                     <Link to={{ pathname: {codeSrc} }} target="_blank" className="pj-links">Code</Link> <Link to={{ pathname: {liveSrc} }} target="_blank" className="pj-links">Demo</Link>
                 </div>
+
             </div>
-            <div className="project-container-right">
-                <img src={imgSrc} alt={altTxt} className="comp-gifs right-img"/>
-            </div>
-                
         </div>
+
         
         </>
     )
