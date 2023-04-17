@@ -4,6 +4,7 @@ import { Redirect } from "react-router-dom";
 
 import TLDR from "./components/Tldr";
 import Homepage from "./components/homepage";
+import Guestbook from "./components/Guestbook";
 
 
 function App() {
@@ -18,6 +19,10 @@ function App() {
 
         <Route exact path="/sp">
           <Homepage />
+        </Route>
+
+        <Route exact path='/guestbook'>
+          <Guestbook />
         </Route>
 
         <Redirect to='/' />
