@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import { Redirect } from "react-router-dom";
 
 import TLDR from "./components/Tldr";
-import homepage from "./components/homepage";
+import Homepage from "./components/homepage";
 
 
 function App() {
@@ -15,8 +15,9 @@ function App() {
         <Route exact path="/">
           <TLDR />
         </Route>
+
         <Route exact path="/sp">
-          <homepage />
+          <Homepage />
         </Route>
 
         <Redirect to='/' />
