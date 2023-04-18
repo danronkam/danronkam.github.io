@@ -1,0 +1,18 @@
+import {initializeApp} from 'firebase';
+import getFirestore from 'firebase/firesstone';
+import {getStorage} from 'firebase/storage'
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBDp5ueKQ_VxsebIhx1li2eOfTaFCeaKAI",
+  authDomain: "portfolio-blog-5ac72.firebaseapp.com",
+  projectId: "portfolio-blog-5ac72",
+  storageBucket: "portfolio-blog-5ac72.appspot.com",
+  messagingSenderId: "175423409462",
+  appId: "1:175423409462:web:a470b7ca660c3fcd433797",
+  measurementId: "G-JLB98T921W"
+};
+
+const app = initializeApp(firebaseConfig)
+
+export const storage = getStorage(app);
+export const db = getFirestore(app);

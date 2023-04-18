@@ -5,11 +5,15 @@ import { Redirect } from "react-router-dom";
 import TLDR from "./components/Tldr";
 import Homepage from "./components/homepage";
 import Guestbook from "./components/Guestbook";
+import Navbar from "./components/navbar";
 
 
 function App() {
   return (
     <>
+    <div className="nav-container">
+      <Navbar />
+    </div>
     <div className="page-container">
       <Switch>
 
