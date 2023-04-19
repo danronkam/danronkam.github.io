@@ -7,9 +7,6 @@ import Homepage from "./components/homepage";
 import Guestbook from "./components/Guestbook";
 import Navbar from "./components/navbar";
 import Blogposts from "./components/Blog";
-import { initializeApp } from 'firebase/app';
-import {getStorage} from 'firebase/storage'
-import {getFirestore} from 'firebase/firestore'
 
 
 
