@@ -1,0 +1,38 @@
+ul{
+    list-style: none;
+    width: 100%;
+}
+
+li{
+    display: inline
+}
+
+i{
+    color: white;
+}
+
+nav{
+    display: block;
+}
+
+.nav-link-container{
+    padding-right: 5vw;
+}
+
+.nav-link{
+    margin-right: 1vw;
+}
+
+.internal{
+    margin-right: 2vw;
+}
+
+
+
+.navbar-left{
+    float: left;
+}
+
+.navbar-right{
+    float: right;
+}

@@ -51,6 +51,7 @@ const TLDR = () => {
 
         <div className="tldr-container">
             <div className="text-container">
+                
                 <p className="tldr-text">Hi I'm <b id="name">Dan</b>. I'm a Full Stack Engineer with expierence building client & server-side web application using Javascript.</p>
                 <p className="tldr-text">I mainly work within <b className="blue">React</b>, but I'm always expanding my tools and technologies. I'm currently working on a <b className="blue">MEAN</b> stack application to better my understanding of <b className="blue">TypeScript</b> and <b className="red">Angular</b>, but I also have frontend expierence with <b className="gray">Next.js</b>, <b className="yellow">JavaScript</b>, and <b className="red">SEO Optimization</b>.  </p>
                 <p className="tldr-text">On the Backend I have expierence with <b className="red">Ruby on Rails</b>, <b className="green">Node.js</b>, <b className="green">MongoDB</b>, <b className="orange">AWS S3/IAM</b>, and <b className="orange">SQL</b> based <b className="blue">CMS</b> like <b className="gray">WordPress</b>. </p>

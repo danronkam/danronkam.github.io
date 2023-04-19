@@ -12,7 +12,6 @@ const ProjectIndexItem = (project) => {
     const bio = work.bio;
     const liveSrc = String(work.live);
     const codeSrc = String(work.code);
-    console.log(typeof liveSrc)
 
     return(
         <>

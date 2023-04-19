@@ -1,17 +1,17 @@
 import React from "react";
-import {GraphQLClient, gql} from 'graphql-request';
+import BlogIndexItem from "../BlogIndexItem";
 
 
+function Blog({blogPosts}) {
 
-
-
-function Blogposts({blogs}) {
-
-
+    console.log(blogPosts)
 
     return(
         <>
         <div className="post">
+            {blogPosts.map(post => {
+               return <BlogIndexItem key={post.id} post={post} />
+            })}
 
         </div>
 
@@ -19,4 +19,4 @@ function Blogposts({blogs}) {
     )
 }
 
-export default Blogposts
+export default Blog

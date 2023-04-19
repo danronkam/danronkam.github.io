@@ -7,7 +7,7 @@ import TLDR from "./components/Tldr";
 import Homepage from "./components/homepage";
 import Guestbook from "./components/Guestbook";
 import Navbar from "./components/navbar";
-import Blogposts from "./components/Blog";
+import Blog from "./components/Blog";
 
 
 
@@ -51,13 +51,11 @@ function App() {
     fetchBlogs();
   }, [])
 
-  console.log(blog)
 
   return (
     <>
-    <div className="nav-container">
-      <Navbar />
-    </div>
+    <Navbar />
+ 
     <div className="page-container">
       <Switch>
 
@@ -74,7 +72,7 @@ function App() {
         </Route>
 
         <Route exact path='/blog'>
-          <Blogposts />
+          <Blog blogPosts={blog}/>
         </Route>
 
         <Redirect to='/' />
