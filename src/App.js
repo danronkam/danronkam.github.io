@@ -6,6 +6,12 @@ import TLDR from "./components/Tldr";
 import Homepage from "./components/homepage";
 import Guestbook from "./components/Guestbook";
 import Navbar from "./components/navbar";
+import Blogposts from "./components/Blog";
+import { initializeApp } from 'firebase/app';
+import {getStorage} from 'firebase/storage'
+import {getFirestore} from 'firebase/firestore'
+
+
 
 
 function App() {
@@ -27,6 +33,10 @@ function App() {
 
         <Route exact path='/guestbook'>
           <Guestbook />
+        </Route>
+
+        <Route exact path='/blog'>
+          <Blogposts />
         </Route>
 
         <Redirect to='/' />

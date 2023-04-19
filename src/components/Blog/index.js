@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useState } from "react";
+import {collectionGroup} from "firebase/firestore"
 
-function Blog() {
+
+function Blogposts() {
+
+
+    useEffect(() => {
+    })
+
     return(
         <>
-        <h1>I Am a Blog</h1>
+        <div>
+        </div>
+
         </>
     )
 }
 
-export default Blog
+export default Blogposts

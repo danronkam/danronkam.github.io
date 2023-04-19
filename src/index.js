@@ -11,7 +11,7 @@ function Root() {
       <App />
     </BrowserRouter>
   )
-}
+};
 
 ReactDOM.render(
   <React.StrictMode>
