@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Switch, Route } from "react-router-dom";
 import { Redirect } from "react-router-dom";
+import {request} from 'graphql-request'
 
 import TLDR from "./components/Tldr";
 import Homepage from "./components/homepage";
@@ -12,6 +13,46 @@ import Blogposts from "./components/Blog";
 
 
 function App() {
+  const [blog, setBlog] = useState(null);
+
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      const { blogs } = await request(
+        "https://api-us-west-2.hygraph.com/v2/clgmrycpt5d7x01t2f1ojemuw/master",
+        `
+          {
+            blogs {
+                claps
+                createdAt
+                date
+                description
+                headings
+                id
+                publishedAt
+                slug
+                tags
+                title
+                updatedAt
+                photos {
+                  id
+                  url
+                }
+                coverPhoto {
+                  url
+                }
+              }
+          }
+        `
+      );
+
+      setBlog(blogs);
+    };
+
+    fetchBlogs();
+  }, [])
+
+  console.log(blog)
+
   return (
     <>
     <div className="nav-container">
