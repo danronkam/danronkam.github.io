@@ -22,10 +22,13 @@ const BlogIndexItem = (post) => {
         <div className="blog-item-container">
             <h1>{title}</h1>
             <p>{description}</p>
+            <p>{date}</p>
+            <p>{coverSrc}</p>
+            <img src={`${coverSrc}`}></img>
         </div>
         
         </>
     )
 }
 
-export default BlogIndexItem
+export default BlogIndexItem  
