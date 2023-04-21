@@ -1,4 +1,7 @@
 import React from "react";
+import "./BlogIndexItem.css"
+import { Link } from "react-router-dom";
+
 
 const BlogIndexItem = (post) => {
     console.log(post.post.title);
@@ -7,13 +10,14 @@ const BlogIndexItem = (post) => {
     let id;
     let date;
     let coverSrc;
+    let slug;
 
     if(post) {
         title = post.post.title;
         description = post.post.description;
         date = post.post.date;
         coverSrc = post.post.coverPhoto.url
-
+        slug = post.post.slug
     }
     
 
@@ -24,7 +28,9 @@ const BlogIndexItem = (post) => {
             <p>{description}</p>
             <p>{date}</p>
             <p>{coverSrc}</p>
+            <p>{slug}</p>
             <img src={`${coverSrc}`}></img>
+            <Link to={`/blog/:${slug}`}>REad More</Link>
         </div>
         
         </>

@@ -8,6 +8,7 @@ import Homepage from "./components/homepage";
 import Guestbook from "./components/Guestbook";
 import Navbar from "./components/navbar";
 import Blog from "./components/Blog";
+import BlogShow from "./components/BlogShow";
 
 
 
@@ -73,6 +74,10 @@ function App() {
 
         <Route exact path='/blog'>
           <Blog blogPosts={blog}/>
+        </Route>
+
+        <Route exact path='/blog/:slug'>
+          <BlogShow/>
         </Route>
 
         <Redirect to='/' />

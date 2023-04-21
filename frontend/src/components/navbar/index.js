@@ -8,17 +8,17 @@ function Navbar() {
     <div className='navbar-container'>
       <div className='navbar-left'>
         <ul>
-          <li><Link to="/">DAN KAM</Link></li>
+          <li><Link to="/"><img className='dk-logo' src='https://derailed-seed.s3.us-west-1.amazonaws.com/derailed_gif.gif' /></Link></li>
         </ul>
       </div>
       <div className='navbar-right'>
         <div className='nav-link-container'>
           <ul >
-            <li className='nav-link internal'><Link to="/blog">Blog</Link></li>
-            <li className='nav-link internal'><Link to="/sp">About</Link></li>
-            <li className='nav-link'><a to="/blog"> Github </a></li>
-            <li className='nav-link'><a to="/sp">Linkedin</a></li>
-            <li className='nav-link'><a to="/blog">Substack</a></li>
+            <li className='nav-link '><Link className='internal' to="/blog"> <i class="fa fa-pen-fancy"/> Blog</Link></li>
+            <li className='nav-link '><Link className='internal' to="/sp"> <i class="fas fa-user"/>About</Link></li>
+            <li className='nav-link '><a target='_blank' href="https://github.com/danronkam"> <i class="icon fab fa-github"/> </a></li>
+            <li className='nav-link icon'><a target='_blank' href="https://linkedin.com/in/danronkam"><i class="icon fab fa-linkedin"/></a></li>
+            <li className='nav-link icon'><a target='_blank' href="https://dankam.substack.com"><i class="icon fa-solid fa-blog"/></a></li>
             <li className='nav-link'><a to="/sp">Email</a></li>
           </ul>
         </div>
