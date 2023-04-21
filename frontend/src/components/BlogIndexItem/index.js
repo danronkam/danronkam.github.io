@@ -30,7 +30,12 @@ const BlogIndexItem = (post) => {
             <p>{coverSrc}</p>
             <p>{slug}</p>
             <img src={`${coverSrc}`}></img>
-            <Link to={`/blog/:${slug}`}>REad More</Link>
+            <Link 
+                to={{
+                    pathname: `/blog/:${slug}`, 
+                    state: {post: post}
+                }}
+            >Read More</Link>
         </div>
         
         </>

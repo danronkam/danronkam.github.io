@@ -76,8 +76,8 @@ function App() {
           <Blog blogPosts={blog}/>
         </Route>
 
-        <Route exact path='/blog/:slug'>
-          <BlogShow/>
+        <Route exact path='/blog/:slug' element={<post/>}>
+          <BlogShow />
         </Route>
 
         <Redirect to='/' />

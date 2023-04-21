@@ -1,7 +1,11 @@
 import React from "react";
+import { useLocation, useParams } from "react-router-dom";
 
-const BlogShow = (post) => {
-
+const BlogShow = (REKT) => {
+    const location = useLocation();
+    const post = location.state?.post;
+    console.log(post)
+    
 
     return (
         <>
