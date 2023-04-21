@@ -41,6 +41,9 @@ function App() {
                 coverPhoto {
                   url
                 }
+                sections {
+                  text
+                }
               }
           }
         `

@@ -33,7 +33,7 @@ const BlogIndexItem = (post) => {
             <Link 
                 to={{
                     pathname: `/blog/:${slug}`, 
-                    state: {post: post}
+                    state: {blog: post}
                 }}
             >Read More</Link>
         </div>
