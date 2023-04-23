@@ -6,6 +6,7 @@ const BlogShow = () => {
     const blog = location.state?.blog;
     const headings = blog.post.headings;
     const sections = blog.post.sections;
+    let counter = 0
     console.log(sections)
     console.log(blog.post.title)
 
@@ -19,18 +20,17 @@ const BlogShow = () => {
                 </div>
                 <div className="blogpost-body">
                     {headings.map(heading => {
+                        let body = sections[counter]
+                        console.log(body.text)
+                        {counter++}
+
+
                         return(
                             <>
                             <h2>{heading}</h2>
-                            
-                        {sections.map(section => {
-                            return(
-                                <>
-                                <h2>{section.text}</h2>
-                                </>
-                            )
-                            
-                        })}
+                            <p>{body.text}</p>
+                    
+
                         </>)
                     })}
                 </div>
