@@ -9,6 +9,7 @@ import Guestbook from "./components/Guestbook";
 import Navbar from "./components/navbar";
 import Blog from "./components/Blog";
 import BlogShow from "./components/BlogShow";
+import About from "./components/About";
 
 
 
@@ -65,6 +66,10 @@ function App() {
 
         <Route exact path="/">
           <TLDR />
+        </Route>
+
+        <Route exact path="about">
+          <About />
         </Route>
 
         <Route exact path="/sp">
