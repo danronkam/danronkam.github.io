@@ -15,7 +15,7 @@ function Navbar() {
         <div className='nav-link-container'>
           <ul >
             <li className='nav-link '><Link className='internal' to="/blog"> <i class="fa fa-pen-fancy"/> Blog</Link></li>
-            <li className='nav-link '><Link className='internal' to="/sp"> <i class="fas fa-user"/>About</Link></li>
+            <li className='nav-link '><Link className='internal' to="/sp"> <i class="fas fa-user" /> About</Link></li>
             <li className='nav-link '><a rel="noreferrer" target='_blank' href="https://github.com/danronkam"> <i class="icon fab fa-github"/> </a></li>
             <li className='nav-link icon'><a rel="noreferrer" target='_blank' href="https://linkedin.com/in/danronkam"><i class="icon fab fa-linkedin"/></a></li>
             <li className='nav-link icon'><a rel="noreferrer" target='_blank' href="https://dankam.substack.com"><i class="icon fa-solid fa-blog"/></a></li>
