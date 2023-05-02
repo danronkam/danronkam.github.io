@@ -8,7 +8,7 @@ function Navbar() {
     <div className='navbar-container'>
       <div className='navbar-left'>
         <ul>
-          <li><Link to="/"><img className='dk-logo' src='' /></Link></li>
+          <li><Link to="/"><img className='dk-logo' src='/dk-logo.png' /></Link></li>
         </ul>
       </div>
       <div className='navbar-right'>
