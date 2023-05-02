@@ -3,9 +3,6 @@ import BlogIndexItem from "../BlogIndexItem";
 
 
 function Blog({blogPosts}) {
-
-    console.log(blogPosts)
-
     return(
         <>
         <div className="post">

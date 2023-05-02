@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 
 const BlogIndexItem = (post) => {
-    console.log(post.post.title);
     let title;
     let description;
     let id;

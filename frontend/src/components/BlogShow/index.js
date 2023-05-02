@@ -6,9 +6,8 @@ const BlogShow = () => {
     const blog = location.state?.blog;
     const headings = blog.post.headings;
     const sections = blog.post.sections;
-    let counter = 0
-    console.log(sections)
-    console.log(blog.post.title)
+    let counter = 0;
+
 
     return (
         <>
