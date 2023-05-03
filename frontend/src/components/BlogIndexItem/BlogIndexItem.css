@@ -1,3 +1,6 @@
 .blog-item-container{
-    background: red;
+    border: solid .5px #272733;
+    border-radius: 25px;
+    background-color: #0d0e11;
+    width: 50vw;
 }

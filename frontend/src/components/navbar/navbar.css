@@ -51,6 +51,7 @@ a{
 
 .navbar-left{
     float: left;
+    margin-left: 2vw;
 }
 
 .navbar-right{
