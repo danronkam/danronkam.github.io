@@ -1,5 +1,6 @@
 import React from "react";
-import { useLocation, useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { useLayoutEffect } from "react";
 
 const BlogShow = () => {
     const location = useLocation();
@@ -7,6 +8,10 @@ const BlogShow = () => {
     const headings = blog.post.headings;
     const sections = blog.post.sections;
     let counter = 0;
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
 
 
     return (
