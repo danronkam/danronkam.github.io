@@ -10,6 +10,7 @@ import Navbar from "./components/navbar";
 import Blog from "./components/Blog";
 import BlogShow from "./components/BlogShow";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 
 
@@ -93,6 +94,7 @@ function App() {
       </Switch>
     </div>
     
+    <Footer />
     </>
     
   );

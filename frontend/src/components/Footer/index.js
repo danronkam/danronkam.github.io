@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css"
 
 
 const Footer = () => {
@@ -10,13 +11,13 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="social-links">
                 <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer">
-                    <FaLinkedin />
+                    Linkedin
                 </a>
                 <a href="https://github.com/your-github" target="_blank" rel="noreferrer">
-                    <FaGithub />
+                    Github
                 </a>
                 <a href="https://your-substack.substack.com/" target="_blank" rel="noreferrer">
-                    <FaSubstack />
+                    Substack
                 </a>
                 </div>
                 <div className="tech-stack">
