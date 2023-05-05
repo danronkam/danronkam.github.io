@@ -13,7 +13,6 @@ function Blog({blogPosts}) {
         <>
         <div className="blog-index-container">
             <div className="toc">
-            
             </div>
 
             <div className="post-containter">
