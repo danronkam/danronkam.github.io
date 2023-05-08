@@ -9,7 +9,7 @@ function Blog({blogPosts}) {
         blogPosts = [{
             title: "test",
             description: "test",
-            date: "today",
+            date: "10-21-22",
             coverPhoto: {url: 'test'},
             slug: "test"
         }];

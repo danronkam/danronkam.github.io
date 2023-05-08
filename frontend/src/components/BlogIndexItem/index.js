@@ -23,17 +23,16 @@ const BlogIndexItem = (post) => {
     return(
         <>
         <div className="blog-item-container">
-            <h1>{title}</h1>
-            <p>{description}</p>
-            <p>{date}</p>
-            <p>{coverSrc}</p>
-            <p>{slug}</p>
+            <h1 className="blog-title">{title} <b>{date}</b></h1>             
+            <p className="blog-description">{description}</p>
             <img src={`${coverSrc}`}></img>
+            <br />
             <Link 
                 to={{
                     pathname: `/blog/:${slug}`, 
                     state: {blog: post}
                 }}
+                className="blog-link"
             >Read More</Link>
         </div>
         
