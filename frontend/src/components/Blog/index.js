@@ -6,13 +6,7 @@ import "./Blog.css"
 function Blog({blogPosts}) {
 
     if(!blogPosts) {
-        blogPosts = [{
-            title: "test",
-            description: "test",
-            date: "10-21-22",
-            coverPhoto: {url: 'test'},
-            slug: "test"
-        }];
+        blogPosts = [];
     }
 
     return(
