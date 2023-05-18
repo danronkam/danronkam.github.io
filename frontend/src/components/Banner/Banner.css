@@ -1,0 +1,19 @@
+.banner-container{
+    display: flex;
+}
+
+div.banner-container > div{
+}
+
+.banner-left{
+    font-size: 4vw;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    width: 50%;
+    margin-right: 5vw;
+    margin-left: 10vw;
+}
+
+.banner-right{
+    padding-top: 5vh;
+}

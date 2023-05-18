@@ -7,7 +7,6 @@ class LogoCube extends React.Component {
   render() {
     return (
       <div>
-        <center>
             <div
                 style={{
                     width: 300,
@@ -35,7 +34,6 @@ class LogoCube extends React.Component {
                 </div>
             </Cube>
             </div>
-        </center>
       </div>
     );
   }
