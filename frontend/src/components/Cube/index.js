@@ -9,26 +9,30 @@ class LogoCube extends React.Component {
       <div>
         <center>
             <div
-            style={{
-                width: 300,
-                height: 300
-            }}
-            >
-            <Cube size={300} index="front" />
-            </div>
-            <div
-            style={{
-                width: 300,
-                height: 300
+                style={{
+                    width: 300,
+                    height: 300
             }}
             >
             <Cube size={300} index="front">
-                <div>front</div>
-                <div>right</div>
-                <div>back</div>
-                <div>left</div>
-                <div>top</div>
-                <div>bottom</div>
+                <div>
+                    <img style={{width: '280px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
+                </div>
+                <div>
+                    <img style={{width: '280px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
+                </div>
+                <div>
+                    <img style={{width: '280px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
+                </div>
+                <div>
+                    <img style={{width: '280px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
+                </div>
+                <div>
+                    <img style={{width: '280px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
+                </div>
+                <div>
+                    <img style={{width: '280px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
+                </div>
             </Cube>
             </div>
         </center>
