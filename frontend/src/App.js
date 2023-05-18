@@ -93,7 +93,6 @@ function App() {
 
       </Switch>
     </div>
-    
     <Footer />
     </>
     
