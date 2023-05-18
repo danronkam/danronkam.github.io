@@ -1,6 +1,7 @@
 import React from "react";
 import "./homepage.css"
 import Banner from "../Banner";
+import LogoCube from "../Cube";
 
 const Homepage = () => {
 
@@ -8,7 +9,8 @@ const Homepage = () => {
     return(
         <>
         <Banner />
-
+        <LogoCube />
+        
         <div className="homepage-container">
 
         </div>
