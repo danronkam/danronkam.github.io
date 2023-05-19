@@ -1,5 +1,6 @@
 .banner-container{
     display: flex;
+    margin-top: 20vh;
 }
 
 div.banner-container > div{
