@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 const BlogIndexItem = (post) => {
     let title;
     let description;
-    let id;
     let date;
     let coverSrc;
     let slug;
@@ -25,7 +24,7 @@ const BlogIndexItem = (post) => {
         <div className="blog-item-container">
             <h1 className="blog-title">{title} <b>{date}</b></h1>             
             <p className="blog-description">{description}</p>
-            <img src={`${coverSrc}`}></img>
+            <img src={`${coverSrc}`} alt=""></img>
             <br />
             <Link 
                 to={{

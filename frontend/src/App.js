@@ -11,7 +11,7 @@ import Blog from "./components/Blog";
 import BlogShow from "./components/BlogShow";
 import About from "./components/About";
 import Footer from "./components/Footer";
-
+import Contact from "./components/Contact";
 
 
 
@@ -87,6 +87,10 @@ function App() {
 
         <Route exact path='/blog/:slug' element={<post/>}>
           <BlogShow />
+        </Route>
+
+        <Route exact path="/contact">
+          <Contact />
         </Route>
 
         <Redirect to='/' />

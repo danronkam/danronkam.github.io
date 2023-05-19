@@ -8,7 +8,7 @@ function Navbar() {
     <div className='navbar-container'>
       <div className='navbar-left'>
         <ul>
-          <li><Link to="/"><img className='dk-logo' src='/dk-logo.png' /></Link></li>
+          <li><Link to="/"><img className='dk-logo' src='/dk-logo.png' alt='' /></Link></li>
         </ul>
       </div>
       <div className='navbar-right'>
@@ -20,7 +20,7 @@ function Navbar() {
             <li className='nav-link '><a rel="noreferrer" target='_blank' href="https://github.com/danronkam"> <i class="icon fab fa-github"/> </a></li>
             <li className='nav-link icon'><a rel="noreferrer" target='_blank' href="https://linkedin.com/in/danronkam"><i class="icon fab fa-linkedin"/></a></li>
             <li className='nav-link icon'><a rel="noreferrer" target='_blank' href="https://dankam.substack.com"><i class="icon fa-solid fa-blog"/></a></li>
-            <li className='nav-link'><a to="/sp">Email</a></li>
+            <li className='nav-link'><Link to="/contact">Email</Link></li>
           </ul>
         </div>
       </div>

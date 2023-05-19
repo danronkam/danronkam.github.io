@@ -26,7 +26,7 @@ const BlogShow = () => {
                     {headings.map(heading => {
                         let body = sections[counter]
                         console.log(body.text)
-                        {counter++}
+                        counter++
 
 
                         return(
