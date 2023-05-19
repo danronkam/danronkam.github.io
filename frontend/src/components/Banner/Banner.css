@@ -1,6 +1,7 @@
 .banner-container{
     display: flex;
     margin-top: 20vh;
+    min-height: 65vh;
 }
 
 .banner-left{

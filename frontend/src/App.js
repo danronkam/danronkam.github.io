@@ -66,15 +66,15 @@ function App() {
       <Switch>
 
         <Route exact path="/">
-          <TLDR />
+          <Homepage />
         </Route>
 
-        <Route exact path="about">
+        <Route exact path="/about">
           <About />
         </Route>
 
-        <Route exact path="/sp">
-          <Homepage />
+        <Route exact path="/tldr">
+          <TLDR />
         </Route>
 
         <Route exact path='/guestbook'>
