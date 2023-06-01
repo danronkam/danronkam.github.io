@@ -1,15 +1,16 @@
 import React from 'react';
-import { Link  } from 'react-router-dom';
+import { Link , useHistory } from 'react-router-dom';
 import './navbar.css'
 
 
 function Navbar() {
 
-  // let navigate = useNavigate();
+  const history = useHistory();
 
-  const handleClick = (target) => {
-    console.log(target)
-    // navigate(target)
+  const handleClick = (e) => {
+    // e.preventDefault();
+    console.log(e)
+    history.push(e)
   }
 
 
@@ -29,32 +30,32 @@ function Navbar() {
               </button>
             </li>
             <li className='nav-link '> 
-              <button className='nav-button' onClick={handleClick('/About')}>
+            <button className='nav-button' value={'/about'} onClick={(e) => handleClick(e.target.value)}>
                 <i class="fas fa-user " /> About
               </button>
             </li>
             <li className='nav-link '> 
-              <button className='nav-button' onClick={handleClick('/TLDR')}>
+            <button className='nav-button' value={'/tldr'} onClick={(e) => handleClick(e.target.value)}>
                 <i class="fas fa-user" /> TLDR
               </button>
             </li>
             <li className='nav-link '> 
-              <button className='nav-button' onClick={handleClick('https://github.com/danronkam')}>
+            <button className='nav-button' value={'github.com'} onClick={(e) => handleClick(e.target.value)}>
                 <i class="icon fab fa-github"/>
               </button>
             </li>
             <li className='nav-link '> 
-              <button className='nav-button' onClick={handleClick('https://linkedin.com/in/danronkam')}>
+            <button className='nav-button' value={'/linkedin'} onClick={(e) => handleClick(e.target.value)}>
                 <i class="icon fab fa-linkedin"/>
               </button>
             </li>
             <li className='nav-link '> 
-              <button className='nav-button' onClick={handleClick('https://designdk.substack.com/')}>
+            <button className='nav-button' value={'/substack'} onClick={(e) => handleClick(e.target.value)}>
                 <i class="icon fa-solid fa-blog"/>
               </button>
             </li>
             <li className='nav-link '> 
-              <button className='nav-button' onClick={handleClick('/blog')}>
+            <button className='nav-button' value={'/contact'} onClick={(e) => handleClick(e.target.value)}>
               <i class="fa fa-pen-fancy"/> Contact
               </button>
             </li>
