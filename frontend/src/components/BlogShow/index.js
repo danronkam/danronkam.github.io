@@ -1,12 +1,16 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
+import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 
 const BlogShow = () => {
+    // const {slug} = useParams(slug);
+    // console.log(slug)
     const location = useLocation();
     const blog = location.state?.blog;
     const headings = blog.post.headings;
     const sections = blog.post.sections;
+
     let counter = 0;
 
     useLayoutEffect(() => {

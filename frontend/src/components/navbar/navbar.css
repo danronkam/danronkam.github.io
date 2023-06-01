@@ -38,14 +38,19 @@ a{
 }
 
 .nav-link{
-    margin-right: 1vw;
-    color: #a0a0c0;
+
 }
 
 .internal{
-    margin-right: 2vw;
     color: #a0a0c0;
 
+}
+
+.nav-button{
+    padding: 1.5vh;    vertical-align: middle;
+    /* background-color: transparent; */
+    border: none;
+    color: #a0a0c0;
 }
 
 
@@ -60,7 +65,7 @@ a{
 }
 
 .icon{
-    padding-right: 1vw;
+    /* padding-right: 1vw; */
     color: #a0a0c0;
 }
 
@@ -89,6 +94,10 @@ a{
 
     /* HOVER ON */
 
+.navbar-button:hover{
+    color: #e8e9ed;
+    background-color: red;
+}
 
 .fa-github:hover{
     color: white;
@@ -116,6 +125,6 @@ a{
 }
 
 .internal:hover{
-    color: #e8e9ed;
-    transition-duration: .5s;
+    /* color: #e8e9ed;
+    transition-duration: .5s; */
 }

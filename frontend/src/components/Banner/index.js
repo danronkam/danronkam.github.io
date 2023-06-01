@@ -12,7 +12,7 @@ const Banner = () => {
       <div className="banner-container">
         <div className="banner-left">
           <p className="banner-text">
-            HI Im Dan Kam, <br /> I'm a Full Stack Software Engineer <br /> I build Blah Blah Blah
+            Hi 👋 I'm <b className="name">Dan Kam</b>, <br /> a Full Stack Software Engineer 👨‍💻<br /> & I build Blah Blah Blah Blah Blah Blah
           </p>
         </div>
         <div className="banner-right">
