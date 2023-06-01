@@ -47,10 +47,15 @@ a{
 }
 
 .nav-button{
-    padding: 1.5vh;    vertical-align: middle;
-    /* background-color: transparent; */
+    padding: 1.5vh;    
+    height: 5vh;
+    vertical-align: middle;
+    background-color: transparent;
     border: none;
     color: #a0a0c0;
+    margin-right: 1vw;
+    transition-duration: .5s;
+
 }
 
 
@@ -94,9 +99,12 @@ a{
 
     /* HOVER ON */
 
-.navbar-button:hover{
+.nav-button:hover{
     color: #e8e9ed;
-    background-color: red;
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+    transition-duration: .5s;
+    border-radius: 10px;
 }
 
 .fa-github:hover{

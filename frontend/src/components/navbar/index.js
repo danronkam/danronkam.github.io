@@ -24,55 +24,43 @@ function Navbar() {
         <div className='nav-link-container'>
           <ul >
             <li className='nav-link '> 
-              <button className='nav-button' onClick={handleClick('/blog')}>
-              <i class="fa fa-pen-fancy"/> Blog
+              <button className='nav-button' value={'/blog'} onClick={(e) => handleClick(e.target.value)}>
+                <i class="fa fa-pen-fancy"/> Blog
               </button>
             </li>
             <li className='nav-link '> 
-              <button className='nav-button' onClick={handleClick('/blog')}>
-                <i class="fas fa-user" /> About
+              <button className='nav-button' onClick={handleClick('/About')}>
+                <i class="fas fa-user " /> About
               </button>
             </li>
             <li className='nav-link '> 
-              <button className='nav-button' onClick={handleClick('/blog')}>
+              <button className='nav-button' onClick={handleClick('/TLDR')}>
                 <i class="fas fa-user" /> TLDR
               </button>
             </li>
             <li className='nav-link '> 
-              <button className='nav-button' onClick={handleClick('/blog')}>
-              <i class="fa fa-pen-fancy"/> Blog
+              <button className='nav-button' onClick={handleClick('https://github.com/danronkam')}>
+                <i class="icon fab fa-github"/>
+              </button>
+            </li>
+            <li className='nav-link '> 
+              <button className='nav-button' onClick={handleClick('https://linkedin.com/in/danronkam')}>
+                <i class="icon fab fa-linkedin"/>
+              </button>
+            </li>
+            <li className='nav-link '> 
+              <button className='nav-button' onClick={handleClick('https://designdk.substack.com/')}>
+                <i class="icon fa-solid fa-blog"/>
               </button>
             </li>
             <li className='nav-link '> 
               <button className='nav-button' onClick={handleClick('/blog')}>
-              <i class="fa fa-pen-fancy"/> Blog
+              <i class="fa fa-pen-fancy"/> Contact
               </button>
             </li>
-            <li className='nav-link '> 
-              <button className='nav-button' onClick={handleClick('/blog')}>
-              <i class="fa fa-pen-fancy"/> Blog
-              </button>
-            </li>
-            <li className='nav-link '> 
-              <button className='nav-button' onClick={handleClick('/blog')}>
-              <i class="fa fa-pen-fancy"/> Blog
-              </button>
-            </li>
-
-       
-          <button className='nav-button'>
-            <li className='nav-link '><a rel="noreferrer" target='_blank' href="https://github.com/danronkam"> <i class="icon fab fa-github"/> </a></li>
-          </button>
-          <button className='nav-button'>
-            <li className='nav-link icon'><a rel="noreferrer" target='_blank' href="https://linkedin.com/in/danronkam"><i class="icon fab fa-linkedin"/></a></li>
-          </button>
-          <button className='nav-button'>
-            <li className='nav-link icon'><a rel="noreferrer" target='_blank' href="https://designdk.substack.com"><i class="icon fa-solid fa-blog"/></a></li>
-          </button>
-          <button className='nav-button'>
-            <li className='nav-link'><Link to="/contact">Email</Link></li>
-          </button>
+          
           </ul>
+
         </div>
       </div>
     </div>
