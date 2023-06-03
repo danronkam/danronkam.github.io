@@ -23,3 +23,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.jobtitle{
+    background: -webkit-linear-gradient(#421ccc, #00ff37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -35,9 +35,14 @@ const BlogShow = () => {
 
                         return(
                             <>
-                            <h2>{heading}</h2>
-                            <p>{body.text}</p>
-                    
+                            <div className="subheading">
+                                <h2>{heading}</h2>
+                            </div>
+
+                            <div className="content">
+                                <p>{body.text}</p>
+                            </div>
+                                                
 
                         </>)
                     })}
