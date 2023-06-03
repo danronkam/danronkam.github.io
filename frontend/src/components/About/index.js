@@ -5,6 +5,21 @@ const About = () => {
 
     return(
         <>
+        <div className="about-container">
+
+            <div className="about-heading">
+
+            </div>
+
+            <div className="about-body" >
+
+            </div>
+
+            <div className="contact-container">
+                
+            </div>
+
+        </div>
         <h1>I am an about page</h1>
         <p>
         Meet Dan, a talented full-stack software engineer with a passion for creating dynamic and robust applications using TypeScript. With over five years of experience in the industry, Dan has honed his skills in both front-end and back-end development, enabling him to deliver end-to-end solutions for complex software projects.
