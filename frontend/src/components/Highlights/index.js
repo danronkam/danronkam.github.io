@@ -6,7 +6,7 @@ const Highlights = () => {
     const highlightsData = [
         {
             id: 1,
-            tite: "Derailed",
+            title: "Derailed",
             type: "Project", 
             date: "2022",
             blurb: "G]railed",
@@ -14,7 +14,7 @@ const Highlights = () => {
         },
         {
             id: 2,
-            tite: "Heard",
+            title: "Heard",
             type: "Project", 
             date: "2022",
             blurb: "Grrailed",
@@ -23,7 +23,7 @@ const Highlights = () => {
         },
         {
             id: 3,
-            tite: "DKFM",
+            title: "DKFM",
             type: "Project", 
             date: "2022",
             blurb: "G]railed",
