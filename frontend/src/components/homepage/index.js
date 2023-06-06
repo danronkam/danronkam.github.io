@@ -2,6 +2,7 @@ import React from "react";
 import "./homepage.css"
 import Banner from "../Banner";
 import ProjectIndex from "../ProjectsIndex"
+import Highlights from "../Highlights";
 
 const Homepage = () => {
 
@@ -11,7 +12,7 @@ const Homepage = () => {
 
         <div className="homepage-container">
             <Banner />
-            <ProjectIndex />
+            <Highlights />
             
 
         </div>
