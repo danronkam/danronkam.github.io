@@ -1,5 +1,6 @@
 import React from "react";
 import HighlightsItem from "../HighlightsItem";
+import "./Highlights.css"
 
 
 const Highlights = () => {
