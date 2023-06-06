@@ -30,6 +30,15 @@ const Highlights = () => {
             link: "",
 
         },
+        {
+            id: 4,
+            title: "BLOGPOST",
+            type: "Article", 
+            date: "2023",
+            blurb: "I think im mre interesting than i am",
+            link: "",
+
+        }
     ]
 
 

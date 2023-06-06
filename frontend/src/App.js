@@ -93,6 +93,10 @@ function App() {
           <Contact />
         </Route>
 
+        <Route exact path="/project/:title">
+          <Contact />
+        </Route>
+
         <Redirect to='/' />
 
       </Switch>
