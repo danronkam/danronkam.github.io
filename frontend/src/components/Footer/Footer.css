@@ -6,19 +6,12 @@
     /* position: fixed; */
     width: 100%;
     background-color: red;
+    padding-left: 15vw;
+    padding-bottom: 5vh;
 }
 
-.footer-links > a  {
-    width: 50%;
-
-}
-
-.footer-links > a{
-padding-right: 4%;
-font-style: none;
-font-family: 'Inter', sans-serif;
-font-weight: bold;
-text-decoration: none;
+.social-container{
+    margin: 0;
 }
 
 .footer-icons {

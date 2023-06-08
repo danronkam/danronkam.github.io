@@ -12,15 +12,15 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="left">
                     <div className="external-links">
-                        <p> 
-                            Follor me on:   
-                                <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer">
+                        <p className="social-container"> 
+                            Follow me on:   
+                                <a href="https://www.linkedin.com/in/danronkam" target="_blank" rel="noreferrer">
                                     Linkedin 
                                 </a>
-                                <a href="https://github.com/your-github" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/danronkam" target="_blank" rel="noreferrer">
                                     Github
                                 </a>
-                                <a href="https://your-substack.substack.com/" target="_blank" rel="noreferrer">
+                                <a href="https://designdk.substack.com/" target="_blank" rel="noreferrer">
                                     Substack
                                 </a>
                         </p>
