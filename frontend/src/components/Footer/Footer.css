@@ -6,8 +6,13 @@
     /* position: fixed; */
     width: 100%;
     background-color: red;
-    padding-left: 15vw;
+    padding-left: 20vw;
     padding-bottom: 5vh;
+    padding-right: 20vw;
+}
+
+.social-links{
+    padding-right: 1vw;
 }
 
 .social-container{
@@ -18,6 +23,3 @@
     font-size: 50px;
 }
 
-a {
-    color: black;
-}

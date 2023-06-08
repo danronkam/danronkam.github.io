@@ -13,31 +13,40 @@ const Footer = () => {
                 <div className="left">
                     <div className="external-links">
                         <p className="social-container"> 
-                            Follow me on:   
-                                <a href="https://www.linkedin.com/in/danronkam" target="_blank" rel="noreferrer">
-                                    Linkedin 
-                                </a>
-                                <a href="https://github.com/danronkam" target="_blank" rel="noreferrer">
+                            Follow me on:
+                                <a href="https://www.linkedin.com/in/danronkam" target="_blank" rel="noreferrer" className="social-links">
+                                    <i className="icon fab fa-linkedin"/>
+                                    Linkedin  
+                                </a> 
+                                <a href="https://github.com/danronkam" target="_blank" rel="noreferrer" className="social-links">
+                                    <i className="icon fab fa-github"/>
                                     Github
-                                </a>
-                                <a href="https://designdk.substack.com/" target="_blank" rel="noreferrer">
+                                </a>  
+                                <a href="https://designdk.substack.com/" target="_blank" rel="noreferrer" className="social-links">
                                     Substack
                                 </a>
                         </p>
                         <br />
                         <p>
                             Built with: 
+                                <a href="https://www.linkedin.com/in/danronkam" target="_blank" rel="noreferrer">
+                                    <i class="fa-brands fa-react"></i>
+                                    React 
+                                </a>
+                                <a href="https://github.com/danronkam" target="_blank" rel="noreferrer">
+                                    Hygraph
+                                </a>
+                                <a href="https://designdk.substack.com/" target="_blank" rel="noreferrer">
+                                    P5.JS
+                                </a>
                         </p>
 
                     </div>
                 </div>
+
                 <div className="right">
                     <Link to={'/blog'}> Blog </Link>
                     <Link to={'/about'}> About </Link>
-
-                </div>
-                <div className="social-links">
-              
                 </div>
 
             </div>

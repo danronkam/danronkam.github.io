@@ -1,7 +1,5 @@
 .highlights-container{
     margin-left: 10vw;
-    width: 80vw;
-    height: 40vw;
     display:grid;
     grid-template-columns: 33vw 33vw;
     grid-row: auto auto;
