@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 
 const About = () => {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0,0);
+    })
 
 
     return(

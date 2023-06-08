@@ -8,11 +8,6 @@
 }
 
 
-
-.page-container{
-    padding-bottom: 25vh;
-}
-
 body {
     margin: 0;
     color: white;
@@ -24,6 +19,8 @@ body {
     margin-left: 5vw;
     margin-right: 5vw;
     overflow: hidden;
+    padding-bottom: 5vh;
+
 
 }
 

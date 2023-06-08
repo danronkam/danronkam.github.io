@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import BlogIndexItem from "../BlogIndexItem";
 import "./Blog.css"
 
@@ -8,6 +8,10 @@ function Blog({blogPosts}) {
     if(!blogPosts) {
         blogPosts = [];
     }
+
+    useLayoutEffect(() => {
+        window.scrollTo(0,0)
+    })
 
     return(
         <>
