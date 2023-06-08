@@ -47,8 +47,8 @@ const Highlights = () => {
     return(
         <>
         <div className="highlights-container">
-            { highlightsData.map(highlight => {
-                return <HighlightsItem key={highlight.id} highlight={highlight} />
+            { highlightsData.map(highlightData => {
+                return <HighlightsItem key={highlightData.id} highlight={highlightData} />
             })}
         
 

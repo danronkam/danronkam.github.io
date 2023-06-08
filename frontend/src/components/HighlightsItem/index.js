@@ -16,14 +16,14 @@ const HighlightsItem = (highlight) => {
         <>
         <div className="highlight-container">
             <div className="highlight-head">
-                <p>{type} {date}</p>
+                <p> <b className="type"> {type} </b> <b className="date">   {date} </b></p>
                 <h1>{title}</h1>
             </div>
             <div className="highlight-body">
                 <p>{blurb} </p>
             </div>
             <div className="highlight-link">
-                <Link>Read more</Link>
+                <Link className="highlight-link">Read more</Link>
             </div>
 
         </div>        

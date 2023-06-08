@@ -2,7 +2,22 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    background-color: red;
+    background-color: #13131d;
 
 }
 
+.type{
+    color: #d7b16c;
+}
+
+.date{
+    color:  #a0a0c0;
+}
+
+.highlight-body{
+    color:  #a0a0c0;
+}
+
+.highlight-link{
+    color: #21f1be;
+}
