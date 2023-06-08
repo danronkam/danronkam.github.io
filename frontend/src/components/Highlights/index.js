@@ -11,7 +11,7 @@ const Highlights = () => {
             type: "Project", 
             date: "2022",
             blurb: "G]railed",
-            link: "",
+            link: "/project/:derailed",
         },
         {
             id: 2,
@@ -19,7 +19,7 @@ const Highlights = () => {
             type: "Project", 
             date: "2022",
             blurb: "Grrailed",
-            link: "",
+            link: "/project/:heard",
 
         },
         {
@@ -28,7 +28,7 @@ const Highlights = () => {
             type: "Project", 
             date: "2022",
             blurb: "G]railed",
-            link: "",
+            link: "/project/:dkfm",
 
         },
         {
@@ -37,7 +37,7 @@ const Highlights = () => {
             type: "Article", 
             date: "2023",
             blurb: "I think im mre interesting than i am",
-            link: "",
+            link: "/blog",
 
         }
     ]
