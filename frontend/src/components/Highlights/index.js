@@ -10,7 +10,7 @@ const Highlights = () => {
             title: "Derailed",
             type: "Project", 
             date: "2022",
-            blurb: "G]railed",
+            blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis turpis nec elementum malesuada. Curabitur a sapien non dolor varius luctus. Sed commodo commodo tellus, eget molestie odio congue eu. Praesent tristique ipsum a arcu elementum, elementum feugiat mauris hendrerit. Suspendisse quis purus at eros ultricies ornare. Suspendisse eu varius sem. Suspendisse rhoncus fringilla lacus non commodo. Suspendisse hendrerit ipsum sit amet velit porttitor imperdiet. Suspendisse condimentum, erat a gravida lacinia, velit eros commodo purus, eget efficitur lectus diam vitae est. Etiam commodo sapien ac hendrerit sodales. Integer in lorem elit.",
             link: "/project/:derailed",
         },
         {
@@ -18,7 +18,7 @@ const Highlights = () => {
             title: "Heard",
             type: "Project", 
             date: "2022",
-            blurb: "Grrailed",
+            blurb: "Suspendisse et nulla sed mi blandit molestie. Ut luctus nunc at est hendrerit mollis. Nullam sed semper purus, mattis mollis orci. Etiam ac pretium urna. Vestibulum et vestibulum leo, id condimentum orci. Etiam sagittis tortor sed erat euismod sagittis. Etiam mattis accumsan tristique.",
             link: "/project/:heard",
 
         },
@@ -27,7 +27,7 @@ const Highlights = () => {
             title: "DKFM",
             type: "Project", 
             date: "2022",
-            blurb: "G]railed",
+            blurb: "G]Phasellus fermentum diam non velit rutrum suscipit. Mauris congue elementum odio non cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur elit mi, nec scelerisque nisl faucibus id. Nulla eget lorem cursus, fermentum ligula ac, elementum justo. Phasellus tempor ut neque vel posuere. Phasellus facilisis augue augue, porttitor viverra augue scelerisque sit amet.",
             link: "/project/:dkfm",
 
         },

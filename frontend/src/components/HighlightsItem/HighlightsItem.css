@@ -3,6 +3,9 @@
     padding:0;
     box-sizing:border-box;
     background-color: #13131d;
+    cursor: pointer;
+    border-radius: 1vw;
+    padding: 1vw;
 
 }
 
@@ -20,4 +23,9 @@
 
 .highlight-link{
     color: #21f1be;
+}
+
+
+.highlight-container:hover{
+    background-color: #1f1f2e;
 }
