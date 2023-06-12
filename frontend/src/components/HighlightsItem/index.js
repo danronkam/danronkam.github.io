@@ -1,19 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import "./HighlightsItem.css"
 
 const HighlightsItem = (highlight) => {
+    const history = useHistory()
 
     const title = highlight.highlight.title;
     const type = highlight.highlight.type;
     const date = highlight.highlight.date;
-    const blurb = highlight.highlight.  
-    blurb;
+    const blurb = highlight.highlight.blurb;
+    const link = highlight.highlight.link;
+    console.log(link)
 
 
     return (
         <>
-        <div className="highlight-container">
+        <div className="highlight-container" onClick={() => history.push(`${link}`)}>
             <div className="highlight-head">
                 <p> <b className="type"> {type} </b> <b className="date">   {date} </b></p>
                 <h1>{title}</h1>
@@ -22,7 +24,7 @@ const HighlightsItem = (highlight) => {
                 <p>{blurb} </p>
             </div>
             <div className="highlight-link">
-                <Link className="highlight-link">Read more</Link>
+                <Link to={`${link}`} className="highlight-link">Read more</Link>
             </div>
 
         </div>        
