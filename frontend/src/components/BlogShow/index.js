@@ -9,8 +9,11 @@ const BlogShow = () => {
     // console.log(slug)
     const location = useLocation();
     const blog = location.state?.blog;
+    console.log(blog)
     const headings = blog.post.headings;
     const sections = blog.post.sections;
+    const date = blog.post.publishedAt;
+    const type = blog.post.type;
 
     let counter = 0;
 
@@ -26,7 +29,17 @@ const BlogShow = () => {
                 <div className="blogpost-header">
                     <h1 className="blogpost-title">{blog.post.title}</h1>
                     <p className="blogpost-description">{blog.post.description}</p>
+                    <div className="blogpost-tags">
+                        <div className="label">Type</div>
+                        <div>Article</div>
+                    </div>
+                    <div className="blogpost-tags">
+                        <div className="label">Published</div>
+                        <div>{date}</div>
+                    </div>
                 </div>
+
+                <hr />
                 <div className="blogpost-body">
                     {headings.map(heading => {
                         let body = sections[counter]
