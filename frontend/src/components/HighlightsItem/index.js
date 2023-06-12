@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./HighlightsItem.css"
 
 const HighlightsItem = (highlight) => {
-    console.log(highlight)
 
     const title = highlight.highlight.title;
     const type = highlight.highlight.type;

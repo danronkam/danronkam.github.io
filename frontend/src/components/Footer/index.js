@@ -15,14 +15,15 @@ const Footer = () => {
                         <p className="social-container"> 
                             Follow me on:
                                 <a href="https://www.linkedin.com/in/danronkam" target="_blank" rel="noreferrer" className="social-links">
-                                    <i className="icon fab fa-linkedin"/>
+                                    <i className="fab fa-linkedin footer-icon"/>
                                     Linkedin  
                                 </a> 
                                 <a href="https://github.com/danronkam" target="_blank" rel="noreferrer" className="social-links">
-                                    <i className="icon fab fa-github"/>
+                                    <i className="fab fa-github footer-icon"/>
                                     Github
                                 </a>  
                                 <a href="https://designdk.substack.com/" target="_blank" rel="noreferrer" className="social-links">
+                                    <i className="fab fa-linkedin footer-icon"/>
                                     Substack
                                 </a>
                         </p>

@@ -5,7 +5,6 @@
     bottom: 0;
     /* position: fixed; */
     width: 100%;
-    background-color: red;
     padding-left: 20vw;
     padding-bottom: 5vh;
     padding-right: 20vw;
@@ -19,7 +18,9 @@
     margin: 0;
 }
 
-.footer-icons {
-    font-size: 50px;
+.footer-icon {
+    margin-left: .5vw;
+    margin-right: .5vw;;
 }
+
 
