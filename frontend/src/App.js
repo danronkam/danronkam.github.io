@@ -12,13 +12,12 @@ import BlogShow from "./components/BlogShow";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import ProjectShow from "./components/ProjectShow";
+import ProjectPage from "./components/ProjectPage";
 
 
 
 function App() {
   const [blog, setBlog] = useState(null);
-  const [project, setProject] = useState(null);
 
 
   useEffect(() => {
@@ -63,12 +62,15 @@ function App() {
 
   const  projects = [
     {
+      id: 1,
       title: ':dkfm'
     },
     {
+      id: 2,
       title: ':heard'
     }, 
     {
+      id: 3,
       title: ':derailed'
     }
   ]
@@ -112,7 +114,7 @@ function App() {
         </Route>
 
         <Route exact path="/project/:title">
-          <ProjectShow projectData={projects} />
+          <ProjectPage projectData={projects} />
         </Route>
 
         <Redirect to='/' />
