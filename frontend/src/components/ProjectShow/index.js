@@ -1,16 +1,49 @@
 import { useParams } from "react-router-dom/cjs/react-router-dom.min"
 
 
-const ProjectShow = (projects) => {
-    console.log(projects)
+function ProjectShow({projectData})  {
+    // console.log(projectData)
     const {title} = useParams();
 
-    console.log(title)
+    // function test(projectData) {
+    //     for(let project of projectData) {
+    //         console.log(project)
+    //     }
+    // }
+
+    // test()
+
+    // if(!projects) {
+    //     projects = [];
+    // }
+
+    // const getProject = (projects) => {
+    //     for(let project of projects) {
+    //         console.log(getProject)
+    //     }
+    // }
+
+    // getProject()
+
+    // console.log(title)
 
     return(
         <>
-        
-        hello
+            <div> 
+                {
+                    projectData.map(project => {
+                        const projectTitle = project.title;
+                        if(projectTitle === title)
+                            return (
+                                <>
+                                <h1>{projectTitle}</h1>
+                                </>
+                            )
+                        
+               
+                    })
+                }
+            </div>
         
         </>
     )

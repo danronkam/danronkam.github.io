@@ -4,10 +4,14 @@ import "./Blog.css"
 
 
 function Blog({blogPosts}) {
+    console.log('this blog is a type', typeof blogPosts)
 
     if(!blogPosts) {
         blogPosts = [];
     }
+
+    console.log(typeof blogPosts)
+
 
     useLayoutEffect(() => {
         window.scrollTo(0,0)

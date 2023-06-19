@@ -18,6 +18,8 @@ import ProjectShow from "./components/ProjectShow";
 
 function App() {
   const [blog, setBlog] = useState(null);
+  const [project, setProject] = useState(null);
+
 
   useEffect(() => {
     const fetchBlogs = async () => {
@@ -52,23 +54,26 @@ function App() {
         `
       );
 
+     
       setBlog(blogs);
     };
 
     fetchBlogs();
   }, [])
 
-  const projects = [
+  const  projects = [
     {
-      title: 'dkfm'
+      title: ':dkfm'
     },
     {
-      title: 'heard'
+      title: ':heard'
     }, 
     {
-      title: 'derailed'
+      title: ':derailed'
     }
   ]
+
+    console.log('blog is a', typeof blog)
 
 
   return (
@@ -107,7 +112,7 @@ function App() {
         </Route>
 
         <Route exact path="/project/:title">
-          <ProjectShow projects={projects} />
+          <ProjectShow projectData={projects} />
         </Route>
 
         <Redirect to='/' />
