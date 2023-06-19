@@ -12,6 +12,7 @@ import BlogShow from "./components/BlogShow";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import ProjectShow from "./components/ProjectShow";
 
 
 
@@ -57,6 +58,18 @@ function App() {
     fetchBlogs();
   }, [])
 
+  const projects = [
+    {
+      title: 'dkfm'
+    },
+    {
+      title: 'heard'
+    }, 
+    {
+      title: 'derailed'
+    }
+  ]
+
 
   return (
     <>
@@ -94,7 +107,7 @@ function App() {
         </Route>
 
         <Route exact path="/project/:title">
-          <Contact />
+          <ProjectShow projects={projects} />
         </Route>
 
         <Redirect to='/' />
