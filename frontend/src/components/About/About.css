@@ -1,0 +1,8 @@
+.about-list{
+    list-style: none;
+}
+
+.about-list li:after{
+    content: "\A";
+    white-space: pre;
+}
