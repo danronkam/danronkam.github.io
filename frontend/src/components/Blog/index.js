@@ -20,8 +20,10 @@ function Blog({blogPosts}) {
     return(
         <>
         <div className="content-container" id="coming-soon">
-            <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/coming+soon.gif" alt="coming soon gif" /> 
-
+                <div class="container">
+                    <div class="neon">Coming </div>
+                    <div class="flux">Soon </div>
+                </div>
 
             <p>In the mean time check out my <a href="https://designdk.substack.com/" target="_blank" rel="noreferrer">substack</a>, or email to get my rants directly</p>
             {/* <div className="toc">
@@ -33,7 +35,7 @@ function Blog({blogPosts}) {
                 })}
 
             </div> */}
-
+  
         </div>
 
         </>
