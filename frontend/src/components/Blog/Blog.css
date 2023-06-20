@@ -6,3 +6,10 @@
 .post-container{
     float: right;
 }
+
+#coming-soon{
+    margin-top: 15vh;
+    padding-top: 50px;
+    min-height: 100vh;
+    text-align: center;
+}

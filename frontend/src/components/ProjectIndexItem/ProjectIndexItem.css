@@ -12,7 +12,6 @@
 }
 
 .selected-works-container{
-    display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 4vh;
     justify-content: space-evenly;

@@ -13,9 +13,8 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import ProjectPage from "./components/ProjectPage";
-import DKFM from "./components/DKFM";
-import Derailed from "./components/Derailed";
-import Heard from "./components/Heard";
+import ProjectsIndex from "./components/ProjectsIndex";
+
 
 function App() {
   const [blog, setBlog] = useState(null);
@@ -156,8 +155,6 @@ function App() {
     }
   ]
 
-    console.log('blog is a', typeof blog)
-
 
   return (
     <>
@@ -194,21 +191,14 @@ function App() {
           <Contact />
         </Route>
 
+        <Route exact path="/projects">
+          <ProjectsIndex />
+        </Route>
+
         <Route exact path="/project/:title">
           <ProjectPage projectData={projects} />
         </Route>
 
-        <Route exact path="/projects/Derailed">
-          <Derailed />
-        </Route>
-        
-        <Route exact path="/projects/Heard">
-          <Heard />
-        </Route>
-        
-        <Route exact path="/projects/DKFM">
-          <DKFM />
-        </Route>
 
         <Redirect to='/' />
 

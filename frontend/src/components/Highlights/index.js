@@ -33,10 +33,10 @@ const Highlights = () => {
         },
         {
             id: 4,
-            title: "BLOGPOST",
+            title: "Blog",
             type: "Article", 
             date: "2023",
-            blurb: "I think im mre interesting than i am",
+            blurb: "Read my rantings",
             link: "/blog",
 
         }

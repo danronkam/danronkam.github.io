@@ -19,8 +19,12 @@ function Blog({blogPosts}) {
 
     return(
         <>
-        <div className="blog-index-container">
-            <div className="toc">
+        <div className="content-container" id="coming-soon">
+            <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/coming+soon.gif" alt="coming soon gif" /> 
+
+
+            <p>In the mean time check out my <a href="https://designdk.substack.com/" target="_blank" rel="noreferrer">substack</a>, or email to get my rants directly</p>
+            {/* <div className="toc">
             </div>
 
             <div className="post-containter">
@@ -28,7 +32,7 @@ function Blog({blogPosts}) {
                     return <BlogIndexItem key={post.id} post={post} />
                 })}
 
-            </div>
+            </div> */}
 
         </div>
 

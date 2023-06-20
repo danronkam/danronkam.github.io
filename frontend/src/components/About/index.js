@@ -7,14 +7,6 @@ const About = () => {
         window.scrollTo(0,0);
     })
 
-    const listSchema = [
-        {
-            id: 1,
-            img: "",
-            text: ""
-        }
-    ]
-
 
     return(
         <>
@@ -76,10 +68,10 @@ const About = () => {
 
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/react.png" width={'16px'} height={'16'} alt="React Logo"/> <a href="https://react.dev/" target="_blank" rel="noreferrer" > React </a> - UI Library </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/next.png" width={'16px'} height={'16'} alt="Next.js Logo"/> <a href="https://nextjs.org/" target="_blank" rel="noreferrer" > Next.js </a> - React Framework </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/next.png" width={'16px'} height={'16'} alt="Next.js Logo"/> <a href="https://nextjs.org/" target="_blank" rel="noreferrer" > rel="noNext.js </a> - React Framework </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/mongo.png" width={'16px'} height={'16'} alt="Mongo DB Logo"/> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer" > MongoDB </a> - NoSQL Database </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/express.png" width={'16px'} height={'16'} alt="Express.js Logo"/> <a href="https://expressjs.com/" target="_blank" rel="noreferrer" > Express.js </a> - Backend Framework</li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/node.png" width={'16px'} height={'16'} alt="Node.js Logo"/> <a href="https://react.dev/" target="_blank" rel="noreferrer" > Node.js </a> - JavaScript Runtime </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/node.png" width={'16px'} height={'16'} alt="Node.js Logo"/> <a href="https://nodejs.org/en" target="_blank" rel="noreferrer" > Node.js </a> - JavaScript Runtime </li>
                             </ul>
 
                         <h3>I also use:</h3>
@@ -96,7 +88,7 @@ const About = () => {
                         <h3>Tools:</h3>
 
                             <ul className="about-list">
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/figma.png" width={'16px'} height={'16'} alt="Figma Logo"/> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" > Figma </a> - Interface Design </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/figma.png" width={'16px'} height={'16'} alt="Figma Logo"/> <a href="https://www.figma.com/files/recent?fuid=1187876458297796354" target="_blank" rel="noreferrer" > Figma </a> - Interface Design </li>
                                 <li> 📓 <a href="https://www.1101.com/store/techo/en/" target="_blank" rel="noreferrer"> Hobonichi Techo </a> - Life Planner </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/blender.png" width={'16px'} height={'16'} alt="Blender Logo"/> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> Blender </a> - 3D Creation Suite </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/adobe.png" width={'16px'} height={'16'} alt="Adobe Logo"/> <a href="https://www.adobe.com/" target="_blank" rel="noreferrer"> Adobe </a> - I wish I could quit you </li>
@@ -114,7 +106,7 @@ const About = () => {
                             <h3>Right now I'm using:</h3>
 
                             <ul className="about-list">
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vscode.png" width={'16px'} height={'16'} alt="VSCode Logo"/> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> Visual Studio Code </a> </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vscode.png" width={'16px'} height={'16'} alt="VSCode Logo"/> <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> Visual Studio Code </a> </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/jetbrains.png" width={'16px'} height={'16'} alt="JetBrainds Logo"/> <a href="https://www.jetbrains.com/lp/mono/" target="_blank" rel="noreferrer"> JetBrains Mono </a> - Font </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.vscolors.com/themes/45bfc9eb-5e03-487f-bffe-315fa6881d6a-66125dc6" target="_blank" rel="noreferrer"> Material Theme Ocean High Contrast </a> - Theme </li>
                             </ul>
@@ -126,7 +118,7 @@ const About = () => {
                         <h3>Office Setup:</h3>
 
                             <ul className="about-list">
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/aoc.pngg" width={'16px'} height={'16'} alt="AOC Logo"/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank" rel="noreferrer"> AOC C24G1 </a> - Monitor </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/aoc.png" width={'16px'} height={'16'} alt="AOC Logo"/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank" rel="noreferrer"> AOC C24G1 </a> - Monitor </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/wacom.png" width={'16px'} height={'16'} alt="Wacom Logo"/> <a href="https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos" target="_blank" rel="noreferrer"> Wacom Intuos </a> - Drawing Tablet </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.haworth.com/" target="_blank" rel="noreferrer"> Haworth Improv S.E. </a> Office Chair </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/razer.png" width={'16px'} height={'16'} alt="Razer Logo"/> <a href="https://www.razer.com/gaming-mice/razer-deathadder-v2-pro" target="_blank" rel="noreferrer"> Razer Deathadder V2 Pro </a> Mouse </li>
@@ -136,13 +128,13 @@ const About = () => {
                         <h3>Custom Built Workstation:</h3>
 
                             <ul className="about-list">
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank" rel="noreferrer"> AMG Ryzen 5 2600 </a> - CPU </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank" rel="noreferrer"> RDEON RX 580 </a> - GPU </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank" rel="noreferrer"> G. SKill Ripjaws V DDR4 3200 </a> - RAM </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank" rel="noreferrer"> Thermaltake Versa H22 </a> - Case </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/aorus.png" width={'16px'} height={'16'} alt="Aorus Logo"/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank" rel="noreferrer"> Aorus X470 </a> - Motherboard </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank" rel="noreferrer"> Samsung 870 QVO </a> - SSD </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank" rel="noreferrer"> Thermaltake ATX 80 </a> - PSU </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.amd.com/en/processors/ryzen-5000-series" target="_blank" rel="noreferrer"> AMG Ryzen 5 2600 </a> - CPU </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.amd.com/en/graphics/radeon-rx-graphics" target="_blank" rel="noreferrer"> RADEON RX 580 </a> - GPU </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.microcenter.com/product/467049/gskill-ripjaws-v-32gb-(2-x-16gb)-ddr4-3200-pc4-25600-cl16-dual-channel-desktop-memory-kit-f4-3200c16d-32g-black" target="_blank" rel="noreferrer"> G. SKill Ripjaws V DDR4 3200 </a> - RAM </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.thermaltakeusa.com/versa-h22.html" target="_blank" rel="noreferrer"> Thermaltake Versa H22 </a> - Case </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/aorus.png" width={'16px'} height={'16'} alt="Aorus Logo"/> <a href="https://www.gigabyte.com/Motherboard/X470-AORUS-ULTRA-GAMING-rev-10#kf" target="_blank" rel="noreferrer"> Aorus X470 </a> - Motherboard </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://semiconductor.samsung.com/us/consumer-storage/internal-ssd/870evo/" target="_blank" rel="noreferrer"> Samsung 870 QVO </a> - SSD </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.thermaltakeusa.com/smart-700w.html" target="_blank" rel="noreferrer"> Thermaltake Smart 700 </a> - PSU </li>
 
 
                             </ul>
@@ -161,9 +153,9 @@ const About = () => {
                         <h3>Audio Gear:</h3>
 
                             <ul className="about-list">
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vmoda.png" width={'16px'} height={'16'} alt="Vmoda Logo"/> <a href="https://www.amazon.com/RK-ROYAL-KLUDGE-Mechanical-Connectable/dp/B08K8ZSB4C" target="_blank" rel="noreferrer"> V-Moda Crossfade V3 </a> - Headphones </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/phillips.png" width={'16px'} height={'16'} alt="Phillips Logo"/> <a href="https://www.amazon.com/RK-ROYAL-KLUDGE-Mechanical-Connectable/dp/B08K8ZSB4C" target="_blank" rel="noreferrer"> Philips MC-100 </a> - Cassette / CD System </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.amazon.com/RK-ROYAL-KLUDGE-Mechanical-Connectable/dp/B08K8ZSB4C" target="_blank" rel="noreferrer"> Audio Technia AT-PL120 </a> - Record Player </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vmoda.png" width={'16px'} height={'16'} alt="Vmoda Logo"/> <a href="https://www.v-moda.com/us/en/products/crossfade-3-wireless" target="_blank" rel="noreferrer"> V-Moda Crossfade V3 </a> - Headphones </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/phillips.png" width={'16px'} height={'16'} alt="Phillips Logo"/> <a href="https://www.usa.philips.com/" target="_blank" rel="noreferrer"> Philips MC-100 </a> - Cassette / CD System </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.audio-technica.com/en-us/at-pl120" target="_blank" rel="noreferrer"> Audio Technia AT-PL120 </a> - Record Player </li>
 
                             </ul>
 

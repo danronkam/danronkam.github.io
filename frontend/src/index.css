@@ -28,7 +28,8 @@ body {
 }
 
 a:visited{
-    text-decoration: none;
+
+    color: inherit;
 }
 
 @media screen and (max-width: 950px) {

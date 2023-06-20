@@ -1,6 +1,5 @@
 .text-container{
     font-size: 4vw;
-    /* font-size: clamp(35px, 4vw, 35px); */
     font-family: 'Inconsolata', monospace;
     font-weight: 300;
 }

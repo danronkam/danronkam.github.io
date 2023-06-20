@@ -39,8 +39,7 @@ const ProjectsIndex = () => {
 
     return(
         <>
-            <div className="projectsIndex-container">
-                <h1 className="selected-works-title">Selected Projects</h1>
+            <div className="content-container">
                 <div className="selected-works-container">
                     {projects.map(project => {
                             return <ProjectIndexItem key={project.id} projectData={project} />

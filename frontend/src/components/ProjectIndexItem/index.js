@@ -37,7 +37,7 @@ const ProjectIndexItem = (project) => {
                     <img src={imgSrc} alt={altTxt} className="comp-gifs right-img"/>
                     <p className="pj-description">{bio}                </p>
                     <div className="links-container">
-                        <a href={codeSrc} target="_blank" rel="noreferrer" className="icons pj-links">Code</a> <a href={liveSrc} className="icons pj-links">Demo</a>
+                        <a href={codeSrc} target="_blank" rel="noreferrer" className="icons pj-links">Code</a> <a href={liveSrc} target="_blank" rel="noreferrer" className="icons pj-links">Demo</a>
                     </div>
 
                 </div>
