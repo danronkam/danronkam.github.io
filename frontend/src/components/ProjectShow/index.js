@@ -1,3 +1,5 @@
+import { useLayoutEffect } from "react"
+
 const ProjectShow = (projectData) => {
     console.log(projectData)
     const project = projectData.projectData
@@ -8,6 +10,11 @@ const ProjectShow = (projectData) => {
     console.log(typeof project.tech)
     const title = projectData.projectData.title;
     console.log(title, 'yee')
+
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
 
     return (
         <>

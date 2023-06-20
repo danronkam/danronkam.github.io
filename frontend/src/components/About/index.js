@@ -116,7 +116,7 @@ const About = () => {
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vscode.png" width={'16px'} height={'16'}/> <a href="https://www.typescriptlang.org/" target="_blank"> Visual Studio Code </a> </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/jetbrains.png" width={'16px'} height={'16'}/> <a href="https://www.jetbrains.com/lp/mono/" target="_blank"> JetBrains Mono </a> - Font </li>
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://www.vscolors.com/themes/45bfc9eb-5e03-487f-bffe-315fa6881d6a-66125dc6" target="_blank"> Material Theme Ocean High Contrast </a> - Theme </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'}/> <a href="https://www.vscolors.com/themes/45bfc9eb-5e03-487f-bffe-315fa6881d6a-66125dc6" target="_blank"> Material Theme Ocean High Contrast </a> - Theme </li>
                             </ul>
                         <hr />
                     </div>
@@ -128,7 +128,7 @@ const About = () => {
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/aoc.pngg" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> AOC C24G1 </a> - Monitor </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/wacom.png" width={'16px'} height={'16'}/> <a href="https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos" target="_blank"> Wacom Intuos </a> - Drawing Tablet </li>
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://www.haworth.com/" target="_blank"> Haworth Improv S.E. </a> Office Chair </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'}/> <a href="https://www.haworth.com/" target="_blank"> Haworth Improv S.E. </a> Office Chair </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/razer.png" width={'16px'} height={'16'}/> <a href="https://www.razer.com/gaming-mice/razer-deathadder-v2-pro" target="_blank"> Razer Deathadder V2 Pro </a> Mouse </li>
 
                             </ul>
@@ -136,13 +136,13 @@ const About = () => {
                         <h3>Custom Built Workstation:</h3>
 
                             <ul className="about-list">
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> AMG Ryzen 5 2600 </a> - CPU </li>
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> RDEON RX 580 </a> - GPU </li>
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> G. SKill Ripjaws V DDR4 3200 </a> - RAM </li>
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> Thermaltake Versa H22 </a> - Case </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> AMG Ryzen 5 2600 </a> - CPU </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> RDEON RX 580 </a> - GPU </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> G. SKill Ripjaws V DDR4 3200 </a> - RAM </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> Thermaltake Versa H22 </a> - Case </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/aorus.png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> Aorus X470 </a> - Motherboard </li>
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> Samsung 870 QVO </a> - SSD </li>
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> Thermaltake ATX 80 </a> - PSU </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> Samsung 870 QVO </a> - SSD </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> Thermaltake ATX 80 </a> - PSU </li>
 
 
                             </ul>
@@ -151,10 +151,10 @@ const About = () => {
                         
 
                             <ul className="about-list">
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://www.amazon.com/RK-ROYAL-KLUDGE-Mechanical-Connectable/dp/B08K8ZSB4C" target="_blank"> Royal Kludge 100 </a> - Base </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'}/> <a href="https://www.amazon.com/RK-ROYAL-KLUDGE-Mechanical-Connectable/dp/B08K8ZSB4C" target="_blank"> Royal Kludge 100 </a> - Base </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/akko.png" width={'16px'} height={'16'}/> <a href="https://en.akkogear.com/product/akko-cs-jelly-black-switch-45pcs/" target="_blank"> Akko Jelly Black </a> - Switches </li>
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://ymdkey.com/products/137-mac-normcore-style-keycaps-dye-sub-xda-profile" target="_blank"> YMDK Mac Normcore </a> - Keycaps </li>
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://a.co/d/7J9rAL1" target="_blank"> Foam Silencer Pad </a> - Sound Deadening Mod </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'}/> <a href="https://ymdkey.com/products/137-mac-normcore-style-keycaps-dye-sub-xda-profile" target="_blank"> YMDK Mac Normcore </a> - Keycaps </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'}/> <a href="https://a.co/d/7J9rAL1" target="_blank"> Foam Silencer Pad </a> - Sound Deadening Mod </li>
 
                             </ul>
 
@@ -163,7 +163,7 @@ const About = () => {
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vmoda.png" width={'16px'} height={'16'}/> <a href="https://www.amazon.com/RK-ROYAL-KLUDGE-Mechanical-Connectable/dp/B08K8ZSB4C" target="_blank"> V-Moda Crossfade V3 </a> - Headphones </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/phillips.png" width={'16px'} height={'16'}/> <a href="https://www.amazon.com/RK-ROYAL-KLUDGE-Mechanical-Connectable/dp/B08K8ZSB4C" target="_blank"> Philips MC-100 </a> - Cassette / CD System </li>
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://www.amazon.com/RK-ROYAL-KLUDGE-Mechanical-Connectable/dp/B08K8ZSB4C" target="_blank"> Audio Technia AT-PL120 </a> - Record Player </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'}/> <a href="https://www.amazon.com/RK-ROYAL-KLUDGE-Mechanical-Connectable/dp/B08K8ZSB4C" target="_blank"> Audio Technia AT-PL120 </a> - Record Player </li>
 
                             </ul>
 
