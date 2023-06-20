@@ -40,17 +40,17 @@ function Navbar() {
               </button>
             </li>
             <li className='nav-link '> 
-            <button className='nav-button' value={'github.com'} onClick={()=> window.open("https://www.github.com", "_blank")} type="button">
+            <button className='nav-button' value={'github.com'} onClick={()=> window.open("https://www.github.com/danronkam", "_blank")} type="button">
                 <i className="icon fab fa-github"/>
             </button>
             </li>
             <li className='nav-link '> 
-            <button className='nav-button' value={'/linkedin'} onClick={()=> window.open("https://www.linkedin.com", "_blank")} >
+            <button className='nav-button' value={'/linkedin'} onClick={()=> window.open("https://www.linkedin.com/in/danronkam", "_blank")} >
                 <i className="icon fab fa-linkedin"/>
               </button>
             </li>
             <li className='nav-link '> 
-            <button className='nav-button' value={'/substack'} onClick={()=> window.open("https://www.substack.com", "_blank")} >
+            <button className='nav-button' value={'/substack'} onClick={()=> window.open("https://designdk.substack.com", "_blank")} >
                 <i className="icon fa-solid fa-blog"/>
               </button>
             </li>

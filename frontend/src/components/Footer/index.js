@@ -30,14 +30,14 @@ const Footer = () => {
                         <br />
                         <p>
                             Built with: 
-                                <a href="https://www.linkedin.com/in/danronkam" target="_blank" rel="noreferrer">
+                                <a href="https://react.dev/" target="_blank" rel="noreferrer">
                                     <i class="fa-brands fa-react"></i>
                                     React 
                                 </a>
-                                <a href="https://github.com/danronkam" target="_blank" rel="noreferrer">
+                                <a href="https://hygraph.com/" target="_blank" rel="noreferrer">
                                     Hygraph
                                 </a>
-                                <a href="https://designdk.substack.com/" target="_blank" rel="noreferrer">
+                                <a href="https://p5js.org/" target="_blank" rel="noreferrer">
                                     P5.JS
                                 </a>
                         </p>
