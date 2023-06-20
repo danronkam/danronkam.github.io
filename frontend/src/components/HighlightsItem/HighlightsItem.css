@@ -29,3 +29,11 @@
 .highlight-container:hover{
     background-color: #1f1f2e;
 }
+
+@media screen and (max-width: 960px) {
+    .highlight-container{
+        display: block;
+        margin-bottom: 2.5vh;
+        
+    }
+}
