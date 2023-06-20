@@ -24,8 +24,8 @@ const BlogShow = () => {
 
     return (
         <>
-        <div className="blogpost-container">
-            <div className="blogpost-left">
+        <div className="content-container">
+            <div className="content-left">
                 <div className="blogpost-header">
                     <h1 className="blogpost-title">{blog.post.title}</h1>
                     <p className="blogpost-description">{blog.post.description}</p>
