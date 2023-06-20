@@ -10,7 +10,7 @@ const Highlights = () => {
             title: "Derailed",
             type: "Project", 
             date: "2022",
-            blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis turpis nec elementum malesuada. Curabitur a sapien non dolor varius luctus. Sed commodo commodo tellus, eget molestie odio congue eu. Praesent tristique ipsum a arcu elementum, elementum feugiat mauris hendrerit. Suspendisse quis purus at eros ultricies ornare. Suspendisse eu varius sem. Suspendisse rhoncus fringilla lacus non commodo. Suspendisse hendrerit ipsum sit amet velit porttitor imperdiet. Suspendisse condimentum, erat a gravida lacinia, velit eros commodo purus, eget efficitur lectus diam vitae est. Etiam commodo sapien ac hendrerit sodales. Integer in lorem elit.",
+            blurb: "Derailed is a full stack project inspired by 'Grailed,' where users can buy and sell used designer footwear. It features a sleek and intuitive user interface built with React and Next.js, providing a dynamic experience. The Ruby on Rails backend ensures efficient data management while working with secruely with AWS S3 for scalable file storage. Users can create listings, engage in discussions through comments, and enjoy secure transactions. Derailed combines modern web technologies with a reliable development framework, offering a seamless platform for buying and selling unique designer footwear.",
             link: "/project/:derailed",
         },
         {
@@ -18,7 +18,7 @@ const Highlights = () => {
             title: "Heard",
             type: "Project", 
             date: "2022",
-            blurb: "Suspendisse et nulla sed mi blandit molestie. Ut luctus nunc at est hendrerit mollis. Nullam sed semper purus, mattis mollis orci. Etiam ac pretium urna. Vestibulum et vestibulum leo, id condimentum orci. Etiam sagittis tortor sed erat euismod sagittis. Etiam mattis accumsan tristique.",
+            blurb: "Heard is a full stack MERN project that introduces an intriguing web application where users can share anonymous confessionals that are securely stored in a database and sent to another user for a limited viewing period before being permanently deleted. Additionally, users can create anonymous chat rooms to engage in private conversations. Developed within a week, Heard harnesses the power of MongoDB for efficient data storage, Express.js for building a robust backend, React for creating an interactive user interface, and Next.js for server-side rendering. This combination of technologies delivers a seamless and secure platform for anonymous confessions and private chats.",
             link: "/project/:heard",
 
         },
@@ -27,7 +27,7 @@ const Highlights = () => {
             title: "DKFM",
             type: "Project", 
             date: "2022",
-            blurb: "G]Phasellus fermentum diam non velit rutrum suscipit. Mauris congue elementum odio non cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur elit mi, nec scelerisque nisl faucibus id. Nulla eget lorem cursus, fermentum ligula ac, elementum justo. Phasellus tempor ut neque vel posuere. Phasellus facilisis augue augue, porttitor viverra augue scelerisque sit amet.",
+            blurb: "DKFM is a captivating web application that seamlessly blends music and visuals to create an immersive experience tailored to the user's mood. Serving as both a music player and visualizer, DKFM curates a playlist that dynamically matches the ambiance desired by the user. Crafted using JavaScript, HTML, and CSS, this application provides a seamless and intuitive interface for users to explore an array of audio-visual combinations, enhancing their listening experience with synchronized visuals that perfectly complement the music.",
             link: "/project/:dkfm",
 
         },
