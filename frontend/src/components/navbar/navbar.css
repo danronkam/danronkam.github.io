@@ -27,10 +27,13 @@ a{
 
 .navbar-container{
     position: absolute;
-    /* width: 100vw; */
     height: 8vh;
     margin-top: 1vh;
     margin-left: 12vw;
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+    
 }
 
 .nav-link-container{
@@ -61,12 +64,11 @@ a{
 
 
 .navbar-left{
-    float: left;
-    margin-right: 32.5vw;
+    display: flex;
 }
 
 .navbar-right{
-    float: right;
+    display: flex;
 }
 
 .icon{
