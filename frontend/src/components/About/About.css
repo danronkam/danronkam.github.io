@@ -42,10 +42,32 @@
 
 .content-heading{
     font-size: 1.8rem;
+    color: white;
 }
 
 .content-body {
     margin-top: 5vh;
+    color: #a0a0c0;
+    font-size: 1.25rem;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+li > a {
+    color: #64ffea;
+}
+
+li:hover{}
+
+li > a:hover {
+    color: #64ffea;
+    text-decoration: underline;
+}
+
+.content-words{
+    color: #a0a0c0;
 }
 
 .label{
