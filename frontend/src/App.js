@@ -13,8 +13,9 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import ProjectPage from "./components/ProjectPage";
-
-
+import DKFM from "./components/DKFM";
+import Derailed from "./components/Derailed";
+import Heard from "./components/Heard";
 
 function App() {
   const [blog, setBlog] = useState(null);
@@ -63,24 +64,37 @@ function App() {
   const  projects = [
     {
       id: 1,
-      title: ':dkfm',
-      heading: 'DKFM',
+      title: ':heard',
+      heading: 'Heard',
+      type: 'Wellness Web Application',
       intro: {
-        body: "",
-        img: ""
+        body: "Heard is an application that aims to foster a safe, anonymous community of secret sharers and secret bearers. Users can choose to share a confession or start a message thread about a specific topic. The application design takes a mobile-focused approach as most of the interactions will likely take place sporadically throughout the day on an accessible device.",
+        img: "https://placehold.co/600x400"
       },
       planning: {
-        layoutImg: '',
-        flowImg: '',
-        text: ''
+        layoutImg: 'https://placehold.co/600x400',
+        flowImg: 'https://placehold.co/600x400',
+        text: "Planning and developing a full stack MERN application within a week as part of a group in a software engineering bootcamp requires efficient coordination and effective use of agile Scrum methods. The team will start by conducting a thorough analysis of the project requirements and breaking them down into manageable tasks. Utilizing the Scrum framework, the team will create a product backlog, prioritize user stories, and define sprint goals. Daily stand-up meetings will be held to ensure open communication and provide progress updates. With a focus on iterative development, the team will work collaboratively, leveraging JavaScript, HTML, and CSS to build the frontend, while utilizing MongoDB, Express.js, and Node.js for the backend. Frequent retrospectives and sprint reviews will enable the team to evaluate progress, make necessary adjustments, and deliver a functional full stack MERN application that meets the desired objectives within the given timeframe."
       },
       tech: [
-        {text: "", img: ""}
+        {text: "MongoDB", img: "https://placehold.co/600x400"},
+        {text: "Javascript", img: "https://placehold.co/600x400"},
+        {text: "React", img: "https://placehold.co/600x400"},
+        {text: "Redux", img: "https://placehold.co/600x400"},
+        {text: "Express.js", img: "https://placehold.co/600x400"},
+        {text: "Node.js", img: "https://placehold.co/600x400"}
+      ],
+      features: [
+        {title: 'User Authentication', text: ''},
+        {title: 'Message Thread Feature', text: ''},
+        {title: 'Confessions - Creation and Display', text: ''},
+        {title: 'Edit Controller', text: ''},
+        {title: 'Backend Saftey', text: ''},
       ]
     },
     {
       id: 2,
-      title: ':heard'
+      title: ':dkfm'
     }, 
     {
       id: 3,
@@ -130,8 +144,16 @@ function App() {
           <ProjectPage projectData={projects} />
         </Route>
 
-        <Route exact path="/projects/derailed">
-          
+        <Route exact path="/projects/Derailed">
+          <Derailed />
+        </Route>
+        
+        <Route exact path="/projects/Heard">
+          <Heard />
+        </Route>
+        
+        <Route exact path="/projects/DKFM">
+          <DKFM />
         </Route>
 
         <Redirect to='/' />
