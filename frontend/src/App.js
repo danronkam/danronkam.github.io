@@ -63,7 +63,20 @@ function App() {
   const  projects = [
     {
       id: 1,
-      title: ':dkfm'
+      title: ':dkfm',
+      heading: 'DKFM',
+      intro: {
+        body: "",
+        img: ""
+      },
+      planning: {
+        layoutImg: '',
+        flowImg: '',
+        text: ''
+      },
+      tech: [
+        {text: "", img: ""}
+      ]
     },
     {
       id: 2,
@@ -115,6 +128,10 @@ function App() {
 
         <Route exact path="/project/:title">
           <ProjectPage projectData={projects} />
+        </Route>
+
+        <Route exact path="/projects/derailed">
+          
         </Route>
 
         <Redirect to='/' />
