@@ -96,7 +96,7 @@ const About = () => {
 
                             <ul className="about-list">
                                 <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://www.typescriptlang.org/" target="_blank"> Figma </a> - Interface Design </li>
-                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://www.1101.com/store/techo/en/" target="_blank"> Hobonichi Techo </a> - Life Planner </li>
+                                <li> 📓 <a href="https://www.1101.com/store/techo/en/" target="_blank"> Hobonichi Techo </a> - Life Planner </li>
                                 <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://www.blender.org/" target="_blank"> Blender </a> - 3D Creation Suite </li>
                                 <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://www.adobe.com/" target="_blank"> Adobe </a> - I wish I could quit you </li>
                                 <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://www.nts.live/" target="_blank"> NTS </a> - Pirate Radio </li>
@@ -135,9 +135,14 @@ const About = () => {
                         <h3>Custom Built Workstation:</h3>
 
                             <ul className="about-list">
-                                <li>People</li>
-                                <li>Places</li>
-                                <li>Things</li>
+                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> AMG Ryzen 5 2600 </a> - CPU </li>
+                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> RDEON RX 580 </a> - GPU </li>
+                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> G. SKill Ripjaws V DDR4 3200 </a> - RAM </li>
+                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> Thermaltake Versa H22 </a> - Case </li>
+                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> Aorus X470 </a> - Motherboard </li>
+                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> Samsung 870 QVO </a> - SSD </li>
+                                <li><img src="https://img.icons8.com/?size=512&id=AYA3nLGNC4EE&format=png" width={'16px'} height={'16'}/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank"> Thermaltake ATX 80 </a> - PSU </li>
+
 
                             </ul>
 
