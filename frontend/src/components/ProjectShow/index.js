@@ -4,6 +4,7 @@ const ProjectShow = (projectData) => {
     const tech = project.tech
     const intro = project.intro
     const planning = project.planning
+    const features = project.features
     console.log(typeof project.tech)
     const title = projectData.projectData.title;
     console.log(title, 'yee')
@@ -50,6 +51,20 @@ const ProjectShow = (projectData) => {
                     <div className="planning" >
                         <h2 className="content-heading">Planning</h2>
                         <p>{planning.text}</p>
+                    </div>
+
+                    <hr />
+
+                    <div className="features">
+                        <h2 className="content-heading">Features</h2>
+                        {features.map(feature => {
+                            let title = feature.title;
+                            let text = feature.text;
+                            return <>
+                                <h3 className="feature-title">{title}</h3>
+                                <p className="feature-text">{text}</p>
+                            </>
+                        })}
                     </div>
 
 
