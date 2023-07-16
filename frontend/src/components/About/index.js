@@ -162,9 +162,11 @@ const About = () => {
                         <h3>Camera Gear:</h3>
 
                             <ul className="about-list">
-                                <li>People</li>
-                                <li>Places</li>
-                                <li>Things</li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vmoda.png" width={'16px'} height={'16'} alt="Sony Logo"/> <a href="https://www.v-moda.com/us/en/products/crossfade-3-wireless" target="_blank" rel="noreferrer"> Sony A7 </a> - Camera  </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vmoda.png" width={'16px'} height={'16'} alt="Vmoda Logo"/> <a href="https://www.v-moda.com/us/en/products/crossfade-3-wireless" target="_blank" rel="noreferrer"> Urth Lens Mount Adapter </a> Lens Adaptor for Canon FD Lens  </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vmoda.png" width={'16px'} height={'16'} alt="Vmoda Logo"/> <a href="https://www.v-moda.com/us/en/products/crossfade-3-wireless" target="_blank" rel="noreferrer"> Casio EX-S2 </a> - Digi-Camera  </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vmoda.png" width={'16px'} height={'16'} alt="Vmoda Logo"/> <a href="https://www.v-moda.com/us/en/products/crossfade-3-wireless" target="_blank" rel="noreferrer"> Olympus Stylus 120 </a> - 35mm Camera  </li>
+
 
                             </ul>
                         

@@ -28,7 +28,7 @@ const ProjectShow = (projectData) => {
                         let img= techData.img
                         console.log(txt)
                         return <>
-                          <img src={img} width={'16px'} height={'16px'}/> {txt} 
+                          <img src={img} width={'16px'} height={'16px'} alt="Technology Logo" className="tech-16"/> {txt} 
                         </>      
                     })}
                 </p>
