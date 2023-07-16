@@ -76,12 +76,12 @@ function App() {
         text: "Planning and developing a full stack MERN application within a week as part of a group in a software engineering bootcamp requires efficient coordination and effective use of agile Scrum methods. The team will start by conducting a thorough analysis of the project requirements and breaking them down into manageable tasks. Utilizing the Scrum framework, the team will create a product backlog, prioritize user stories, and define sprint goals. Daily stand-up meetings will be held to ensure open communication and provide progress updates. With a focus on iterative development, the team will work collaboratively, leveraging JavaScript, HTML, and CSS to build the frontend, while utilizing MongoDB, Express.js, and Node.js for the backend. Frequent retrospectives and sprint reviews will enable the team to evaluate progress, make necessary adjustments, and deliver a functional full stack MERN application that meets the desired objectives within the given timeframe."
       },
       tech: [
-        {text: "MongoDB", img: "https://placehold.co/600x400"},
-        {text: "Javascript", img: "https://placehold.co/600x400"},
-        {text: "React", img: "https://placehold.co/600x400"},
-        {text: "Redux", img: "https://placehold.co/600x400"},
-        {text: "Express.js", img: "https://placehold.co/600x400"},
-        {text: "Node.js", img: "https://placehold.co/600x400"}
+        {text: "MongoDB", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/mongo.png"},
+        {text: "Javascript", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/js.png"},
+        {text: "React", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/react.png"},
+        {text: "Redux", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/redux.png"},
+        {text: "Express.js", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/express.png"},
+        {text: "Node.js", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/node.png"}
       ],
       features: [
         {title: 'User Authentication', text: ''},
@@ -106,15 +106,15 @@ function App() {
         text: "Derailed was designed, created, and deployed during a two week sprint during App Academy's Bootcamp. To stay on task with such tight deadlines, I used Figma to create wireframe guides to follow MVP features, and Scrum methodologies manage time."
       },
       tech: [
-        {text: "Ruby", img: "https://placehold.co/600x400"},
-        {text: "Rails", img: "https://placehold.co/600x400"},
-        {text: "React", img: "https://placehold.co/600x400"},
-        {text: "Redux", img: "https://placehold.co/600x400"},
-        {text: "postgreSQL", img: "https://placehold.co/600x400"},
-        {text: "AWS", img: "https://placehold.co/600x400"},
-        {text: "JavaScript", img: "https://placehold.co/600x400"},
-        {text: "HTML", img: "https://placehold.co/600x400"},
-        {text: "CSS", img: "https://placehold.co/600x400"},
+        {text: "Ruby", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/rby.png"},
+        {text: "Rails", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/rails.png"},
+        {text: "React", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/react.png"},
+        {text: "Redux", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/redux.png"},
+        {text: "postgreSQL", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/postgres.png"},
+        {text: "AWS", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/aws.png"},
+        {text: "JavaScript", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/js.png"},
+        {text: "HTML", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/html.png"},
+        {text: "CSS", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/css.png"},
 
       ],
       features: [
@@ -141,10 +141,10 @@ function App() {
         text: "Planning and developing a full stack MERN application within a week as part of a group in a software engineering bootcamp requires efficient coordination and effective use of agile Scrum methods. The team will start by conducting a thorough analysis of the project requirements and breaking them down into manageable tasks. Utilizing the Scrum framework, the team will create a product backlog, prioritize user stories, and define sprint goals. Daily stand-up meetings will be held to ensure open communication and provide progress updates. With a focus on iterative development, the team will work collaboratively, leveraging JavaScript, HTML, and CSS to build the frontend, while utilizing MongoDB, Express.js, and Node.js for the backend. Frequent retrospectives and sprint reviews will enable the team to evaluate progress, make necessary adjustments, and deliver a functional full stack MERN application that meets the desired objectives within the given timeframe."
       },
       tech: [
-        {text: "Javascript", img: "https://placehold.co/600x400"},
+        {text: "Javascript", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/js.png"},
         {text: "HTML", img: "https://placehold.co/600x400"},
-        {text: "SCSS", img: "https://placehold.co/600x400"},
-        {text: "AWS", img: "https://placehold.co/600x400"},
+        {text: "SCSS", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/scss.png"},
+        {text: "AWS", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/aws.png"},
       ],
       features: [
         {title: 'Music and Background filters', text: ''},
