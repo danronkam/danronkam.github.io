@@ -2,11 +2,9 @@ import React, { useLayoutEffect } from "react";
 import './About.css'
 
 const About = () => {
-
     useLayoutEffect(() => {
         window.scrollTo(0,0);
     })
-
 
     return(
         <>
@@ -33,8 +31,8 @@ const About = () => {
                     <div className="introduction">
                         <h2 className="content-heading">Introduction</h2>
                             <p className="">Hey, I’m Dan Kam A Full Stack Software Enginner with a strong creative side who bridges the gaps between product, design, and engineering. I’m a recent graduate of App Acaemy and have previously worked for 5+ years in publishing and marketing.</p>
+                        
                         <h3>I'm passionate about:</h3>
-
                             <ul className="about-list">
                                 <li>📓  Forgotten Design Trends</li>
                                 <li>💮  Fragrances</li>
@@ -42,7 +40,6 @@ const About = () => {
 
                             </ul>
                         <h3>My Current Mission is to:</h3>
-
                             <ul className="about-list">
                                 <li>🛰️  Contribute to high qualifty open source projects</li>
                                 <li>💾  Expand my resource Libraries</li>
@@ -51,7 +48,6 @@ const About = () => {
                             </ul>
 
                         <h3>Outside of tech, I've been spending my time:</h3>
-
                             <ul className="about-list">
                                 <li>🚲  Cycling</li>
                                 <li>🛠️  Tinkering</li>
@@ -65,7 +61,6 @@ const About = () => {
                         <h2 className="content-heading">Uses</h2>
 
                         <h3>Preferred web stack:</h3>
-
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/react.png" width={'16px'} height={'16'} alt="React Logo"/> <a href="https://react.dev/" target="_blank" rel="noreferrer" > React </a> - UI Library </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/next.png" width={'16px'} height={'16'} alt="Next.js Logo"/> <a href="https://nextjs.org/" target="_blank" rel="noreferrer" > rel="noNext.js </a> - React Framework </li>
@@ -75,7 +70,6 @@ const About = () => {
                             </ul>
 
                         <h3>I also use:</h3>
-
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/ts.png" width={'16px'} height={'16'} alt="Typescript Logo"/> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" > TypeScript </a> - Typed Superset of JavaScript </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/p5.png" width={'16px'} height={'16'} alt="P5.js Logo"/> <a href="https://p5js.org/" target="_blank" rel="noreferrer" > p5.js </a> - Creative Coding JavaScript Library </li>
@@ -86,7 +80,6 @@ const About = () => {
                             </ul>
 
                         <h3>Tools:</h3>
-
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/figma.png" width={'16px'} height={'16'} alt="Figma Logo"/> <a href="https://www.figma.com/files/recent?fuid=1187876458297796354" target="_blank" rel="noreferrer" > Figma </a> - Interface Design </li>
                                 <li> 📓 <a href="https://www.1101.com/store/techo/en/" target="_blank" rel="noreferrer"> Hobonichi Techo </a> - Life Planner </li>
@@ -115,18 +108,16 @@ const About = () => {
 
                     <div className="Hardware">
                         <h2 className="content-heading">Hardware</h2>
-                        <h3>Office Setup:</h3>
 
+                        <h3>Office Setup:</h3>
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/aoc.png" width={'16px'} height={'16'} alt="AOC Logo"/> <a href="https://aoc.com/us/gaming/products/monitors/c24g1" target="_blank" rel="noreferrer"> AOC C24G1 </a> - Monitor </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/wacom.png" width={'16px'} height={'16'} alt="Wacom Logo"/> <a href="https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos" target="_blank" rel="noreferrer"> Wacom Intuos </a> - Drawing Tablet </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.haworth.com/" target="_blank" rel="noreferrer"> Haworth Improv S.E. </a> Office Chair </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/razer.png" width={'16px'} height={'16'} alt="Razer Logo"/> <a href="https://www.razer.com/gaming-mice/razer-deathadder-v2-pro" target="_blank" rel="noreferrer"> Razer Deathadder V2 Pro </a> Mouse </li>
-
                             </ul>
 
                         <h3>Custom Built Workstation:</h3>
-
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.amd.com/en/processors/ryzen-5000-series" target="_blank" rel="noreferrer"> AMG Ryzen 5 2600 </a> - CPU </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.amd.com/en/graphics/radeon-rx-graphics" target="_blank" rel="noreferrer"> RADEON RX 580 </a> - GPU </li>
@@ -135,42 +126,30 @@ const About = () => {
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/aorus.png" width={'16px'} height={'16'} alt="Aorus Logo"/> <a href="https://www.gigabyte.com/Motherboard/X470-AORUS-ULTRA-GAMING-rev-10#kf" target="_blank" rel="noreferrer"> Aorus X470 </a> - Motherboard </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://semiconductor.samsung.com/us/consumer-storage/internal-ssd/870evo/" target="_blank" rel="noreferrer"> Samsung 870 QVO </a> - SSD </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.thermaltakeusa.com/smart-700w.html" target="_blank" rel="noreferrer"> Thermaltake Smart 700 </a> - PSU </li>
-
-
                             </ul>
 
                         <h3>Custom Built Keyboard:</h3>
-                        
-
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.amazon.com/RK-ROYAL-KLUDGE-Mechanical-Connectable/dp/B08K8ZSB4C" target="_blank" rel="noreferrer"> Royal Kludge 100 </a> - Base </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/akko.png" width={'16px'} height={'16'} alt="Akko Logo"/> <a href="https://en.akkogear.com/product/akko-cs-jelly-black-switch-45pcs/" target="_blank" rel="noreferrer"> Akko Jelly Black </a> - Switches </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://ymdkey.com/products/137-mac-normcore-style-keycaps-dye-sub-xda-profile" target="_blank" rel="noreferrer"> YMDK Mac Normcore </a> - Keycaps </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://a.co/d/7J9rAL1" target="_blank" rel="noreferrer"> Foam Silencer Pad </a> - Sound Deadening Mod </li>
-
                             </ul>
 
                         <h3>Audio Gear:</h3>
-
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vmoda.png" width={'16px'} height={'16'} alt="Vmoda Logo"/> <a href="https://www.v-moda.com/us/en/products/crossfade-3-wireless" target="_blank" rel="noreferrer"> V-Moda Crossfade V3 </a> - Headphones </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/phillips.png" width={'16px'} height={'16'} alt="Phillips Logo"/> <a href="https://www.usa.philips.com/" target="_blank" rel="noreferrer"> Philips MC-100 </a> - Cassette / CD System </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt=""/> <a href="https://www.audio-technica.com/en-us/at-pl120" target="_blank" rel="noreferrer"> Audio Technia AT-PL120 </a> - Record Player </li>
-
                             </ul>
 
                         <h3>Camera Gear:</h3>
-
                             <ul className="about-list">
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vmoda.png" width={'16px'} height={'16'} alt="Sony Logo"/> <a href="https://www.v-moda.com/us/en/products/crossfade-3-wireless" target="_blank" rel="noreferrer"> Sony A7 </a> - Camera  </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vmoda.png" width={'16px'} height={'16'} alt="Vmoda Logo"/> <a href="https://www.v-moda.com/us/en/products/crossfade-3-wireless" target="_blank" rel="noreferrer"> Urth Lens Mount Adapter </a> Lens Adaptor for Canon FD Lens  </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vmoda.png" width={'16px'} height={'16'} alt="Vmoda Logo"/> <a href="https://www.v-moda.com/us/en/products/crossfade-3-wireless" target="_blank" rel="noreferrer"> Casio EX-S2 </a> - Digi-Camera  </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/vmoda.png" width={'16px'} height={'16'} alt="Vmoda Logo"/> <a href="https://www.v-moda.com/us/en/products/crossfade-3-wireless" target="_blank" rel="noreferrer"> Olympus Stylus 120 </a> - 35mm Camera  </li>
-
-
-                            </ul>
-                        
-                        <hr />
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt="Sony Logo"/> <a href="https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7m4-b" target="_blank" rel="noreferrer"> Sony A7 </a> - Camera  </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt="Vmoda Logo"/> <a href="https://a.co/d/g0nbNUN" target="_blank" rel="noreferrer"> Urth Lens Mount Adapter </a> Lens Adaptor for Canon FD Lens  </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt="Vmoda Logo"/> <a href="https://www.cnet.com/reviews/casio-exilim-ex-s2-review/" target="_blank" rel="noreferrer"> Casio EX-S2 </a> - Digi-Camera  </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/external.png" width={'16px'} height={'16'} alt="Vmoda Logo"/> <a href="https://a.co/d/19q9Cge" target="_blank" rel="noreferrer"> Olympus Stylus 120 </a> - 35mm Camera  </li>
+                            </ul>                        
                     </div>
                                     
 
