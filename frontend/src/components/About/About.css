@@ -83,8 +83,8 @@ li > a:hover {
 
 @media screen and (max-width: 1400px ){
     .content-container{
-        margin-top: 10vh;
-        padding-top: 25vh;
+        margin-top: 15vh;
+        padding-top: 40vh;
         margin-right: 10vw;
         margin-left: 0;
         width: 100vw;
@@ -95,6 +95,10 @@ li > a:hover {
         min-height: 100%;
         margin-left: 0;
         padding-bottom: 5vh;
+    }
+
+    .content-body{
+        width: 90vw;
     }
 }
 
