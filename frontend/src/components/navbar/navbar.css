@@ -138,3 +138,13 @@ a{
     /* color: #e8e9ed;
     transition-duration: .5s; */
 }
+
+@media screen and (max-width: 950px) {
+    .navbar-left{
+        margin-left: 0;
+    }
+
+    .navbar-left > ul {
+        padding-inline-start: 0;
+    }
+}
