@@ -89,7 +89,9 @@ function App() {
         {title: 'Confessions - Creation and Display', text: ''},
         {title: 'Edit Controller', text: ''},
         {title: 'Backend Saftey', text: ''},
-      ]
+      ],
+      live: 'https://heard--app.herokuapp.com/home',
+      git: 'https://github.com/danronkam/Heard'
     },
     {
       id: 2,
@@ -124,7 +126,9 @@ function App() {
         {title: 'Search - by Query and Filters', text: ''},
         {title: 'User Editing and Display', text: ''},
         {title: 'Comment Functionality', text: ''},
-      ]
+      ],
+      live: 'https://dk-derailed.herokuapp.com/',
+      git: 'https://github.com/danronkam/derailed'
     }, 
     {
       id: 3,
@@ -150,8 +154,9 @@ function App() {
         {title: 'Music and Background filters', text: ''},
         {title: 'Hotkey Controller', text: ''},
         {title: 'Confessions - Creation and Display', text: ''},
-
-      ]
+      ],
+      live: 'https://doafavorfor.me/DKFM247/',
+      git: 'https://github.com/danronkam/DKFM247' 
     }
   ]
 
