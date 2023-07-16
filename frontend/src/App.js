@@ -103,7 +103,7 @@ function App() {
       planning: {
         layoutImg: 'https://placehold.co/600x400',
         flowImg: 'https://placehold.co/600x400',
-        text: "Planning and developing a full stack MERN application within a week as part of a group in a software engineering bootcamp requires efficient coordination and effective use of agile Scrum methods. The team will start by conducting a thorough analysis of the project requirements and breaking them down into manageable tasks. Utilizing the Scrum framework, the team will create a product backlog, prioritize user stories, and define sprint goals. Daily stand-up meetings will be held to ensure open communication and provide progress updates. With a focus on iterative development, the team will work collaboratively, leveraging JavaScript, HTML, and CSS to build the frontend, while utilizing MongoDB, Express.js, and Node.js for the backend. Frequent retrospectives and sprint reviews will enable the team to evaluate progress, make necessary adjustments, and deliver a functional full stack MERN application that meets the desired objectives within the given timeframe."
+        text: "Derailed was designed, created, and deployed during a two week sprint during App Academy's Bootcamp. To stay on task with such tight deadlines, I used Figma to create wireframe guides to follow MVP features, and Scrum methodologies manage time."
       },
       tech: [
         {text: "Ruby", img: "https://placehold.co/600x400"},
@@ -132,7 +132,7 @@ function App() {
       heading: 'DK-FM',
       type: 'Pirate Radio',
       intro: {
-        body: "Heard is an application that aims to foster a safe, anonymous community of secret sharers and secret bearers. Users can choose to share a confession or start a message thread about a specific topic. The application design takes a mobile-focused approach as most of the interactions will likely take place sporadically throughout the day on an accessible device.",
+        body: "DK-FM is a music player that lets users select a genre and mood which plays a continuous curated set of songs and accompanying visuals. While many music players focus on the users and the playlists they make, DK-FM is meant to be set up and forgotten while users focus on other more important things in their lives. Although the playlist won't be user made, they will still have the ability to cycle through the songs and backgrounds in order to create their ideal set up. It’s background music that won't distract you but also won’t put you to sleep.",
         img: "https://placehold.co/600x400"
       },
       planning: {
@@ -196,7 +196,7 @@ function App() {
         </Route>
 
         <Route exact path="/project/:title">
-          <ProjectPage projectData={projects} />
+          <ProjectPage   projectData={projects} />
         </Route>
 
 
