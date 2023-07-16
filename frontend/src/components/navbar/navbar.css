@@ -147,4 +147,8 @@ a{
     .navbar-left > ul {
         padding-inline-start: 0;
     }
+
+    .navbar-container{
+        margin-left: 10vh;
+    }
 }
