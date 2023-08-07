@@ -2,9 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Tldr.css"
 import ProjectsIndex from "../ProjectsIndex";
+import { useLayoutEffect } from "react";
 
 
 const TLDR = () => {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0,0)
+    })
 
     
     const emailClick = (e) =>{

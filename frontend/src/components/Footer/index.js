@@ -46,8 +46,8 @@ const Footer = () => {
                 </div>
 
                 <div className="right">
-                    <Link to={'/blog'}> Blog </Link>
-                    <Link to={'/about'}> About </Link>
+                    <Link to={'/'}> Home </Link>
+                    <Link to={'/TLDR'}> TLDR </Link>
                 </div>
 
             </div>
