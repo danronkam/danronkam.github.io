@@ -84,11 +84,11 @@ function App() {
         {text: "Node.js", img: "https://derailed-seed.s3.us-west-1.amazonaws.com/node.png"}
       ],
       features: [
-        {title: 'User Authentication', text: ''},
-        {title: 'Message Thread Feature', text: ''},
-        {title: 'Confessions - Creation and Display', text: ''},
-        {title: 'Edit Controller', text: ''},
-        {title: 'Backend Saftey', text: ''},
+        {title: 'User Authentication', text: 'Heard features a fully functional user authentication system, complete with a demo user login and error handling for incomplete entries. Upon successful login, the user will be redirected to a home page where the user can choose to participate in the application as a listener or create confessions or message threads.'},
+        {title: 'Message Thread Feature', text: 'Users can create topics that open message threads, or proceed directly to an index of topics. From a side menu, they can edit and/or delete the threads that they created. Within a chat, users are anonymized. New messages are fetched at regular short intervals from the server. In order to create messages then, the frontend must send in not only the content of the new message, but the topicId of the topic the message is affiliated with. Authentication middleware grabs the userId from the JSON Web Token (JWT). It is then populated with its topicId before the topic is found and updated by appending the message to its list of messages using findByIdAndUpdate(). Updating the titles title and / or mood or deleting it is simpler, involving mainly the findById and findByIdAndUpdate methods, since a new instance of a Message object does not have to be created.'},
+        {title: 'Confessions - Creation and Display', text: 'On Heard, users can anonymously share their deepest secrets with our confessions tab, where theyre sent to our MongoDatabase and stored until randomly selected to be seen by another user. Once seen confessions are then deleted, never to be seen again. If a user ever regrets a confession, they can be deleted on their profile where only they can see it.'},
+        {title: 'Edit Controller', text: 'This controller was designed to allow only the user of the post or an admin to edit the title, mood, etc. However, ANY user can edit the flagged field of any document. This was fun to think about and adds a great safety feature for the admin users who can see all posts and comments and delete or un-flag them upon review. It also provides safety for the user knowing no-one can edit confessions by them or edit their topic threads. Similar safety features are in place for all requests that involve editing or deleting a users content. The team felt that an admin user feature were important when creating an Anonymous platform so as to be able to hold those who chose to share irresponsibly accountable. Fun fun to code :)'},
+        {title: 'Backend Saftey', text: 'protection for user from others editing their content ablility to flag others content when innapropriate admin abilities to edit and delete any users content'},
       ],
       live: 'https://heard--app.herokuapp.com/home',
       git: 'https://github.com/danronkam/Heard'
