@@ -30,8 +30,8 @@ function Navbar() {
               </button>
             </li>
             <li className='nav-link '> 
-            <button className='nav-button' value={'/tldr'} onClick={(e) => handleClick(e.target.value)}>
-                <i className="fas fa-user" /> TLDR
+            <button className='nav-button' value={'/work'} onClick={(e) => handleClick(e.target.value)}>
+                <i className="fas fa-user" /> Works
               </button>
             </li>
             <li className='nav-link '> 

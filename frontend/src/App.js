@@ -186,8 +186,8 @@ function App() {
           <Guestbook />
         </Route>
 
-        <Route exact path='/blog'>
-          <Blog blogPosts={blog}/>
+        <Route exact path='/work'>
+          <Blog />
         </Route>
 
         <Route exact path='/blog/:slug' element={<post/>}>
