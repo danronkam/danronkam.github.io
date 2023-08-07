@@ -64,7 +64,7 @@ function App() {
       id: 1,
       title: ':heard',
       heading: 'Heard',
-      headImg: '',
+      headImg: 'https://derailed-seed.s3.us-west-1.amazonaws.com/bobbing-273.gif',
       type: 'Wellness Web Application',
       intro: {
         body: "Heard is an application that aims to foster a safe, anonymous community of secret sharers and secret bearers. Users can choose to share a confession or start a message thread about a specific topic. The application design takes a mobile-focused approach as most of the interactions will likely take place sporadically throughout the day on an accessible device.",
@@ -97,7 +97,7 @@ function App() {
       id: 2,
       title: ':derailed',
       heading: 'Derailed',
-      headImg: 'https://derailed-seed.s3.us-west-1.amazonaws.com/derailed_gif.gif',
+      headImg: 'https://derailed-seed.s3.us-west-1.amazonaws.com/ezgif.com-gif-maker.gif',
       type: 'Menswear Ecommerce Platform',
       intro: {
         body: "Derailed is a footwear focused clone of Grailed. On the site, users can search through listings to find their grail shoe, hopefully for a price that hasn't gone too off the rails. Once logged in users can create listings of their own, and leave offers on others items for sale.",

@@ -1,12 +1,15 @@
 import { useLayoutEffect } from "react"
+import './ProjectShow.css'
 
 const ProjectShow = (projectData) => {
     console.log(projectData)
-    const project = projectData.projectData
-    const tech = project.tech
-    const intro = project.intro
-    const planning = project.planning
-    const features = project.features
+    const project = projectData.projectData;
+    const tech = project.tech;
+    const intro = project.intro;
+    const planning = project.planning;
+    const features = project.features;
+    const headerImg = project.headImg;
+    console.log(headerImg)
     console.log(typeof project.tech)
     const title = projectData.projectData.title;
     console.log(title, 'yee')
@@ -19,6 +22,11 @@ const ProjectShow = (projectData) => {
     return (
         <>
         <div className="content-container">
+
+            <div className="content-header" >
+                <img src={headerImg} alt="header img" className="pj-headerImg"/>
+            </div>
+            
             <div className="content-left">
 
                 <h1 className="content-title">{project.heading}</h1>
@@ -50,7 +58,7 @@ const ProjectShow = (projectData) => {
                     <div className="introduction">
                         <h2 className="content-heading">Introduction</h2>
                         <p>{intro.body}</p>
-                        <img src={`${intro.img}`} />
+                        <img src={`${intro.img}`} alt="intro img"/>
                     </div>
 
                     < hr />
