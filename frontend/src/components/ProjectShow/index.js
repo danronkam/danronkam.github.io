@@ -26,7 +26,7 @@ const ProjectShow = (projectData) => {
             <div className="content-header" >
                 <img src={headerImg} alt="header img" className="pj-headerImg"/>
             </div>
-            
+
             <div className="content-left">
 
                 <h1 className="content-title">{project.heading}</h1>
@@ -36,7 +36,7 @@ const ProjectShow = (projectData) => {
                         let img= techData.img
                         console.log(txt)
                         return <>
-                          <img src={img} width={'16px'} height={'16px'} alt="Technology Logo" className="tech-16"/> {txt} 
+                          <img src={img} margin-left={'8px'} width={'16px'} height={'16px'} alt="Technology Logo" className="tech-16"/> {txt} 
                         </>      
                     })}
                 </p>
