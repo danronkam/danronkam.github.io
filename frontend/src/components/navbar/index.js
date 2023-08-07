@@ -25,11 +25,6 @@ function Navbar() {
         <div className='nav-link-container'>
           <ul >
             <li className='nav-link '> 
-              <button className='nav-button' value={'/blog'} onClick={(e) => handleClick(e.target.value)}>
-                <i className="fa fa-pen-fancy"/> Blog
-              </button>
-            </li>
-            <li className='nav-link '> 
             <button className='nav-button' value={'/about'} onClick={(e) => handleClick(e.target.value)}>
                 <i className="fas fa-user " /> About
               </button>
@@ -51,7 +46,7 @@ function Navbar() {
             </li>
             <li className='nav-link '> 
             <button className='nav-button' value={'/substack'} onClick={()=> window.open("https://designdk.substack.com", "_blank")} >
-                <i className="icon fa-solid fa-blog"/>
+                <img src='https://derailed-seed.s3.us-west-1.amazonaws.com/substack.png' alt='substack'/>
               </button>
             </li>
             <li className='nav-link '> 
