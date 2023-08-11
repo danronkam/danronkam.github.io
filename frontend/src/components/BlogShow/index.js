@@ -9,7 +9,7 @@ const BlogShow = () => {
     // console.log(slug)
     const location = useLocation();
     const blog = location.state?.blog;
-    console.log(blog)
+    // console.log(blog)
     const headings = blog.post.headings;
     const sections = blog.post.sections;
     const date = blog.post.publishedAt;
@@ -43,7 +43,7 @@ const BlogShow = () => {
                 <div className="blogpost-body">
                     {headings.map(heading => {
                         let body = sections[counter]
-                        console.log(body.text)
+                        // console.log(body.text)
                         counter++
 
 

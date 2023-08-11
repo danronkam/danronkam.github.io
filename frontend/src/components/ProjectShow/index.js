@@ -2,17 +2,17 @@ import { useLayoutEffect } from "react"
 import './ProjectShow.css'
 
 const ProjectShow = (projectData) => {
-    console.log(projectData)
+    // console.log(projectData)
     const project = projectData.projectData;
     const tech = project.tech;
     const intro = project.intro;
     const planning = project.planning;
     const features = project.features;
     const headerImg = project.headImg;
-    console.log(headerImg)
-    console.log(typeof project.tech)
+    // console.log(headerImg)
+    // console.log(typeof project.tech)
     const title = projectData.projectData.title;
-    console.log(title, 'yee')
+    // console.log(title, 'yee')
 
 
     useLayoutEffect(() => {
@@ -34,7 +34,7 @@ const ProjectShow = (projectData) => {
                     {tech.map(techData => {
                         let txt = techData.text
                         let img= techData.img
-                        console.log(txt)
+                        // console.log(txt)
                         return <>
                           <img src={img}  width={'16px'} height={'16px'} alt="Technology Logo" className="tech-16"/> {txt} 
                         </>      

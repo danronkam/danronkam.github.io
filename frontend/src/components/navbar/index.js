@@ -9,7 +9,7 @@ function Navbar() {
 
   const handleClick = (e) => {
     // e.preventDefault();
-    console.log(e)
+    // console.log(e)
     history.push(e)
   }
 

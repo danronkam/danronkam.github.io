@@ -10,7 +10,7 @@ const HighlightsItem = (highlight) => {
     const date = highlight.highlight.date;
     const blurb = highlight.highlight.blurb;
     const link = highlight.highlight.link;
-    console.log(link)
+    // console.log(link)
 
 
     return (
