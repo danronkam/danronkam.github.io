@@ -190,10 +190,6 @@ function App() {
           <Blog />
         </Route>
 
-        <Route exact path='/blog/:slug' element={<post/>}>
-          <BlogShow />
-        </Route>
-
         <Route exact path="/contact">
           <Contact />
         </Route>
