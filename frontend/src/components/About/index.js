@@ -8,7 +8,7 @@ const About = () => {
 
     return(
         <>
-        <div className="content-container">
+        <div className="content-container" id="about-container">
 
             <div className="content-left">
                 <h1 className="content-title">About Dan Kam</h1>
@@ -63,7 +63,7 @@ const About = () => {
                         <h3>Preferred web stack:</h3>
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/react.png" width={'16px'} height={'16'} alt="React Logo"/> <a href="https://react.dev/" target="_blank" rel="noreferrer" > React </a> - UI Library </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/next.png" width={'16px'} height={'16'} alt="Next.js Logo"/> <a href="https://nextjs.org/" target="_blank" rel="noreferrer" > rel="noNext.js </a> - React Framework </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/next.png" width={'16px'} height={'16'} alt="Next.js Logo"/> <a href="https://nextjs.org/" target="_blank" rel="noreferrer" > Next.js </a> - React Framework </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/mongo.png" width={'16px'} height={'16'} alt="Mongo DB Logo"/> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer" > MongoDB </a> - NoSQL Database </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/express.png" width={'16px'} height={'16'} alt="Express.js Logo"/> <a href="https://expressjs.com/" target="_blank" rel="noreferrer" > Express.js </a> - Backend Framework</li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/node.png" width={'16px'} height={'16'} alt="Node.js Logo"/> <a href="https://nodejs.org/en" target="_blank" rel="noreferrer" > Node.js </a> - JavaScript Runtime </li>
