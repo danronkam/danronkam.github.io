@@ -6,7 +6,7 @@
     cursor: pointer;
     border-radius: 1vw;
     padding: 1vw;
-
+    min-height: 40vh;
 }
 
 .type{

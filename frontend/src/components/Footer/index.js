@@ -31,7 +31,7 @@ const Footer = () => {
                         <p>
                             Built with: 
                                 <a href="https://react.dev/" target="_blank" rel="noreferrer">
-                                    <i class="fa-brands fa-react"></i>
+                                    <i className="fa-brands fa-react"></i>
                                     React 
                                 </a>
                                 <a href="https://hygraph.com/" target="_blank" rel="noreferrer">

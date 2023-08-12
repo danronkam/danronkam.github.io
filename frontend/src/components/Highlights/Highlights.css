@@ -16,7 +16,10 @@
         font-size:40px;
         font-family:sans-serif;
     }
-  
+}
+
+#substack-highlight{
+    color: white;
 }
 
 @media screen and (max-width: 960px) {
