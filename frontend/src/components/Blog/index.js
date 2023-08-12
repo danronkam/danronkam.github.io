@@ -36,15 +36,6 @@ function Blog({blogPosts}) {
         }
     ]
 
-    const blogLatest =  {
-        id: 4,
-        title: "Blog",
-        type: "Article", 
-        date: "2023",
-        blurb: "Read my rantings rawr XD",
-        link:  "https://example.zendesk.com/hc/en-us/articles/123456789-Privacy-Policies",
-
-    }
 
 
     useLayoutEffect(() => {
@@ -61,18 +52,6 @@ function Blog({blogPosts}) {
                 {worksData.map(work => {
                     return <BlogIndexItem key={work.id} post={work} />
                 })}
-
-                <div className="blog-item-container">
-                    <h1 className="blog-title">{blogLatest.title} <b>{blogLatest.date}</b></h1>             
-                    <p className="blog-description">{blogLatest.blurb}</p>
-                    {/* <img src={`${coverSrc}`} alt=""></img> */}
-                    <br />
-                    <a 
-                        target="_blank"
-                        href={`${blogLatest.link}`}
-                        className="blog-link"
-                    >Read More</a>
-                </div>
 
             </div>          
         </div>

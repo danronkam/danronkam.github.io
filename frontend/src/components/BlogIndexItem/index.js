@@ -22,16 +22,23 @@ const BlogIndexItem = (post) => {
     return(
         <>
         <div className="blog-item-container">
-            <h1 className="blog-title">{title} <b>{date}</b></h1>             
-            <p className="blog-description">{description}</p>
-            {/* <img src={`${coverSrc}`} alt=""></img> */}
-            <br />
-            <Link 
+            <div className="highlight-head">
+                <p> <b className="type"> Project </b> <b className="date">{date}</b></p>
+                <h1>{title}</h1>
+            </div>
+            <div className="highlight-body">
+                <p>{description}</p>
+            </div>
+            <div className="highlight-link">
+                <Link 
                 to={{
                     pathname: `${link}`, 
                 }}
                 className="blog-link"
             >Read More</Link>
+            </div>
+            <br />
+            
         </div>
         
         </>
