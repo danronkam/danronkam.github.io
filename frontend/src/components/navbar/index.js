@@ -46,7 +46,7 @@ function Navbar() {
             </li>
             <li className='nav-link '> 
             <button className='nav-button' value={'/substack'} onClick={()=> window.open("https://designdk.substack.com", "_blank")} >
-                <img src='https://derailed-seed.s3.us-west-1.amazonaws.com/substack.png' alt='substack'/>
+                <img src='https://derailed-seed.s3.us-west-1.amazonaws.com/ss_purple.png' alt='substack'/>
               </button>
             </li>
             <li className='nav-link '> 
