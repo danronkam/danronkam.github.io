@@ -62,7 +62,9 @@ li > a {
     color: #64ffea;
 }
 
-li:hover{}
+li:hover{
+    
+}
 
 li > a:hover {
     color: #64ffea;
@@ -87,7 +89,6 @@ li > a:hover {
 @media screen and (max-width: 1400px ){
     .content-container{
         margin-top: 15vh;
-        padding-top: 40vh;
         margin-right: 10vw;
         margin-left: 0;
         width: 100vw;

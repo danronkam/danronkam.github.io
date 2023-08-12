@@ -13,3 +13,12 @@
 .tech-16{
     margin-left: 8px;
 }
+
+@media screen and (max-width: 1400px ){
+    .pj-headerImg{
+
+    }
+    .content-header{
+        width: 100vw;
+    }
+}
