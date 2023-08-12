@@ -26,10 +26,10 @@ const BlogIndexItem = (post) => {
                 <p> <b className="type"> Project </b> <b className="date">{date}</b></p>
                 <h1>{title}</h1>
             </div>
-            <div className="highlight-body">
+            <div className="highlight-body" >
                 <p>{description}</p>
             </div>
-            <div className="highlight-link">
+            <div className="highlight-link" id="blog-link">
                 <Link 
                 to={{
                     pathname: `${link}`, 

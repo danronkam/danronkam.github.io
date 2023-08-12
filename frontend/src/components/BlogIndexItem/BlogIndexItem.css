@@ -3,10 +3,15 @@
     border-radius: 25px;
     background-color: #0d0e11;
     width: 50vw;
-    float: right;
-    margin-bottom: 5vh;
+    margin-bottom: 2.5vh;
+    padding: 1.5vh;
+    text-align: left;
 }
 
 .blog-link{
     color: #e8e9ed;
+}
+
+#blog-link  {
+    text-align: center;
 }
