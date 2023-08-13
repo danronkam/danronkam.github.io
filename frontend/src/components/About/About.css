@@ -2,6 +2,11 @@
     padding-top: 40vh;
 }
 
+.about-img{
+    height: 16px;
+    width: 16px;
+}
+
 .content-container{
     margin-top: 15vh;
     margin-right: 10vw;
