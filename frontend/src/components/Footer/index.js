@@ -23,21 +23,23 @@ const Footer = () => {
                                     Github
                                 </a>  
                                 <a href="https://designdk.substack.com/" target="_blank" rel="noreferrer" className="social-links">
-                                    <i className="fab fa-linkedin footer-icon"/>
+                                    <img src='https://derailed-seed.s3.us-west-1.amazonaws.com/substack.png' alt='substack'/>                                    
                                     Substack
                                 </a>
                         </p>
                         <br />
-                        <p>
+                        <p className="social-container"> 
                             Built with: 
-                                <a href="https://react.dev/" target="_blank" rel="noreferrer">
-                                    <i className="fa-brands fa-react"></i>
+                                <a href="https://react.dev/" target="_blank" rel="noreferrer" className="footer-links">
+                                    <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/react.png"  alt="React Logo" className="footer-icon"/> 
                                     React 
                                 </a>
-                                <a href="https://hygraph.com/" target="_blank" rel="noreferrer">
+                                <a href="https://hygraph.com/" target="_blank" rel="noreferrer" className="footer-links">
+                                    <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/hygraph.png" alt="Hygraph Logo" className="footer-icon"/>
                                     Hygraph
                                 </a>
-                                <a href="https://p5js.org/" target="_blank" rel="noreferrer">
+                                <a href="https://p5js.org/" target="_blank" rel="noreferrer" className="footer-links">
+                                    <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/p5.png" alt="P5.js Logo" className="footer-icon"/> 
                                     P5.JS
                                 </a>
                         </p>

@@ -1,4 +1,4 @@
-
+  
 .footer-container {
     display: flex;
     justify-content: space-between;
@@ -27,3 +27,8 @@
 }
 
 
+.footer-links{
+    color: white;
+    width: 16px; 
+    height: 16px;
+}
