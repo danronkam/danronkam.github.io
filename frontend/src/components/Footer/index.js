@@ -48,8 +48,8 @@ const Footer = () => {
                 </div>
 
                 <div className="right">
-                    <Link to={'/'}> Home </Link>
-                    <Link to={'/TLDR'}> TLDR </Link>
+                    <Link to={'/'} className="footer-nav"> Home </Link>
+                    <Link to={'/TLDR'} className="footer-nav"> TLDR </Link>
                 </div>
 
             </div>
