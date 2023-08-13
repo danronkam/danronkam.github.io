@@ -35,7 +35,7 @@ const Footer = () => {
                                     React 
                                 </a>
                                 <a href="https://hygraph.com/" target="_blank" rel="noreferrer" className="footer-links">
-                                    <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/hygraph.png" alt="Hygraph Logo" className="footer-icon"/>
+                                    <img src="https://derailed-seed.s3.us-west-1.amazonaws.com/hygraph_inv.png" alt="Hygraph Logo" className="footer-icon"/>
                                     Hygraph
                                 </a>
                                 <a href="https://p5js.org/" target="_blank" rel="noreferrer" className="footer-links">
