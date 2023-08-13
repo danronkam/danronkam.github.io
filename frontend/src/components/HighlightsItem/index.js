@@ -10,12 +10,10 @@ const HighlightsItem = (highlight) => {
     const date = highlight.highlight.date;
     const blurb = highlight.highlight.blurb;
     const link = highlight.highlight.link;
-    // console.log(link)
-
 
     return (
         <>
-            <div className="highlight-container" onClick={() => history.push(`${link}`)}>
+            <div className="highlight-container highlightHover" onClick={() => history.push(`${link}`)}>
                 <div className="highlight-head">
                     <p> <b className="type"> {type} </b> <b className="date">   {date} </b></p>
                     <h1>{title}</h1>

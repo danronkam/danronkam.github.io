@@ -1,9 +1,10 @@
 import React from "react";
 import "./BlogIndexItem.css"
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 
 const BlogIndexItem = (post) => {
+    const history = useHistory();
     let title;
     let description;
     let date;
@@ -21,25 +22,20 @@ const BlogIndexItem = (post) => {
 
     return(
         <>
-        <div className="blog-item-container">
-            <div className="highlight-head">
-                <p> <b className="type"> Project </b> <b className="date">{date}</b></p>
-                <h1>{title}</h1>
+            <div className="blog-item-container highlightHover" onClick={() => history.push(`${link}`)}>
+                <div className="highlight-head">
+                    <p> <b className="type"> Project </b> <b className="date">{date}</b></p>
+                    <h1>{title}</h1>
+                </div>
+                <div className="highlight-body" >
+                    <p>{description}</p>
+                </div>
+                <div className="highlight-link" >
+                    <p className="highlight-link">Read More</p>
+                </div>
+                <br />
+                
             </div>
-            <div className="highlight-body" >
-                <p>{description}</p>
-            </div>
-            <div className="highlight-link" id="blog-link">
-                <Link 
-                to={{
-                    pathname: `${link}`, 
-                }}
-                className="blog-link"
-            >Read More</Link>
-            </div>
-            <br />
-            
-        </div>
         
         </>
     )

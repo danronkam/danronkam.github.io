@@ -26,8 +26,9 @@
 }
 
 
-.highlight-container:hover{
+.highlightHover:hover{
     background-color: #1f1f2e;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 960px) {
