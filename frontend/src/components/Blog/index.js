@@ -51,6 +51,8 @@ function Blog({blogPosts}) {
             <div className="toc">
             </div>
 
+            <h1 className="content-title works-heading"> Selected Works </h1>
+
             <div className="post-containter">
                 {worksData.map(work => {
                     return <BlogIndexItem key={work.id} post={work} />
