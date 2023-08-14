@@ -91,8 +91,8 @@ function App() {
         {title: 'Backend Saftey', text: 'protection for user from others editing their content ablility to flag others content when innapropriate admin abilities to edit and delete any users content'},
       ],
       links: {
-        live: "https://doafavorfor.me/DKFM247/",
-        code: "https://github.com/danronkam/DKFM247"
+        live: "https://heard--app.herokuapp.com/home",
+        code: "https://github.com/danronkam/Heard"
       }
     },
     {
@@ -162,8 +162,8 @@ function App() {
         {title: 'Confessions - Creation and Display', text: ''},
       ],
       links: {
-        live: "https://heard--app.herokuapp.com/home",
-        code: "https://github.com/danronkam/Heard"
+        live: "https://doafavorfor.me/DKFM247/",
+        code: "https://github.com/danronkam/DKFM247"
       }
     }
   ]

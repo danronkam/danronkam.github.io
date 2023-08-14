@@ -5,17 +5,30 @@
 
 .button{
     display: inline-block;
-    padding: 2.5vh 5vw;
+    padding: 1vh 2vw;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
-    background-color: #7aa8b7;
+    color: #a0a0c0;
+    background-color: rgb(77, 77, 77);
     border-radius: 6px;
     outline: none;
-    transition: 0.3s;
-    width: 5vw;
+    transition: 0.5s;
     margin-right: 1vw;
     margin-bottom: 1vh;
+    border: 1px solid rgb(77, 77, 77);
+}
+
+.button:hover{
+    color: #e8e9ed;
+    cursor: pointer;
+    /* transition-duration: .5s; */
+    /* border-radius: 10px; */
+    border-color: #e8e9ed;
+}
+
+#email-button:hover{
+    color: yellow;
+    border-color: yellow;
 }
 
 .sticky-top{
