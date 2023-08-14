@@ -1,16 +1,12 @@
-import React, { useEffect, useState } from "react";
 import { Switch, Route } from "react-router-dom";
 import { Redirect } from "react-router-dom";
-import {request} from 'graphql-request'
 
 import TLDR from "./components/Tldr";
 import Homepage from "./components/homepage";
-import Guestbook from "./components/Guestbook";
 import Navbar from "./components/navbar";
 import Blog from "./components/Blog";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
 import ProjectPage from "./components/ProjectPage";
 import ProjectsIndex from "./components/ProjectsIndex";
 
@@ -155,17 +151,11 @@ function App() {
           <TLDR />
         </Route>
 
-        <Route exact path='/guestbook'>
-          <Guestbook />
-        </Route>
-
         <Route exact path='/work'>
           <Blog />
         </Route>
 
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
+
 
         <Route exact path="/projects">
           <ProjectsIndex />

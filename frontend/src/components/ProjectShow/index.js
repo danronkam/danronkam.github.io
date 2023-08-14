@@ -11,7 +11,6 @@ const ProjectShow = (projectData) => {
     const features = project.features;
     const headerImg = project.headImg;
     const links = project.links;
-    const title = projectData.projectData.title;
 
 
     useLayoutEffect(() => {
@@ -71,8 +70,8 @@ const ProjectShow = (projectData) => {
 
                     <div className="planning" >
                         <h2 className="content-heading">Planning Images</h2>
-                        <img src={`${planning.flowImg}`} className="pj-img"/>
-                        <img src={`${planning.layoutImg}`} className="pj-img"/>
+                        <img src={`${planning.flowImg}`} alt="project flowchart"className="pj-img"/>
+                        <img src={`${planning.layoutImg}`} alt="early project desin" className="pj-img"/>
                     </div>
 
                     <hr />

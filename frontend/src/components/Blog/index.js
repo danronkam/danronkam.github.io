@@ -1,12 +1,9 @@
 import React, { useLayoutEffect } from "react";
 import BlogIndexItem from "../BlogIndexItem";
 import "./Blog.css"
-import { useHistory } from "react-router-dom";
 
 
-function Blog({blogPosts}) {
-    const history = useHistory();
-
+function Blog() {
     const worksData = [
         {
             id: 1,
@@ -34,10 +31,7 @@ function Blog({blogPosts}) {
             blurb: "DKFM is a captivating web application that seamlessly blends music and visuals to create an immersive experience tailored to the user's mood. Serving as both a music player and visualizer, DKFM curates a playlist that dynamically matches the ambiance desired by the user. Crafted using JavaScript, HTML, and CSS, this application provides a seamless and intuitive interface for users to explore an array of audio-visual combinations, enhancing their listening experience with synchronized visuals that perfectly complement the music.",
             link: "/project/:dkfm"
         },
-            
-
-        
-    ]
+    ];
 
 
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./BlogIndexItem.css"
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 
 const BlogIndexItem = (post) => {
@@ -8,14 +8,12 @@ const BlogIndexItem = (post) => {
     let title;
     let description;
     let date;
-    let coverSrc;
     let link;
 
     if(post) {
         title = post.post.title;
         description = post.post.blurb;
         date = post.post.date;
-        // coverSrc = post.post.coverPhoto.url
         link = post.post.link;
     }
     

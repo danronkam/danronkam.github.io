@@ -12,7 +12,6 @@ function Navbar() {
   };
 
   const handleEmail = (e) => {
-    // e.preventDefault()
     window.open('mailto:danronkam@gmail.com')
   }
 
