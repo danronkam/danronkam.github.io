@@ -34,8 +34,8 @@ const BlogIndexItem = (post) => {
                     <p className="highlight-link">Read More</p>
                 </div>
                 <br />
-                
             </div>
+            
         
         </>
     )

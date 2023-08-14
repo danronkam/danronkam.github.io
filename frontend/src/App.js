@@ -90,8 +90,10 @@ function App() {
         {title: 'Edit Controller', text: 'This controller was designed to allow only the user of the post or an admin to edit the title, mood, etc. However, ANY user can edit the flagged field of any document. This was fun to think about and adds a great safety feature for the admin users who can see all posts and comments and delete or un-flag them upon review. It also provides safety for the user knowing no-one can edit confessions by them or edit their topic threads. Similar safety features are in place for all requests that involve editing or deleting a users content. The team felt that an admin user feature were important when creating an Anonymous platform so as to be able to hold those who chose to share irresponsibly accountable. Fun fun to code :)'},
         {title: 'Backend Saftey', text: 'protection for user from others editing their content ablility to flag others content when innapropriate admin abilities to edit and delete any users content'},
       ],
-      live: 'https://heard--app.herokuapp.com/home',
-      git: 'https://github.com/danronkam/Heard'
+      links: {
+        live: "https://doafavorfor.me/DKFM247/",
+        code: "https://github.com/danronkam/DKFM247"
+      }
     },
     {
       id: 2,
@@ -128,8 +130,10 @@ function App() {
         {title: 'User Editing and Display', text: ''},
         {title: 'Comment Functionality', text: ''},
       ],
-      live: 'https://dk-derailed.herokuapp.com/',
-      git: 'https://github.com/danronkam/derailed'
+      links: {
+        live: "https://dk-derailed.herokuapp.com/",
+        code: "https://github.com/danronkam/derailed/"
+      }
     }, 
     {
       id: 3,
@@ -157,8 +161,10 @@ function App() {
         {title: 'Hotkey Controller', text: ''},
         {title: 'Confessions - Creation and Display', text: ''},
       ],
-      live: 'https://doafavorfor.me/DKFM247/',
-      git: 'https://github.com/danronkam/DKFM247' 
+      links: {
+        live: "https://heard--app.herokuapp.com/home",
+        code: "https://github.com/danronkam/Heard"
+      }
     }
   ]
 

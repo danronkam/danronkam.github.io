@@ -8,7 +8,6 @@ function ProjectPage({projectData})  {
 
     return(
         <>
-            <div> 
                 {
                     projectData.map(project => {
                         const projectTitle = project.title;
@@ -16,9 +15,7 @@ function ProjectPage({projectData})  {
                             return <ProjectShow key={project.id} projectData={project} />
                
                     })
-                }
-            </div>
-        
+                }        
         </>
     )
 }
