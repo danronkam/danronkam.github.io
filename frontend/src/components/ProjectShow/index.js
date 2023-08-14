@@ -6,7 +6,8 @@ const ProjectShow = (projectData) => {
     // console.log(projectData)
     const project = projectData.projectData;
     const tech = project.tech;
-    const intro = project.intro;
+    const introTxt = project.intro.body;
+    const introImg = project.intro.img;
     const planning = project.planning;
     const features = project.features;
     const headerImg = project.headImg;
@@ -63,8 +64,12 @@ const ProjectShow = (projectData) => {
 
                     <div className="introduction">
                         <h2 className="content-heading">Introduction</h2>
-                        <p>{intro.body}</p>
-                        <img src={`${intro.img}`} alt="intro img"/>
+                        {introTxt.map(body => {
+                            return <>
+                                <p>{body}</p>
+                            </>
+                        })}
+                        <img src={`${introImg}`} alt="intro img"/>
                     </div>
 
                     < hr />
@@ -86,6 +91,7 @@ const ProjectShow = (projectData) => {
                                 <p className="feature-text">{text}</p>
                             </>
                         })}
+                        <a href={`${links.code}`} target="_blank" rel="noreferrer">For more indepth technical writing, check our the repo</a>
                     </div>
 
 
