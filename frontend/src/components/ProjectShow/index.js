@@ -43,7 +43,7 @@ const ProjectShow = (projectData) => {
                         let img= techData.img
                         // console.log(txt)
                         return <>
-                          <img src={img}  width={'16px'} height={'16px'} alt="Technology Logo" className="tech-16"/> {txt} 
+                          <img src={img}  width={'16px'} height={'16px'} alt="Technology Logo" className="tech-16" key={txt}/> {txt} 
                         </>      
                     })}
                 </p>
@@ -66,7 +66,7 @@ const ProjectShow = (projectData) => {
                         <h2 className="content-heading">Introduction</h2>
                         {introTxt.map(body => {
                             return <>
-                                <p>{body}</p>
+                                <p key={body}>{body}</p>
                             </>
                         })}
                         <img src={`${introImg}`} alt="intro img"/>
@@ -86,9 +86,8 @@ const ProjectShow = (projectData) => {
                         <h2 className="content-heading">Features</h2>
                         {features.map(feature => {
                             let title = feature.title;
-                            let text = feature.text;
                             return <>
-                                <h3 className="feature-title">{title}</h3>
+                                <h3 className="feature-title" key={title}>{title}</h3>
                             </>
                         })}
                         <a href={`${links.code}`} target="_blank" rel="noreferrer" className="button">For more indepth technical writing, check our the repo</a>
