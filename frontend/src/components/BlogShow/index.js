@@ -5,15 +5,12 @@ import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import "./BlogShow.css"
 
 const BlogShow = () => {
-    // const {slug} = useParams(slug);
-    // console.log(slug)
+
     const location = useLocation();
     const blog = location.state?.blog;
-    // console.log(blog)
     const headings = blog.post.headings;
     const sections = blog.post.sections;
     const date = blog.post.publishedAt;
-    const type = blog.post.type;
 
     let counter = 0;
 
@@ -43,7 +40,6 @@ const BlogShow = () => {
                 <div className="blogpost-body">
                     {headings.map(heading => {
                         let body = sections[counter]
-                        // console.log(body.text)
                         counter++
 
 

@@ -2,7 +2,6 @@
 import "./StickyLinks.css"
 
 const StickyLinks = (linkData) => {
-    console.log(linkData);
     const links = linkData.linkData;
 
     return(

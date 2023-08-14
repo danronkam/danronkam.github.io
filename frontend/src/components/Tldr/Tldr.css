@@ -34,7 +34,6 @@
     border-color: #ffffff #000000 #000000 #ffffff;
     border-style: solid;
     height: auto;
-    /* width: 450px; */
     z-index: 2;
     padding-bottom: 1vh;
   }
@@ -57,10 +56,6 @@
     padding-bottom: 2.5px;
     text-decoration: none;
     color: black;
-
-      /* border-width: 1px;
-      border-color: #ffffff #808080 #808080 #ffffff; */
-
 }
   
   

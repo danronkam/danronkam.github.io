@@ -3,7 +3,6 @@ import './ProjectShow.css'
 import StickyLinks from "../StickyLinks";
 
 const ProjectShow = (projectData) => {
-    // console.log(projectData)
     const project = projectData.projectData;
     const tech = project.tech;
     const introTxt = project.intro.body;
@@ -12,10 +11,7 @@ const ProjectShow = (projectData) => {
     const features = project.features;
     const headerImg = project.headImg;
     const links = project.links;
-    // console.log(headerImg)
-    // console.log(typeof project.tech)
     const title = projectData.projectData.title;
-    // console.log(title, 'yee')
 
 
     useLayoutEffect(() => {
@@ -41,7 +37,6 @@ const ProjectShow = (projectData) => {
                     {tech.map(techData => {
                         let txt = techData.text
                         let img= techData.img
-                        // console.log(txt)
                         return <>
                           <img src={img}  width={'16px'} height={'16px'} alt="Technology Logo" className="tech-16" key={txt}/> {txt} 
                         </>      
