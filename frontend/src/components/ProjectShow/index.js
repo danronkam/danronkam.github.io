@@ -91,7 +91,9 @@ const ProjectShow = (projectData) => {
                                 <h3 className="feature-title">{title}</h3>
                             </>
                         })}
-                        <a href={`${links.code}`} target="_blank" rel="noreferrer">For more indepth technical writing, check our the repo</a>
+                        <a href={`${links.code}`} target="_blank" rel="noreferrer" className="button">For more indepth technical writing, check our the repo</a>
+                        <a href={`${links.live}`} target="_blank" rel="noreferrer" className="button">Or checkout the live link</a>
+
                     </div>
 
 
