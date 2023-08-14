@@ -21,6 +21,10 @@
     position: absolute;
 }
 
+.pj-img{
+    width: 75%;
+}
+
 @media screen and (max-width: 1400px ){
     .pj-headerImg{
 

@@ -71,11 +71,11 @@ function App() {
           "Heard was my first foray into developing as a team and I took on the role of lead front end developer. Given the one week turnaround, I also took it upon myself to implement agile methodology as the scrum master. In group settings, I highly value communication. Making sure my partners and I were on the same page about production status was not only key to getting our deliverables in on time, but making sure we stayed sane in the process. Daily stand ups, shared calendars of short term goals, and collective group sprints were some of the main methods I implemented. ",
           "Since Heard is somewhere between a confessional and mental health application, I knew we had a responsibility to present in a more professional manner for users. Inspiration came from leading mental health applications like Betterhelp, Calm, and more. From that I created mock up images to present in stand ups to involve the whole team in the process to create something we all can be proud of. "
         ],
-        img: "https://placehold.co/600x400"
+        img: "https://derailed-seed.s3.us-west-1.amazonaws.com/heard_pc_gif.gif"
       },
       planning: {
-        layoutImg: 'https://placehold.co/600x400',
-        flowImg: 'https://placehold.co/600x400',
+        layoutImg: 'https://derailed-seed.s3.us-west-1.amazonaws.com/My+project-1.png',
+        flowImg: 'https://derailed-seed.s3.us-west-1.amazonaws.com/Heard-Flow-Chart.png',
         text: "Planning and developing a full stack MERN application within a week as part of a group in a software engineering bootcamp requires efficient coordination and effective use of agile Scrum methods. The team will start by conducting a thorough analysis of the project requirements and breaking them down into manageable tasks. Utilizing the Scrum framework, the team will create a product backlog, prioritize user stories, and define sprint goals. Daily stand-up meetings will be held to ensure open communication and provide progress updates. With a focus on iterative development, the team will work collaboratively, leveraging JavaScript, HTML, and CSS to build the frontend, while utilizing MongoDB, Express.js, and Node.js for the backend. Frequent retrospectives and sprint reviews will enable the team to evaluate progress, make necessary adjustments, and deliver a functional full stack MERN application that meets the desired objectives within the given timeframe."
       },
       tech: [
@@ -109,11 +109,11 @@ function App() {
           "Derailed is a clone of the menswear ecommerce platform Grailed. Since this project was to be an exact clone of the Grailed, most of the design and functionality choices were already determined for me. To flex some of my creative muscles a little more, the images and animations featured on the homepage are my own. Some images are from photo shoots I’ve done for companies like Valentino, some are from my own grailed listings, and others are graphics made in the Adobe suite to show off current trends in menswear. ",
           "Before becoming a software engineer I worked in media and marketing and a lot of my work day involved creating similar graphics for social media and web, but this project was the first time I was uploading to a website I fully created front to back. Previously I was limited by the boundaries set by the SaaS companies my employers were using. While websites like WordPress help anyone create a website, I would eventually hit a wall where I could not create the functionalities I wanted through their service and I knew I would expand my skill set to improve as a developer. Completing this project was a full circle moment for me as it helped to complete one of the goals I started App Academy for."
         ],
-        img: "https://placehold.co/600x400"
+        img: "https://derailed-seed.s3.us-west-1.amazonaws.com/derailed_pc_gif.gif"
       },
       planning: {
         layoutImg: 'https://placehold.co/600x400',
-        flowImg: 'https://placehold.co/600x400',
+        flowImg: 'https://derailed-seed.s3.us-west-1.amazonaws.com/Frame+1.png',
         text: "Derailed was designed, created, and deployed during a two week sprint during App Academy's Bootcamp. To stay on task with such tight deadlines, I used Figma to create wireframe guides to follow MVP features, and Scrum methodologies manage time."
       },
       tech: [
@@ -152,10 +152,10 @@ function App() {
           "One of the first things I used the internet for was music, the legality of my sources mattered less to me than finding new sounds and genres from across the world. The musicians and djs I found on sites like Myspace, Limewire, FilthFM, Rinse FM, Beatport, Datpiff, PureVolume, KoolFM, and many more helped to mold my music tastes. This project is an homage to them. ",
           "The design of the music player is based on the legendary Microsoft Winamp and all the custom skins anonymous designers created over the years. I never liked the randomized visualizers that became popularized in the late 90s to early 2000s, I wanted users to have control of what they’re seeing since they’re not selecting the playlist. The music selections are me projecting my music tastes on others. The current theme is, hotel-pool house music, but previously I put together playlists of Hawaiian soul music, an homage to Sophie, songs to feel sad too, plus others. "
         ],
-        img: "https://placehold.co/600x400"
+        img: "https://derailed-seed.s3.us-west-1.amazonaws.com/dkfm_pc_gif.gif"
       },
       planning: {
-        layoutImg: 'https://placehold.co/600x400',
+        layoutImg: 'https://beebom.com/wp-content/uploads/2020/09/Winamp-skin-museum-feat..jpg?w=750&quality=75',
         flowImg: 'https://placehold.co/600x400',
         text: "Planning and developing a full stack MERN application within a week as part of a group in a software engineering bootcamp requires efficient coordination and effective use of agile Scrum methods. The team will start by conducting a thorough analysis of the project requirements and breaking them down into manageable tasks. Utilizing the Scrum framework, the team will create a product backlog, prioritize user stories, and define sprint goals. Daily stand-up meetings will be held to ensure open communication and provide progress updates. With a focus on iterative development, the team will work collaboratively, leveraging JavaScript, HTML, and CSS to build the frontend, while utilizing MongoDB, Express.js, and Node.js for the backend. Frequent retrospectives and sprint reviews will enable the team to evaluate progress, make necessary adjustments, and deliver a functional full stack MERN application that meets the desired objectives within the given timeframe."
       },

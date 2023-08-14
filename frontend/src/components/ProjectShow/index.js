@@ -75,8 +75,9 @@ const ProjectShow = (projectData) => {
                     < hr />
 
                     <div className="planning" >
-                        <h2 className="content-heading">Planning</h2>
-                        <p>{planning.text}</p>
+                        <h2 className="content-heading">Planning Images</h2>
+                        <img src={`${planning.flowImg}`} className="pj-img"/>
+                        <img src={`${planning.layoutImg}`} className="pj-img"/>
                     </div>
 
                     <hr />
@@ -88,7 +89,6 @@ const ProjectShow = (projectData) => {
                             let text = feature.text;
                             return <>
                                 <h3 className="feature-title">{title}</h3>
-                                <p className="feature-text">{text}</p>
                             </>
                         })}
                         <a href={`${links.code}`} target="_blank" rel="noreferrer">For more indepth technical writing, check our the repo</a>
