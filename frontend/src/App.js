@@ -67,7 +67,10 @@ function App() {
       headImg: 'https://derailed-seed.s3.us-west-1.amazonaws.com/bobbing-273.gif',
       type: 'Wellness Web Application',
       intro: {
-        body: "Heard is an application that aims to foster a safe, anonymous community of secret sharers and secret bearers. Users can choose to share a confession or start a message thread about a specific topic. The application design takes a mobile-focused approach as most of the interactions will likely take place sporadically throughout the day on an accessible device.",
+        body: [
+          "Heard was my first foray into developing as a team and I took on the role of lead front end developer. Given the one week turnaround, I also took it upon myself to implement agile methodology as the scrum master. In group settings, I highly value communication. Making sure my partners and I were on the same page about production status was not only key to getting our deliverables in on time, but making sure we stayed sane in the process. Daily stand ups, shared calendars of short term goals, and collective group sprints were some of the main methods I implemented. ",
+          "Since Heard is somewhere between a confessional and mental health application, I knew we had a responsibility to present in a more professional manner for users. Inspiration came from leading mental health applications like Betterhelp, Calm, and more. From that I created mock up images to present in stand ups to involve the whole team in the process to create something we all can be proud of. "
+        ],
         img: "https://placehold.co/600x400"
       },
       planning: {
@@ -102,7 +105,10 @@ function App() {
       headImg: 'https://derailed-seed.s3.us-west-1.amazonaws.com/ezgif.com-gif-maker.gif',
       type: 'Menswear Ecommerce Platform',
       intro: {
-        body: "Derailed is a footwear focused clone of Grailed. On the site, users can search through listings to find their grail shoe, hopefully for a price that hasn't gone too off the rails. Once logged in users can create listings of their own, and leave offers on others items for sale.",
+        body: [
+          "Derailed is a clone of the menswear ecommerce platform Grailed. Since this project was to be an exact clone of the Grailed, most of the design and functionality choices were already determined for me. To flex some of my creative muscles a little more, the images and animations featured on the homepage are my own. Some images are from photo shoots I’ve done for companies like Valentino, some are from my own grailed listings, and others are graphics made in the Adobe suite to show off current trends in menswear. ",
+          "Before becoming a software engineer I worked in media and marketing and a lot of my work day involved creating similar graphics for social media and web, but this project was the first time I was uploading to a website I fully created front to back. Previously I was limited by the boundaries set by the SaaS companies my employers were using. While websites like WordPress help anyone create a website, I would eventually hit a wall where I could not create the functionalities I wanted through their service and I knew I would expand my skill set to improve as a developer. Completing this project was a full circle moment for me as it helped to complete one of the goals I started App Academy for."
+        ],
         img: "https://placehold.co/600x400"
       },
       planning: {
@@ -142,7 +148,10 @@ function App() {
       headImg: 'https://derailed-seed.s3.us-west-1.amazonaws.com/dkfm_wip_white.gif',
       type: 'Pirate Radio',
       intro: {
-        body: "DK-FM is a music player that lets users select a genre and mood which plays a continuous curated set of songs and accompanying visuals. While many music players focus on the users and the playlists they make, DK-FM is meant to be set up and forgotten while users focus on other more important things in their lives. Although the playlist won't be user made, they will still have the ability to cycle through the songs and backgrounds in order to create their ideal set up. It’s background music that won't distract you but also won’t put you to sleep.",
+        body: [
+          "One of the first things I used the internet for was music, the legality of my sources mattered less to me than finding new sounds and genres from across the world. The musicians and djs I found on sites like Myspace, Limewire, FilthFM, Rinse FM, Beatport, Datpiff, PureVolume, KoolFM, and many more helped to mold my music tastes. This project is an homage to them. ",
+          "The design of the music player is based on the legendary Microsoft Winamp and all the custom skins anonymous designers created over the years. I never liked the randomized visualizers that became popularized in the late 90s to early 2000s, I wanted users to have control of what they’re seeing since they’re not selecting the playlist. The music selections are me projecting my music tastes on others. The current theme is, hotel-pool house music, but previously I put together playlists of Hawaiian soul music, an homage to Sophie, songs to feel sad too, plus others. "
+        ],
         img: "https://placehold.co/600x400"
       },
       planning: {
