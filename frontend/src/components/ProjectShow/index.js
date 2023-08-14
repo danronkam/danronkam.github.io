@@ -29,6 +29,10 @@ const ProjectShow = (projectData) => {
                 <img src={headerImg} alt="header img" className="pj-headerImg"/>
             </div>
 
+            <div className="content-right">
+                    <StickyLinks linkData={links}/>
+            </div>
+
             <div className="content-left">
 
                 <h1 className="content-title">{project.heading}</h1>
@@ -89,9 +93,7 @@ const ProjectShow = (projectData) => {
 
 
             </div>
-            <div className="content-right">
-                    <StickyLinks linkData={links}/>
-            </div>
+
         </div>
         </>
     )

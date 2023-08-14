@@ -1,4 +1,6 @@
 
+import "./StickyLinks.css"
+
 const StickyLinks = (linkData) => {
     console.log(linkData);
     const links = linkData.linkData;
@@ -7,11 +9,11 @@ const StickyLinks = (linkData) => {
         <>
             <div className="sticky-container">
                 <div className="sticky-top">
-                    <a href={`${links.code}`} target="_blank" rel="noreferrer">Github</a>
-                    <a href={`${links.live}`} target="_blank" rel="noreferrer">Live</a>
+                    <a href={`${links.code}`} target="_blank" rel="noreferrer" className="button">Github</a>
+                    <a href={`${links.live}`} target="_blank" rel="noreferrer" className="button">Live</a>
                 </div>
                 <div className="sticky-bottom">
-                    <a>Contact</a>
+                    <a className="button">Contact</a>
                 </div>
             </div>
         

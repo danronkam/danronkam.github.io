@@ -13,7 +13,7 @@ const Banner = () => {
       <div className="banner-container">
         <div className="banner-left">
           <p className="banner-text">
-            Hi 👋 I'm <b className="name">Dan Kam</b>, <br /> a <b className="jobtitle"> Full Stack Software Engineer </b> 👨‍💻<br /> & I build apps
+            Hi 👋 I'm <b className="name">Dan Kam</b>, <br /> a <b className="jobtitle"> Full Stack Software Engineer </b> 👨‍💻<br /> & I blur the line between <br /> dev & design
           </p>
           <Link to={"/about"} className="highlight-link learn-more">
             about me →
