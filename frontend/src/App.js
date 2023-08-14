@@ -156,7 +156,7 @@ function App() {
       },
       planning: {
         layoutImg: 'https://beebom.com/wp-content/uploads/2020/09/Winamp-skin-museum-feat..jpg?w=750&quality=75',
-        flowImg: 'https://placehold.co/600x400',
+        flowImg: 'https://user-images.githubusercontent.com/101153713/196276575-6b9d38de-2ec9-4644-8435-bb5e143a010f.png',
         text: "Planning and developing a full stack MERN application within a week as part of a group in a software engineering bootcamp requires efficient coordination and effective use of agile Scrum methods. The team will start by conducting a thorough analysis of the project requirements and breaking them down into manageable tasks. Utilizing the Scrum framework, the team will create a product backlog, prioritize user stories, and define sprint goals. Daily stand-up meetings will be held to ensure open communication and provide progress updates. With a focus on iterative development, the team will work collaboratively, leveraging JavaScript, HTML, and CSS to build the frontend, while utilizing MongoDB, Express.js, and Node.js for the backend. Frequent retrospectives and sprint reviews will enable the team to evaluate progress, make necessary adjustments, and deliver a functional full stack MERN application that meets the desired objectives within the given timeframe."
       },
       tech: [

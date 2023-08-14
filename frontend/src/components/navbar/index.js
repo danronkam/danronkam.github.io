@@ -8,9 +8,12 @@ function Navbar() {
   const history = useHistory();
 
   const handleClick = (e) => {
-    // e.preventDefault();
-    // console.log(e)
     history.push(e)
+  };
+
+  const handleEmail = (e) => {
+    // e.preventDefault()
+    window.open('mailto:danronkam@gmail.com')
   }
 
 
@@ -50,9 +53,9 @@ function Navbar() {
               </button>
             </li>
             <li className='nav-link '> 
-            <button className='nav-button' value={'/contact'} onClick={(e) => handleClick(e.target.value)}>
+            <button className='nav-button' value={'/contact'} onClick={(e) => handleEmail(e.target.value)}>
               <i className="fa fa-pen-fancy"/> Contact
-              </button>
+            </button>
             </li>
           
           </ul>
