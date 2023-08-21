@@ -13,7 +13,7 @@ class LogoCube extends React.Component {
                     height: 300
             }}
             >
-            <Cube size={300} index="front">
+            <Cube size={300} index="front" id="kamCube" className="testingCube">
                 <div>
                     <img alt="Dan Kam" style={{width: '300px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
                 </div>

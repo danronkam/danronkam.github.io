@@ -1,7 +1,14 @@
 * { box-sizing: border-box; }
 
-._cube_bssuh_1{
-    cursor: grab;
+._cube_bssuh_1:hover{
+    cursor: crosshair;
+    transform: rotateX(45deg);
+}
+
+._cube-face_bssuh_16:hover{
+  /* cursor:crosshair;
+  transform: rotate3d(0,0,0 45deg); */
+  /* color: red; */
 }
 
 .scene {
@@ -21,12 +28,12 @@
   transition: transform 1s;
 }
 
-.cube.show-front  { transform: translateZ(-100px) rotateY(   180deg); }
+/* .cube.show-front  { transform: translateZ(-100px) rotateY(   90deg); }
 .cube.show-right  { transform: translateZ(-100px) rotateY( -90deg); }
 .cube.show-back   { transform: translateZ(-100px) rotateY(-180deg); }
 .cube.show-left   { transform: translateZ(-100px) rotateY(  90deg); }
 .cube.show-top    { transform: translateZ(-100px) rotateX( -90deg); }
-.cube.show-bottom { transform: translateZ(-100px) rotateX(  90deg); }
+.cube.show-bottom { transform: translateZ(-100px) rotateX(  90deg); } */
 
 .cube__face {
   width: 200px;
@@ -40,18 +47,18 @@
   cursor: grab;
 }
 
-.cube__face--front  { background: hsla(  0, 100%, 50%, 0.7); }
+/* .cube__face--front  { background: hsla(  0, 100%, 50%, 0.7); }
 .cube__face--right  { background: hsla( 60, 100%, 50%, 0.7); }
 .cube__face--back   { background: hsla(120, 100%, 50%, 0.7); }
 .cube__face--left   { background: hsla(180, 100%, 50%, 0.7); }
 .cube__face--top    { background: hsla(240, 100%, 50%, 0.7); }
 .cube__face--bottom { background: hsla(300, 100%, 50%, 0.7); }
 
-.cube__face--front  { transform: rotateY(  0deg) translateZ(100px); }
+.cube__face--front  { transform: rotateY(  100deg) translateZ(100px); }
 .cube__face--right  { transform: rotateY( 90deg) translateZ(100px); }
 .cube__face--back   { transform: rotateY(180deg) translateZ(100px); }
 .cube__face--left   { transform: rotateY(-90deg) translateZ(100px); }
 .cube__face--top    { transform: rotateX( 90deg) translateZ(100px); }
-.cube__face--bottom { transform: rotateX(-90deg) translateZ(100px); }
+.cube__face--bottom { transform: rotateX(-90deg) translateZ(100px); } */
 
 label { margin-right: 10px; }
