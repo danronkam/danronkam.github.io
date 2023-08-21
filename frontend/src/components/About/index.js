@@ -30,18 +30,18 @@ const About = () => {
                 <div className="content-body" >
                     <div className="introduction">
                         <h2 className="content-heading">Introduction</h2>
-                            <p className="">Hey, I’m Dan Kam A Full Stack Software Enginner with a strong creative side who bridges the gaps between product, design, and engineering. I’m a recent graduate of App Acaemy and have previously worked for 5+ years in publishing and marketing.</p>
+                            <p className="">Hey, I’m Dan Kam A Full Stack Software Enginner with a strong creative side who bridges the gaps between product, design, and engineering. I’m a recent graduate of App Academy and have previously worked for 5+ years in publishing and marketing.</p>
                         
                         <h3>I'm passionate about:</h3>
                             <ul className="about-list">
                                 <li>📓  Forgotten Design Trends</li>
                                 <li>💮  Fragrances</li>
-                                <li>💻  User Expierences</li>
+                                <li>💻  User Experiences</li>
 
                             </ul>
                         <h3>My Current Mission is to:</h3>
                             <ul className="about-list">
-                                <li>🛰️  Contribute to high qualifty open source projects</li>
+                                <li>🛰️  Contribute to high qualify open source projects</li>
                                 <li>💾  Expand my resource Libraries</li>
                                 <li>🚀  Push the limits of ____</li>
 
