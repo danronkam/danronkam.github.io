@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link , useHistory } from 'react-router-dom';
 import './navbar.css'
+import HamburgerMenu from '../Hamburger';
 
 
 function Navbar() {
@@ -58,6 +59,8 @@ function Navbar() {
             </li>
           
           </ul>
+
+          <HamburgerMenu />
 
         </div>
       </div>
