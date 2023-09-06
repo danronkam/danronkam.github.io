@@ -1,5 +1,5 @@
 #root{
-    background-color: black;
+    background-color: white;
     min-height: 100vh;
     font-family: 'Inconsolata', monospace;
     overflow: hidden;
@@ -16,7 +16,15 @@ body {
     margin: 0;
     padding: 0;
     color: white;
+    /* background-color: black; */
     cursor: default;  
+}
+
+.content-wrapper{
+    background-color: black;
+    margin: auto;
+    width: 75vw;
+    max-width: 1700px;
 }
 
 .page-container{

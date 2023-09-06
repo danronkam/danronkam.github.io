@@ -11,31 +11,21 @@ const HamburgerMenu = () => {
   };
 
   return (
-
-    (isOpen ? (
-      <>
-      
-      </>
-
-    ) : (
-      <>
-      
-      </>
-
-    ))  
-    <div className={`hamburger-menu ${isOpen ? 'open' : ''}`}>
-      <div className="menu-icon" onClick={toggleMenu}>
-        <div className="bar"></div>
-        <div className="bar"></div>
-        <div className="bar"></div>
+    <>
+      <div className={`hamburger-menu ${isOpen ? 'open' : ''}`}>
+        <div className="menu-icon" onClick={toggleMenu}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
+        <ul className="menu-items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </div>
-      <ul className="menu-items">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
+    </>
   );
 };
 

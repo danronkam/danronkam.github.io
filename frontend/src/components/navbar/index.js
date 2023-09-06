@@ -23,6 +23,8 @@ function Navbar() {
         <ul>
             <li><Link to="/"><img className='dk-logo' src='/dk-logo.png' alt='' /></Link></li>
         </ul>
+        <HamburgerMenu />
+
       </div>
       <div className='navbar-right'>
         <div className='nav-link-container'>
@@ -60,7 +62,6 @@ function Navbar() {
           
           </ul>
 
-          <HamburgerMenu />
 
         </div>
       </div>

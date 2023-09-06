@@ -134,45 +134,47 @@ function App() {
 
   return (
     <>
-    <Navbar />
- 
-    <div className="page-container">
-      <Switch>
+    <div className="content-wrapper">
+      <Navbar />
+  
+      <div className="page-container">
+        <Switch>
 
-        <Route exact path="/">
-          <Homepage />
-        </Route>
+          <Route exact path="/">
+            <Homepage />
+          </Route>
 
-        <Route exact path="/about">
-          <About />
-        </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
 
-        <Route exact path="/tldr">
-          <TLDR />
-        </Route>
+          <Route exact path="/tldr">
+            <TLDR />
+          </Route>
 
-        <Route exact path='/work'>
-          <Blog />
-        </Route>
-
-
-
-        <Route exact path="/projects">
-          <ProjectsIndex />
-        </Route>
-
-        <Route exact path="/project/:title">
-          <ProjectPage   projectData={projects} />
-        </Route>
+          <Route exact path='/work'>
+            <Blog />
+          </Route>
 
 
-        <Redirect to='/' />
 
-      </Switch>
+          <Route exact path="/projects">
+            <ProjectsIndex />
+          </Route>
+
+          <Route exact path="/project/:title">
+            <ProjectPage   projectData={projects} />
+          </Route>
+
+
+          <Redirect to='/' />
+
+        </Switch>
+      </div>
+      <Footer />
     </div>
-    <Footer />
-    </>
-    
+
+      </>
   );
 }
 

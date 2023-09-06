@@ -8,8 +8,8 @@
     font-size: 3rem;
     font-family: 'Inconsolata', monospace;
     width: 50%;
-    margin-right: 5vw;
-    margin-left: 10vw;
+    padding-right: 5vw;
+    padding-left: 10vw;
     padding-top: 5vh;
 
 }
