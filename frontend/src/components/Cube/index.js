@@ -9,28 +9,28 @@ class LogoCube extends React.Component {
       <div>
             <div
                 style={{
-                    width: 300,
-                    height: 300
+                    width: 400,
+                    height: 400
             }}
             >
-            <Cube size={300} index="front" id="kamCube" className="testingCube">
+            <Cube size={400} index="front" id="kamCube" className="testingCube">
                 <div>
-                    <img alt="Dan Kam" style={{width: '300px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
+                    <img alt="Dan Kam" style={{width: '400px', height: '400px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
                 </div>
                 <div>
-                    <img alt="Dan Kam" style={{width: '300px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
+                    <img alt="Dan Kam" style={{width: '400px', height: '400px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
                 </div>
                 <div>
-                    <img alt="Dan Kam" style={{width: '300px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
+                    <img alt="Dan Kam" style={{width: '400px', height: '400px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
                 </div>
                 <div>
-                    <img alt="Dan Kam" style={{width: '300px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
+                    <img alt="Dan Kam" style={{width: '400px', height: '400px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
                 </div>
                 <div>
-                    <img alt="Dan Kam" style={{width: '300px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
+                    <img alt="Dan Kam" style={{width: '400px', height: '400px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
                 </div>
                 <div>
-                    <img alt="Dan Kam" style={{width: '300px', height: '300px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
+                    <img alt="Dan Kam" style={{width: '400px', height: '400px'}} src="https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png"></img>
                 </div>
             </Cube>
             </div>

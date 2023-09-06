@@ -46,7 +46,7 @@ const Highlights = () => {
             <div className="highlight-container" >
                 <div className="highlight-head">
                     <p> <b className="type"> Article </b> <b className="date">  2023 </b></p>
-                    <h1 >The First Livestreamed Runway</h1>
+                    <h1 className="highlight-head">The First Livestreamed Runway</h1>
                 </div>
                 <div className="highlight-body">
                     <p> 

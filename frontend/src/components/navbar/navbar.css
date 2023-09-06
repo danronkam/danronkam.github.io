@@ -35,9 +35,10 @@ a{
     
 }
 
-.nav-link-container{
+.nav-icon{
+    padding: 0;
+    margin: 0   ;
 }
-
 
 
 .internal{
@@ -53,7 +54,7 @@ a{
     border: none;
     color: #a0a0c0;
     transition-duration: .5s;
-
+    font-size: 1rem;
 }
 
 

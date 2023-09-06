@@ -20,7 +20,7 @@ function Navbar() {
   return (
     <div className='navbar-container'>
       <div className='navbar-left'>
-        <ul>
+        <ul className='nav-icon'>
             <li><Link to="/"><img className='dk-logo' src='/dk-logo.png' alt='' /></Link></li>
         </ul>
         <HamburgerMenu />

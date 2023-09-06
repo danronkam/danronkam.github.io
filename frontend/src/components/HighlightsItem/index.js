@@ -16,7 +16,7 @@ const HighlightsItem = (highlight) => {
             <div className="highlight-container highlightHover" onClick={() => history.push(`${link}`)}>
                 <div className="highlight-head">
                     <p> <b className="type"> {type} </b> <b className="date">   {date} </b></p>
-                    <h1>{title}</h1>
+                    <h1 className="highlight-head">{title}</h1>
                 </div>
                 <div className="highlight-body">
                     <p>{blurb} </p>

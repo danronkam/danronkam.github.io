@@ -1,7 +1,6 @@
 .highlights-container{
-    padding-left: 10vw;
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     /* grid-template-columns: auto-fill minmax(200px, 1fr);  */
     grid-row: auto auto;
     grid-column-gap: 1vw;

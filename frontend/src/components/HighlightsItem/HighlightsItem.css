@@ -6,23 +6,32 @@
     cursor: pointer;
     border-radius: 1vw;
     padding: 1vw;
-    min-height: 40vh;
+    width: 100%;
+    min-height: 500px;
+    font-size: 1rem;
 }
 
 .type{
-    color: #d7b16c;
+    color: #d7b16c;    
+    font-size: 1rem;
 }
 
 .date{
     color:  #a0a0c0;
+    font-size: 1rem;
 }
 
 .highlight-body{
     color:  #a0a0c0;
+    font-size: 1rem;
 }
 
 .highlight-link{
     color: #21f1be;
+}
+
+.highlight-head{
+    font-size: 3rem;
 }
 
 
