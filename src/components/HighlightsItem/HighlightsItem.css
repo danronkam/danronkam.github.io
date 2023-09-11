@@ -4,7 +4,7 @@
     box-sizing:border-box;
     background-color: #13131d;
     cursor: pointer;
-    border-radius: 1vw;
+    border-radius:25px;
     padding: 1vw;
     width: 100%;
     min-height: 500px;
