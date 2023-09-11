@@ -1,5 +1,6 @@
 import { Switch, Route } from "react-router-dom";
 import { Redirect } from "react-router-dom";
+import "./index.css"
 
 import TLDR from "./components/Tldr";
 import Homepage from "./components/homepage";
