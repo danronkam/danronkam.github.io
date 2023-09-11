@@ -18,11 +18,15 @@ const BlogIndexItem = (post) => {
         link = post.post.link;
         img = post.post.img
     }
+
+    const BackgroundImage = styled.div`
+        background-image: url(${img});
+    `;
     
 
     return(
         <>
-            <div className="blog-item-container highlightHover" onClick={() => history.push(`${link}`)} style=$"">
+            <div className="blog-item-container highlightHover" onClick={() => history.push(`${link}`)} style={BackgroundImage}>
                 <div className="highlight-head">
                     <p> <b className="type"> Project </b> <b className="date">{date}</b></p>
                     <h1>{title}</h1>
