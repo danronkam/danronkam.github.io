@@ -3,10 +3,14 @@ import './Linktree.css'; // Import your CSS file
 
 const Linktree = () => {
   const links = [
-    { title: 'Instagram', url: 'https://www.instagram.com/' },
-    { title: 'Twitter', url: 'https://twitter.com/' },
-    // Add more links as needed
-  ];
+    { title: 'Email Me', url: 'https://www.instagram.com/' },
+    { title: 'Check out my Portfolio', url: 'https://twitter.com/' },
+    { title: 'Substack', url: 'https://www.instagram.com/' },
+    { title: 'Linkedin', url: 'https://twitter.com/' },
+    { title: 'Live Projects', url: 'https://www.instagram.com/' },
+    { title: 'E-Mail Me', url: 'https://twitter.com/' },
+
+];
 
   return (
     <div className="linktree-container">
