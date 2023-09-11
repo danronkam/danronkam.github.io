@@ -9,18 +9,20 @@ const BlogIndexItem = (post) => {
     let description;
     let date;
     let link;
+    let img;
 
     if(post) {
         title = post.post.title;
         description = post.post.blurb;
         date = post.post.date;
         link = post.post.link;
+        img = post.post.img
     }
     
 
     return(
         <>
-            <div className="blog-item-container highlightHover" onClick={() => history.push(`${link}`)}>
+            <div className="blog-item-container highlightHover" onClick={() => history.push(`${link}`)} style=$"">
                 <div className="highlight-head">
                     <p> <b className="type"> Project </b> <b className="date">{date}</b></p>
                     <h1>{title}</h1>
