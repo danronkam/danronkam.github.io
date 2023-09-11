@@ -37,3 +37,19 @@
     text-decoration: underline;
 }
 
+  /* Media Query for Tablet and Mobile Devices */
+  @media (max-width: 820px) {
+    .page-container{
+        padding-top: 0;
+    }
+
+    .content-wrapper{
+        width: 90%;
+    }
+    .banner-left{
+        width: 100%;
+    }
+    .banner-right{
+        display: none;
+    }
+  }
