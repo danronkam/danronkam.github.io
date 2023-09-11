@@ -22,7 +22,7 @@ function Blog() {
             date: "2022",
             blurb: "Heard is a full stack MERN project that introduces an intriguing web application where users can share anonymous confessionals that are securely stored in a database and sent to another user for a limited viewing period before being permanently deleted. Additionally, users can create anonymous chat rooms to engage in private conversations. Developed within a week, Heard harnesses the power of MongoDB for efficient data storage, Express.js for building a robust backend, React for creating an interactive user interface, and Next.js for server-side rendering. This combination of technologies delivers a seamless and secure platform for anonymous confessions and private chats.",
             link: "/project/:heard",
-            img: "https://derailed-seed.s3.us-west-1.amazonaws.com/heard_highlights.mp4"
+            img: "https://derailed-seed.s3.us-west-1.amazonaws.com/heard_highlights.gif"
 
         },
         {

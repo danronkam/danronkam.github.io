@@ -19,7 +19,7 @@ const ProjectShow = (projectData) => {
 
     return (
         <>
-        <div className="content-container">
+        <div className="content-container" id="pj-container">
 
             <div className="content-header" >
                 <img src={headerImg} alt="header img" className="pj-headerImg"/>
@@ -31,7 +31,7 @@ const ProjectShow = (projectData) => {
 
             <div className="content-left">
 
-                <h1 className="content-title">{project.heading}</h1>
+                <h1 className="content-title" id="pj-title">{project.heading}</h1>
                 <p className="content-description">
                     {tech.map(techData => {
                         let txt = techData.text
@@ -63,7 +63,7 @@ const ProjectShow = (projectData) => {
                                 <p key={body}>{body}</p>
                             </>
                         })}
-                        <img src={`${introImg}`} alt="intro img"/>
+                        <img src={`${introImg}`} alt="intro img" className="pj-img"/>
                     </div>
 
                     < hr />
@@ -71,7 +71,7 @@ const ProjectShow = (projectData) => {
                     <div className="planning" >
                         <h2 className="content-heading">Planning Images</h2>
                         <img src={`${planning.flowImg}`} alt="project flowchart"className="pj-img"/>
-                        <img src={`${planning.layoutImg}`} alt="early project desin" className="pj-img"/>
+                        <img src={`${planning.layoutImg}`} alt="early project design" className="pj-img"/>
                     </div>
 
                     <hr />

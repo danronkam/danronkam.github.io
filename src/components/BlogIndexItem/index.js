@@ -33,8 +33,8 @@ const BlogIndexItem = (post) => {
     return(
         <>
             <div className="blog-item-container highlightHover" onClick={() => history.push(`${link}`)} >
-                <div className="highlight-img">
-                    <img src={`${img}`} />
+                <div >
+                    <img src={`${img}`} className="highlight-img"/>
                 </div>
                 <div className="highlight-head">
                     <p> <b className="type"> Project </b> <b className="date">{date}</b></p>

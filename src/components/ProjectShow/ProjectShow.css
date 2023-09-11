@@ -16,8 +16,8 @@
 
 .content-right{
     display: flex;
-    margin-left: 45%;
-    margin-top: 7vh;
+    padding-left: 50%;
+    padding-top: 7vh;
     position: absolute;
 }
 
@@ -25,9 +25,28 @@
     width: 75%;
 }
 
+#pj-title{
+    padding-top: 0;
+}
+
+
+
 @media screen and (max-width: 1400px ){
 
-    .content-header{
-        width: 100vw;
+    .pj-headerImg{
+        width: 100%;
+        padding-top: 30vw;
+    }
+
+    .pj-img{
+        width: 100%;
+    }
+
+    .pj-container{
+        padding-left: 5vw;
+    }
+
+    #pj-title{
+        padding-top: 0 ;
     }
 }
