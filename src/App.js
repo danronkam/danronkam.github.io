@@ -157,8 +157,6 @@ function App() {
             <Blog />
           </Route>
 
-
-
           <Route exact path="/projects">
             <ProjectsIndex />
           </Route>
