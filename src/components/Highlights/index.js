@@ -41,7 +41,7 @@ const Highlights = () => {
             { highlightsData.map(highlightData => {
                 return <HighlightsItem key={highlightData.id} highlight={highlightData} />
             })}
-            <a href="https://designdk.substack.com/p/02-the-first-live-streamed-runways" target="_blank" id="substack-highlight">
+            <a href="https://designdk.substack.com/p/02-the-first-live-streamed-runways" target="_blank" id="substack-highlight" rel="noreferrer">
 
             <div className="highlight-container" >
                 <div className="highlight-head">
