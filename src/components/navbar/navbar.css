@@ -23,6 +23,8 @@ a{
 .dk-logo{
     max-width: 4vw;
     height: auto;
+    min-height: 36px;
+    min-width: 36px;
 }
 
 .navbar-container{
@@ -133,6 +135,7 @@ a{
 @media screen and (max-width: 950px) {
     .navbar-left{
         margin-left: 0;
+        padding-left: 1vh;
     }
 
     .navbar-left > ul {

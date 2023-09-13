@@ -67,7 +67,7 @@ function App() {
         img: "https://derailed-seed.s3.us-west-1.amazonaws.com/derailed_pc_gif.gif"
       },
       planning: {
-        layoutImg: 'https://placehold.co/600x400',
+        layoutImg: 'https://derailed-seed.s3.us-west-1.amazonaws.com/1_Z0v4l_KaPHQpwMY_tlzYfw.jpg',
         flowImg: 'https://derailed-seed.s3.us-west-1.amazonaws.com/Frame+1.png',
         text: "Derailed was designed, created, and deployed during a two week sprint during App Academy's Bootcamp. To stay on task with such tight deadlines, I used Figma to create wireframe guides to follow MVP features, and Scrum methodologies manage time."
       },
@@ -135,7 +135,7 @@ function App() {
 
   return (
     <>
-    <div className="content-wrapper">
+    <div className="content-wrapper" >
       <Navbar />
   
       <div className="page-container">

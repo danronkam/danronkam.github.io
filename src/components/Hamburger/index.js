@@ -1,40 +1,50 @@
 import React, { useState } from 'react';
 import './HamburgerMenu.css'; // Import your CSS file
+import {slide as Menu } from "react-burger-menu"
+import { Link  } from 'react-router-dom';
 
 const HamburgerMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  let [isOpen, setIsOpen ] = useState(false)
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    console.log(isOpen)
-    console.log('uh oh')
-  };
+  // This keeps your state in sync with the opening/closing of the menu
+  // via the default means, e.g. clicking the X, pressing the ESC key etc.
+  // handleStateChange (state) {
+  //   this.setState({menuOpen: state.isOpen})  
+  // }
+  
+  // // This can be used to close the menu, e.g. when a user clicks a menu item
+  // closeMenu () {
+  //   this.setState({menuOpen: false})
+  // }
 
-  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+  // // This can be used to toggle the menu, e.g. when using a custom icon
+  // // Tip: You probably want to hide either/both default icons if using a custom icon
+  // // See https://github.com/negomi/react-burger-menu#custom-icons
+  // toggleMenu () {
+  //   this.setState(state => ({menuOpen: !state.menuOpen}))
+  // }
+
 
   return (
-    <>
-      <div className={`hamburger-menu ${isOpen ? 'open' : ''}`}>
-        <div className="menu-icon" onClick={toggleMenu}>
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
-        </div>
-        <ul className="menu-items">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
+    <>  
+    <div className='hamburger-menu'>
+      <Menu 
+        right
+        isOpen={ false }
+        // onStateChange={(state) => this.handleStateChange(state)}
+        >
+        <Link exact to="/" className="burger-link">Home</Link>
+        <Link exact to="/about" className="burger-link">About</Link>
+        <Link exact to="/work" className="burger-link">Projects</Link>
+        <Link exact to="/about" className="burger-link">Substack</Link>
+        <Link exact to="/about" className="burger-link">Contact</Link>
+
+      </Menu>
+
+    </div>
+
+
+
     </>
   );
 };

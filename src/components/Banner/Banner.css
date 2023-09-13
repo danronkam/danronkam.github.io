@@ -39,6 +39,9 @@
 
   /* Media Query for Tablet and Mobile Devices */
   @media (max-width: 820px) {
+    .banner-container{
+        padding-top: 5vh;
+    }
 
     .banner-left{
         width: 100%;
