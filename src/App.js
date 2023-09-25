@@ -10,6 +10,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import ProjectPage from "./components/ProjectPage";
 import ProjectsIndex from "./components/ProjectsIndex";
+import Linktree from "./components/Linktree";
 
 
 function App() {
@@ -157,8 +158,8 @@ function App() {
             <Blog />
           </Route>
 
-          <Route exact path="/projects">
-            <ProjectsIndex />
+          <Route exact path="/please">
+            <Linktree />
           </Route>
 
           <Route exact path="/project/:title">

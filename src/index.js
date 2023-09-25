@@ -9,7 +9,7 @@ import { HashRouter } from 'react-router-dom';
 function Root() {
   return(
     <HashRouter>
-      <App></App>
+      <App />
     </HashRouter>
 
   )
