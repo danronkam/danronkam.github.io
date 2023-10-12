@@ -30,7 +30,7 @@ const About = () => {
                 <div className="content-body" >
                     <div className="introduction">
                         <h2 className="content-heading">Introduction</h2>
-                            <p className="">Hey, I’m Dan Kam A Full Stack Software Enginner with a strong creative side who bridges the gaps between product, design, and engineering. I’m a recent graduate of App Academy and have previously worked for 5+ years in publishing and marketing.</p>
+                            <p className="">Hey, I’m Dan Kam A Full Stack Software Engineer with a strong creative side who bridges the gaps between product, design, and engineering. I’m a recent graduate of App Academy and have previously worked for 5+ years in publishing and marketing.</p>
                         
                         <h3>I'm passionate about:</h3>
                             <ul className="about-list">
@@ -43,7 +43,7 @@ const About = () => {
                             <ul className="about-list">
                                 <li>🛰️  Contribute to high qualify open source projects</li>
                                 <li>💾  Expand my resource Libraries</li>
-                                <li>🚀  Push the limits of ____</li>
+                                <li>🚀  Push the limits of Design and Development </li>
 
                             </ul>
 
@@ -76,7 +76,7 @@ const About = () => {
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/3js.png" className="about-img"  alt="Three.js Logo"/> <a href="https://threejs.org/" target="_blank" rel="noreferrer"> Three.js </a> - 3d Graphics Library </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/hygraph.png" className="about-img" alt="Hygraph Logo"/> <a href="https://hygraph.com/" target="_blank" rel="noreferrer" > Hygraph </a> - Headless CMS </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/postgres.png" className="about-img" alt="PostgresQL Logo"/> <a href="https://hygraph.com/" target="_blank" rel="noreferrer" > PostgresQL </a> - Relational Database </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/rails.png" className="about-img" alt="Rails Logo" />  <a href="https://rubyonrails.org/" target="_blank" rel="noreferrer" > Ruby on Rails </a> - Backend Web Application Framwork </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/rails.png" className="about-img" alt="Rails Logo" />  <a href="https://rubyonrails.org/" target="_blank" rel="noreferrer" > Ruby on Rails </a> - Backend Web Application Framework </li>
                             </ul>
 
                         <h3>Tools:</h3>
