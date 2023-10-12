@@ -9,7 +9,6 @@ import Blog from "./components/Blog";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import ProjectPage from "./components/ProjectPage";
-import ProjectsIndex from "./components/ProjectsIndex";
 import Linktree from "./components/Linktree";
 
 
