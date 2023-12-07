@@ -39,6 +39,18 @@ const ProjectsIndex = () => {
                 code: "https://github.com/danronkam/Heard"
             }
         },
+        {
+            id: 4,
+            title: "multi. projects",
+            img: "https://freight.cargo.site/w/100/i/ea24553e52bd9a7e1cad437963220fdf009f543574918ba4825d6cbf81ab6701/multiPJFace.gif",
+            alt: "multigif",
+            tags: ["Javascript", "CSS", "HTML", "Consulting", "E-Commerce", "Project Management", "Training Hours", "CSS"],
+            bio: "An e-commerce platform for a emerging arts book fair based out of Honolulu, Hawaii",
+            links: {
+                live: "multifair.cargo.site",
+                code: "https://github.com/danronkam/Heard"
+            }
+        },
     ]
 
 

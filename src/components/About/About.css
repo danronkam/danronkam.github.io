@@ -89,7 +89,9 @@ li > a:hover {
     padding-top: .5rem;
 }
 
-@media screen and (max-width: 1400px ){
+
+/* tablet size */
+@media screen and (max-width: 900px ){
     .content-container{
         margin-left: 0;
         width: 100vw;
@@ -109,8 +111,8 @@ li > a:hover {
 
 
 
-/* split screen */
-@media screen and (max-width: 970px) {
+/* mobile screen */
+@media screen and (max-width: 500px) {
 
     .page-container{
         min-height: 100%;
