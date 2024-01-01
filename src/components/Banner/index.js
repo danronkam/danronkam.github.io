@@ -18,9 +18,13 @@ const Banner = () => {
           <Link to={"/about"} className="highlight-link learn-more">
             about me →
           </Link> <br />
-          <Link to={"/ecomm"} className="highlight-link learn-more">
+          <Link to={"/about"} className="highlight-link learn-more">
             my work →
-          </Link>
+          </Link> <br />
+          <Link to={"/ecom"} className="highlight-link learn-more">
+            need a website? →
+          </Link> <br />
+
         </div>
         <div className="banner-right">
           <LogoCube />

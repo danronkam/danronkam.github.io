@@ -9,7 +9,6 @@ import Blog from "./components/Blog";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import ProjectPage from "./components/ProjectPage";
-import Linktree from "./components/Linktree";
 import Ecommerce from "./components/Ecom";
 
 
@@ -165,9 +164,6 @@ function App() {
             <Blog />
           </Route>
 
-          <Route exact path="/please">
-            <Linktree />
-          </Route>
 
           <Route exact path="/project/:title">
             <ProjectPage   projectData={projects} />
