@@ -17,6 +17,9 @@ const Banner = () => {
           </p>
           <Link to={"/about"} className="highlight-link learn-more">
             about me →
+          </Link> <br />
+          <Link to={"/ecomm"} className="highlight-link learn-more">
+            my work →
           </Link>
         </div>
         <div className="banner-right">

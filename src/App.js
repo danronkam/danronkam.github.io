@@ -152,6 +152,10 @@ function App() {
             <About />
           </Route>
 
+          <Route exact path="/ecom">
+            <Ecommerce />
+          </Route>
+
           <Route exact path="/tldr">
             <TLDR />
           </Route>
