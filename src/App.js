@@ -10,6 +10,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import ProjectPage from "./components/ProjectPage";
 import Linktree from "./components/Linktree";
+import Ecommerce from "./components/Ecom";
 
 
 function App() {
@@ -151,6 +152,10 @@ function App() {
 
           <Route exact path="/tldr">
             <TLDR />
+          </Route>
+
+          <Route exact path="/ecom">
+            <Ecommerce />
           </Route>
 
           <Route exact path='/work'>

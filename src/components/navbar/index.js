@@ -35,10 +35,16 @@ function Navbar() {
               </button>
             </li>
             <li className='nav-link '> 
+            <button className='nav-button' value={'/ecom'} onClick={(e) => handleClick(e.target.value)}>
+                <i className="fas fa-user" /> Ecom
+              </button>
+            </li>
+            <li className='nav-link '> 
             <button className='nav-button' value={'/work'} onClick={(e) => handleClick(e.target.value)}>
                 <i className="fas fa-user" /> Works
               </button>
             </li>
+  
             <li className='nav-link '> 
             <button className='nav-button' value={'github.com'} onClick={()=> window.open("https://www.github.com/danronkam", "_blank")} type="button">
                 <i className="icon fab fa-github"/>
