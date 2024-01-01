@@ -137,7 +137,9 @@ function App() {
   return (
     <>
     <div className="content-wrapper" >
-      <Navbar />
+
+      
+        <Navbar />
   
       <div className="page-container">
         <Switch>
@@ -154,9 +156,6 @@ function App() {
             <TLDR />
           </Route>
 
-          <Route exact path="/ecom">
-            <Ecommerce />
-          </Route>
 
           <Route exact path='/work'>
             <Blog />

@@ -17,7 +17,7 @@ const Linktree = () => {
       <h1>My Linktree</h1>
       <ul className="link-list">
         {links.map((link, index) => (
-          <li key={index}>
+          <li key={index} >
             <a href={link.url} target="_blank" rel="noopener noreferrer">
               {link.title}
             </a>
