@@ -2,7 +2,11 @@
     min-height: 80vh;
 }
 
-
 .works-heading{
-    padding-bottom: 10vh;
+    margin-bottom: 2vh;
+}
+
+
+.post-container{
+    margin-top: 2vh;
 }

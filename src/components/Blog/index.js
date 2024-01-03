@@ -49,6 +49,7 @@ function Blog() {
             </div>
 
             <h1 className="content-title works-heading"> Selected Works </h1>
+            <hr />
 
             <div className="post-container">
                 {worksData.map(work => {
