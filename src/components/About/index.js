@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                     <div className="content-tags flex-child">
                             <div className="label">Updated</div>
-                            <div className="tags">June 2023</div>
+                            <div className="tags">Jan 2024</div>
                     </div>
                 </div>
                 
@@ -30,19 +30,20 @@ const About = () => {
                 <div className="content-body" >
                     <div className="introduction">
                         <h2 className="content-heading">Introduction</h2>
-                            <p className="">Hey, I’m Dan Kam A Full Stack Software Engineer with a strong creative side who bridges the gaps between product, design, and engineering. I’m a recent graduate of App Academy and have previously worked for 5+ years in publishing and marketing.</p>
+                            <p className="">Hey I’m Dan Kam, A Full Stack Software Engineer currently working as an ecommerce developer for a surf start-up based in San Diego. I'm a recent graduate of App Academy and have       previously     
+                            worked in publishing and marketing. </p>
                         
                         <h3>I'm passionate about:</h3>
                             <ul className="about-list">
                                 <li>📓  Forgotten Design Trends</li>
                                 <li>💮  Fragrances</li>
-                                <li>💻  User Experiences</li>
+                                <li>⚔️  07 Runscape</li>
 
                             </ul>
                         <h3>My Current Mission is to:</h3>
                             <ul className="about-list">
-                                <li>🛰️  Contribute to high qualify open source projects</li>
-                                <li>💾  Expand my resource Libraries</li>
+                                <li>🛰️  Build custom solutions for expanding businesses</li>
+                                <li>💾  Expand my knowledge of emerging AI technologies </li>
                                 <li>🚀  Push the limits of Design and Development </li>
 
                             </ul>
@@ -50,8 +51,8 @@ const About = () => {
                         <h3>Outside of tech, I've been spending my time:</h3>
                             <ul className="about-list">
                                 <li>🚲  Cycling</li>
-                                <li>🛠️  Tinkering</li>
-                                <li>🏕️  Outside</li>
+                                <li>🧼  Soap Making </li>
+                                <li>💪  Lifting</li>
 
                             </ul>
                         <hr />

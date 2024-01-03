@@ -4,6 +4,7 @@ import "./Blog.css"
 
 
 function Blog() {
+
     const worksData = [
         {
             id: 1,
@@ -36,6 +37,18 @@ function Blog() {
         },
     ];
 
+    const ecomData = 
+        {
+            id: 1,
+            title: "Ecommerce Development",
+            type: "Current Work", 
+            date: "2023 - Now",
+            blurb: "Derailed is a full stack project inspired by 'Grailed,' where users can buy and sell used designer footwear. It features a sleek and intuitive user interface built with React and Next.js, providing a dynamic experience. The Ruby on Rails backend ensures efficient data management while working with secruely with AWS S3 for scalable file storage. Users can create listings, engage in discussions through comments, and enjoy secure transactions. Derailed combines modern web technologies with a reliable development framework, offering a seamless platform for buying and selling unique designer footwear.",
+            link: "/project/:derailed",
+            img: "https://derailed-seed.s3.us-west-1.amazonaws.com/derailed_highlights_gif.gif"
+            
+        }
+
 
 
     useLayoutEffect(() => {
@@ -46,6 +59,13 @@ function Blog() {
         <>
         <div className="content-container" >
             <div className="toc">
+            </div>
+
+            <h1 className="content-title works-heading"> Ecommerce Development </h1>
+            <hr />
+
+            <div className="ecomm-post container">
+                <BlogIndexItem post={ecomData} />
             </div>
 
             <h1 className="content-title works-heading"> Selected Works </h1>
