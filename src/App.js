@@ -10,6 +10,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import ProjectPage from "./components/ProjectPage";
 import Ecommerce from "./components/Ecom";
+import ErrorPage from "./components/ErrorPage";
 
 
 function App() {
@@ -159,7 +160,6 @@ function App() {
             <TLDR />
           </Route>
 
-
           <Route exact path='/work'>
             <Blog />
           </Route>
@@ -169,8 +169,11 @@ function App() {
             <ProjectPage   projectData={projects} />
           </Route>
 
+          <Route path="*" >
+            <ErrorPage  />
+          </Route>
 
-          <Redirect to='/' />
+          <Redirect to='/error_pnf' />
 
         </Switch>
       </div>
