@@ -41,12 +41,12 @@ const Highlights = () => {
             { highlightsData.map(highlightData => {
                 return <HighlightsItem key={highlightData.id} highlight={highlightData} />
             })}
-            <a href="linkin.bio/danirl" target="_blank" id="substack-highlight" rel="noreferrer">
+            <a href="http://www.linkin.bio/danirl" target="_blank" id="substack-highlight" rel="noreferrer">
 
             <div className="highlight-container" >
                 <div className="highlight-head">
                     <p> <b className="type"> Shamless Self Promotion </b> <b className="date">  2024 </b></p>
-                    <h1 className="highlight-head">Follow Me Online</h1>
+                    <h1 className="highlight-head">follow me online</h1>
                 </div>
                 <div className="highlight-body">
                     <p> 
@@ -54,7 +54,7 @@ const Highlights = () => {
                     </p>
                 </div>
                 <div className="highlight-link">
-                    <p href="linkin.bio/danirl"  target="_blank" className="highlight-link">click me</p>
+                    <p href="http://www.linkin.bio/danirl"  target="_blank" className="highlight-link">Click Me</p>
                 </div>
 
             </div>   
