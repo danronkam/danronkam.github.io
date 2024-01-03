@@ -9,7 +9,7 @@ const Highlights = () => {
             id: 3,
             title: "Ecommerce Developer",
             type: "Work", 
-            date: "2023",
+            date: "2023 - Present",
             blurb: "Elevate your business online with custom tailored solutions to fit your needs. With proven results across platofrms, Cargo, Shopify, WooCommerce, check out some of my previous work and see how I can help you grow online",
             link: "/ecom",
 
@@ -41,22 +41,20 @@ const Highlights = () => {
             { highlightsData.map(highlightData => {
                 return <HighlightsItem key={highlightData.id} highlight={highlightData} />
             })}
-            <a href="https://designdk.substack.com/p/02-the-first-live-streamed-runways" target="_blank" id="substack-highlight" rel="noreferrer">
+            <a href="linkin.bio/danirl" target="_blank" id="substack-highlight" rel="noreferrer">
 
             <div className="highlight-container" >
                 <div className="highlight-head">
-                    <p> <b className="type"> Article </b> <b className="date">  2023 </b></p>
-                    <h1 className="highlight-head">The First Livestreamed Runway</h1>
+                    <p> <b className="type"> Shamless Self Promotion </b> <b className="date">  2024 </b></p>
+                    <h1 className="highlight-head">Follow Me Online</h1>
                 </div>
                 <div className="highlight-body">
                     <p> 
-                        When 2020 brought all runway shows online, content creators were quick to call Helmut Lang's 1998 show the first live streamed runway.
-                        Yet Lang himself does not call it a livestream, but more of a prototype. So after him, 
-                        who had the first live streamed runway?
+                       oh you want to like comment follow and subsrcibe.... <br /> you want to like comment follow and subsrcibe so bad...
                     </p>
                 </div>
                 <div className="highlight-link">
-                    <p href="https://designdk.substack.com/p/02-the-first-live-streamed-runways"  target="_blank" className="highlight-link">Read more</p>
+                    <p href="linkin.bio/danirl"  target="_blank" className="highlight-link">click me</p>
                 </div>
 
             </div>   
