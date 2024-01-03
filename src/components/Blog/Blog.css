@@ -1,9 +1,12 @@
 .blog-index-container{
-    /* margin-top: 15vh; */
     min-height: 80vh;
 }
 
 
+.post-container{
+    padding-left: 10vw;
+}
+
 .works-heading{
-    /* padding-top: 40vh; */
+    padding-bottom: 10vh;
 }
