@@ -18,7 +18,7 @@ const Banner = () => {
           <Link to={"/about"} className="highlight-link learn-more">
             about me →
           </Link> <br />
-          <Link to={"/about"} className="highlight-link learn-more">
+          <Link to={"/work"} className="highlight-link learn-more">
             my work →
           </Link> <br />
           <Link to={"/ecom"} className="highlight-link learn-more">
