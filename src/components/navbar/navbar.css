@@ -30,7 +30,7 @@ a{
 .navbar-container{
     position: absolute;
     height: 8vh;
-    padding-top: 1vh;
+    padding-top: 2vh;
     display: flex;
     justify-content: space-between;
     width: 75vw;

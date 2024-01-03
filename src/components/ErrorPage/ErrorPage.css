@@ -7,3 +7,7 @@
 .error-link :visited{
     text-decoration: none;
 }
+
+.error-link{
+    font-style: italic;
+}
