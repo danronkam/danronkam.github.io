@@ -1,0 +1,9 @@
+.error-container{
+    min-height: 65vh;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.error-link :visited{
+    text-decoration: none;
+}

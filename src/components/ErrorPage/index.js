@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom/cjs/react-router-dom"
+import "./ErrorPage.css"
 
 
 const ErrorPage = () => {
@@ -8,7 +9,7 @@ const ErrorPage = () => {
         <>
         <div className="error-container">
             <h1 className="error-title">
-                Page not found, return <Link className="error-link"> home?</Link>
+                page not found, return <Link className="error-link"> home?</Link>
             </h1>
         </div>
         
