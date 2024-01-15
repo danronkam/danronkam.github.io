@@ -36,12 +36,12 @@ function Navbar() {
             </li>
             <li className='nav-link '> 
             <button className='nav-button' value={'/ecom'} onClick={(e) => handleClick(e.target.value)}>
-                <i className="fas fa-user" /> Ecom
+                <i className="fas fa-user" /> Services
               </button>
             </li>
             <li className='nav-link '> 
-            <button className='nav-button' value={'/work'} onClick={(e) => handleClick(e.target.value)}>
-                <i className="fas fa-user" /> Works
+            <button className='nav-button' value={'/projects'} onClick={(e) => handleClick(e.target.value)}>
+                <i className="fas fa-user" /> Projects
               </button>
             </li>
   

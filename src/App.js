@@ -9,8 +9,8 @@ import Blog from "./components/Blog";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import ProjectPage from "./components/ProjectPage";
-import Ecommerce from "./components/Ecom";
 import ErrorPage from "./components/ErrorPage";
+import Services from "./components/Services"
 
 
 function App() {
@@ -152,15 +152,15 @@ function App() {
             <About />
           </Route>
 
-          <Route exact path="/ecom">
-            <Ecommerce />
+          <Route exact path="/services">
+            <Services />
           </Route>
 
           <Route exact path="/tldr">
             <TLDR />
           </Route>
 
-          <Route exact path='/work'>
+          <Route exact path='/projects'>
             <Blog />
           </Route>
 
