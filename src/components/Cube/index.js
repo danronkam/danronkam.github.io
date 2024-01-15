@@ -3,6 +3,7 @@ import './Cube.css'
 import Cube from 'react-3d-cube';
 import "./Cube.css"
 
+
 class LogoCube extends React.Component {
   render() {
     return (
