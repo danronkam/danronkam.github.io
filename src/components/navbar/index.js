@@ -35,7 +35,7 @@ function Navbar() {
               </button>
             </li>
             <li className='nav-link '> 
-            <button className='nav-button' value={'/ecom'} onClick={(e) => handleClick(e.target.value)}>
+            <button className='nav-button' value={'/services'} onClick={(e) => handleClick(e.target.value)}>
                 <i className="fas fa-user" /> Services
               </button>
             </li>
