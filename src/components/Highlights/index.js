@@ -7,11 +7,11 @@ const Highlights = () => {
     const highlightsData = [
         {
             id: 3,
-            title: "Ecommerce Developer",
+            title: "Web Developer / Brand Consultant",
             type: "Work", 
-            date: "2023 - Present",
+            date: "Auguest 2023 - Present",
             blurb: "Elevate your business online with custom tailored solutions to fit your needs. With proven results across platofrms, Cargo, Shopify, WooCommerce, check out some of my previous work and see how I can help you grow online",
-            link: "/ecom",
+            link: "/services",
 
         },
         {
