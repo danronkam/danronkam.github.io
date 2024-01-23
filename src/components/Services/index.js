@@ -1,31 +1,10 @@
 import "./services.css"
 import Carousel from "../Carousel";
+import ClientSlider from "./ClientSlider";
 import { useLayoutEffect } from "react";
 
 const Services = () => {
 
-    const scrollers = document.querySelectorAll(".scroller");
-
-    console.log(scrollers)
-
-    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    addAnimation();
-    }
-
-    function addAnimation() {
-        scrollers.forEach((scroller) => {
-            scroller.setAttribute("data-animated", true);
-
-            const scrollerInner = scroller.querySelector(".scroller__inner");
-            const scrollerContent = Array.from(scrollerInner.children);
-
-            scrollerContent.forEach((item) => {
-            const duplicatedItem = item.cloneNode(true);
-            duplicatedItem.setAttribute("aria-hidden", true);
-            scrollerInner.appendChild(duplicatedItem);
-            });
-        });
-    }
 
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
@@ -36,6 +15,7 @@ const Services = () => {
     return(
         <>
             <div className="content-container"  id="services-container">
+                
                 <div className="content-left">
                     <h1 className="content-title">Web Development Services </h1>
                     <p className="content-description">
@@ -92,29 +72,21 @@ const Services = () => {
                                 </li>
                             </ul>
                     </div>
-                    <h1 >I Work Where You Work</h1>
+
+
+                    <h1 >I Work Where You Work</h1>     
                     <h2 className="content-heading"> In Media</h2>
                     <div className="services-press-container">
                         <p>Advertisers must adapt to the demands of the consumer</p>
                     
                     </div>
                     <h2 className="content-heading">Clients</h2>
-                    <div className="scroller" data-direction="right" data-speed="slow">
-                        <div className="scroller_inner">
-                            <img className="scroller-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/KUIVA_logo.png" alt=""/>
-                            <img className="scroller-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/multi.projects+(2).png" alt=""/>
-                            <img className="scroller-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/BH.png" alt=""/>
-                            <img className="scroller-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/BML.png" alt=""/>
-                            <img className="scroller-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/cex.png" alt=""/>
-                            <img className="scroller-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/ml.png" alt=""/>                        
-                        </div>
-                    </div>
-
+                    <ClientSlider />
+                    
                     <div className="services-contact-container">
 
                     </div>
 
-                    <Carousel />
                     
 
 

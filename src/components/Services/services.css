@@ -2,6 +2,11 @@
     width: 100%;
 }
 
+.client-logo{
+  max-width: 200px;
+  height: 100%;
+}
+
 .scroller{
     max-width: 600px;
 }
