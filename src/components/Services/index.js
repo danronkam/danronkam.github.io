@@ -1,4 +1,5 @@
 import "./services.css"
+import Carousel from "../Carousel";
 import { useLayoutEffect } from "react";
 
 const Services = () => {
@@ -111,6 +112,8 @@ const Services = () => {
                     <div className="services-contact-container">
 
                     </div>
+
+                    <Carousel />
                     
 
 
