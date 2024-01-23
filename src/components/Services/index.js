@@ -82,16 +82,17 @@ const Services = () => {
                                     Multichannel Selling
                                 </li>
                                 <li className="service">
-                                    Brand Strategy 
+                                    Graphic Design
                                 </li>
                                 <li className="service">
-                                    Product Development 
+                                    Staff Education
                                 </li>
                                 <li className="service">
                                     Copywriting 
                                 </li>
                             </ul>
                     </div>
+                    <h1 >I Work Where You Work</h1>
                     <h2 className="content-heading"> In Media</h2>
                     <div className="services-press-container">
                         <p>Advertisers must adapt to the demands of the consumer</p>
