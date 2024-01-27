@@ -1,7 +1,6 @@
 import React from "react";
 import "./BlogIndexItem.css"
 import { useHistory } from "react-router-dom";
-// import styled from 'styled-components'
 
 
 const BlogIndexItem = (post) => {
