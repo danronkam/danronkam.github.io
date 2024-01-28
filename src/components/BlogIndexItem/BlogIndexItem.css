@@ -15,11 +15,8 @@
     color: #e8e9ed;
 }
 
-/* In a CSS file */
 .background-image {
-    /* background-image: url('path-to-your-image.jpg'); */
-    background-size: cover; /* Adjust as needed */
-    /* Other background properties like background-position, background-repeat, etc. */
+    background-size: cover; 
 }
 
 .highlight-img{

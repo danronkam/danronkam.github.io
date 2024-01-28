@@ -1,5 +1,4 @@
 import "./services.css"
-import Carousel from "../Carousel";
 import ClientSlider from "./ClientSlider";
 import { useLayoutEffect } from "react";
 

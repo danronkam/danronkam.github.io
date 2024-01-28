@@ -1,5 +1,4 @@
 #root{
-    /* background-color: black; */
     background-color: black;
     min-height: 100vh;
     font-family: 'Inconsolata', monospace;
@@ -17,7 +16,6 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    /* background-color: black; */
     cursor: default;  
     font-size: 16px;
 }
@@ -26,16 +24,11 @@ body {
     background-color: black;
     margin: auto;
     width: 75vw;
-    /* max-width: ; */
 }
 
 .page-container{
     margin: 0   auto;
     max-width: 1700px;
-    /* min-width: 1400px; */
-    /* min-height: 100%;
-    margin-left: 5vw;
-    margin-right: 5vw; */
     padding-bottom: 5vh;
     padding-top: 10vh;
 
@@ -47,7 +40,6 @@ a:visited{
 
 
   
-/* Styles for screens larger than 1024px (e.g., desktops) */
 @media screen and  (max-width: 1400px) {
     .page-container{
         padding-top: 0;
