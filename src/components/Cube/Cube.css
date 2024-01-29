@@ -1,14 +1,16 @@
 * { box-sizing: border-box; }
 
-/* ._cube_bssuh_1{
-	transition: all 2s ease;
-}
+
+
+._cube_bssuh_1{
+
+} 
+
 
 ._cube_bssuh_1:hover{
-    cursor: crosshair;
-    transform: rotateX(-360deg) rotateY(360deg) rotateZ(0deg) !important;
+    cursor: grab;
 
-  } */
+  } 
 
 
 
