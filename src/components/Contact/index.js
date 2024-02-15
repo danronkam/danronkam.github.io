@@ -25,10 +25,10 @@ const Contact = () => {
                         <div className="introduction">
                             <h2 className="content-heading"> Dan Online </h2>
                                 <ul className="about-list">
-                                    <li> <a> 📓  Linkedin </a></li>
-                                    <li> <a> 📓  Github </a></li>
-                                    <li> <a> 📓  Substack </a></li>
-                                    <li> <a> 📓  Medium </a></li>
+                                    <li> <a href="https://linkedin.com/in/danronkam"> 📓  Linkedin </a></li>
+                                    <li> <a href="https://github.com/danronkam"> 📓  Github </a></li>
+                                    <li> <a href="designdk.substack.com"> 📓  Substack </a></li>
+                                    <li> <a href="https://medium.com/@danronkam"> 📓  Medium </a></li>
                                 </ul>
                             <h2 className="content-heading"> Dan irl </h2>
                                 <ul className="about-list">
