@@ -169,6 +169,10 @@ function App() {
             <ProjectPage   projectData={projects} />
           </Route>
 
+          <Route path="/contact" >
+            <ErrorPage  />
+          </Route>
+
           <Route path="*" >
             <ErrorPage  />
           </Route>
