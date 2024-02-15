@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import ProjectPage from "./components/ProjectPage";
 import ErrorPage from "./components/ErrorPage";
 import Services from "./components/Services"
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -170,7 +171,7 @@ function App() {
           </Route>
 
           <Route path="/contact" >
-            <ErrorPage  />
+            <Contact  />
           </Route>
 
           <Route path="*" >

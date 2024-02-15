@@ -12,10 +12,6 @@ function Navbar() {
     history.push(e)
   };
 
-  const handleEmail = (e) => {
-    window.open('mailto:danronkam@gmail.com')
-  }
-
 
   return (
     <div className='navbar-container'>
@@ -61,7 +57,7 @@ function Navbar() {
               </button>
             </li>
             <li className='nav-link '> 
-            <button className='nav-button' value={'/contact'} onClick={(e) => handleEmail(e.target.value)}>
+            <button className='nav-button' value={'/contact'} onClick={(e) => handleClick(e.target.value)}>
               <i className="fa fa-pen-fancy"/> Contact
             </button>
             </li>
