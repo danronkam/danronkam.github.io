@@ -43,22 +43,41 @@ const Highlights = () => {
             })}
             <a href="http://www.linkin.bio/danirl" target="_blank" id="substack-highlight" rel="noreferrer">
 
-            <div className="highlight-container" >
-                <div className="highlight-head">
-                    <p> <b className="type"> Shamless Self Promotion </b> <b className="date">  2024 </b></p>
-                    <h1 className="highlight-head">follow me online</h1>
-                </div>
-                <div className="highlight-body">
-                    <p> 
-                       oh you want to like comment follow and subsrcibe.... <br /> you want to like comment follow and subsrcibe so bad...
-                    </p>
-                </div>
-                <div className="highlight-link">
-                    <p href="http://www.linkin.bio/danirl"  target="_blank" className="highlight-link">Click Me</p>
-                </div>
+                <div className="highlight-container" >
+                    <div className="highlight-head">
+                        <p> <b className="type"> Shamless Self Promotion </b> <b className="date">  2024 </b></p>
+                        <h1 className="highlight-head">follow me online</h1>
+                    </div>
+                    <div className="highlight-body">
+                        <p> 
+                        oh you want to like comment follow and subsrcibe.... <br /> you want to like comment follow and subsrcibe so bad...
+                        </p>
+                    </div>
+                    <div className="highlight-link">
+                        <p href="http://www.linkin.bio/danirl"  target="_blank" className="highlight-link">Click Me</p>
+                    </div>
 
-            </div>   
-            </a>   
+                </div>   
+            </a> 
+
+            <a href="http://www.linkin.bio/danirl" target="_blank" id="substack-highlight" rel="noreferrer">
+
+                <div className="highlight-container" >
+                    <div className="highlight-head">
+                        <p> <b className="type"> Shamless Self Promotion </b> <b className="date">  2024 </b></p>
+                        <h1 className="highlight-head">follow me online</h1>
+                    </div>
+                    <div className="highlight-body">
+                        <p> 
+                        oh you want to like comment follow and subsrcibe.... <br /> you want to like comment follow and subsrcibe so bad...
+                        </p>
+                    </div>
+                    <div className="highlight-link">
+                        <p href="http://www.linkin.bio/danirl"  target="_blank" className="highlight-link">Click Me</p>
+                    </div>
+
+                </div>   
+            </a>    
         
 
         </div>
