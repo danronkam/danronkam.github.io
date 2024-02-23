@@ -1,3 +1,5 @@
+import "./CardIndexItem.css"
+
 const CardIndexItem = ({ item }) => {
 
     const cardStyle = {
@@ -12,6 +14,6 @@ const CardIndexItem = ({ item }) => {
       </div>
     );
   };
-  
+
 
   export default CardIndexItem
