@@ -1,0 +1,33 @@
+.link-tree {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.link-tree h2 {
+font-size: 24px;
+margin-bottom: 15px;
+}
+
+.link-tree ul {
+list-style: none;
+padding: 0;
+}
+
+.link-tree li {
+margin-bottom: 10px;
+}
+
+.link-tree a {
+text-decoration: none;
+color: #333;
+transition: color 0.3s ease;
+}
+
+.link-tree a:hover {
+color: #007bff;
+}
