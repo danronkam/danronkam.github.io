@@ -1,4 +1,5 @@
 import React, { useLayoutEffect } from "react";
+import {Link} from 'react-router-dom'
 import './About.css'
 
 const About = () => {
@@ -12,7 +13,7 @@ const About = () => {
 
             <div className="content-left">
                 <h1 className="content-title">About Dan Kam</h1>
-                <p className="content-description">Full Stack Engineer</p>
+                <p className="content-description" id="about-description">Developer, Designer, Deployer</p>
                 <div className="tag-wrapper">
                     <div className="content-tags flex-child">
                             <div className="label">Type</div>
@@ -20,7 +21,7 @@ const About = () => {
                     </div>
                     <div className="content-tags flex-child">
                             <div className="label">Updated</div>
-                            <div className="tags">Jan 2024</div>
+                            <div className="tags">Feb 2024</div>
                     </div>
                 </div>
                 
@@ -30,8 +31,11 @@ const About = () => {
                 <div className="content-body" >
                     <div className="introduction">
                         <h2 className="content-heading">Introduction</h2>
-                            <p className="">Hey I’m Dan Kam, A Full Stack Software Engineer currently working as an ecommerce developer for a surf start-up based in San Diego. I'm a recent graduate of App Academy and have       previously     
+                            <p className=""> Full Stack Software Engineer currently working as an ecommerce developer for a surf start-up based in San Diego. I'm a recent graduate of App Academy and have       previously     
                             worked in publishing and marketing. </p>
+
+                            <Link> To Learn More about my services Click here</Link>
+
                         
                         <h3>I'm passionate about:</h3>
                             <ul className="about-list">

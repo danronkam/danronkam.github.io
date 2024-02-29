@@ -37,6 +37,10 @@
     text-decoration: underline;
 }
 
+.tab{
+    padding-left: 2vw;
+}
+
   /* Media Query for Tablet and Mobile Devices */
   @media (max-width: 820px) {
     .banner-container{
