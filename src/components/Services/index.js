@@ -18,7 +18,7 @@ const Services = () => {
                 <div className="content-left">
                     <h1 className="content-title">Web Development Services </h1>
                     <p className="content-description">
-                        Brand consultancy and web development working across scale, strategy, creative direction and technical research. 
+                        Brand consultancy and web development working across scale, strategy, creative direction, and technical research. 
                     </p>
                     <div className="tag-wrapper">
                         <div className="content-tags flex-child">
