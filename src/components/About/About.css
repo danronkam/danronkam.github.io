@@ -1,5 +1,5 @@
 #about-description {
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .about-img{
@@ -90,6 +90,10 @@ li > a:hover {
     font-size: 1.25rem;
     font-weight: 700;
     padding-top: .5rem;
+}
+
+.learn-more{
+    font-style: italic;
 }
 
 
