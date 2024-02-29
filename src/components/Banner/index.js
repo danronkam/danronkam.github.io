@@ -13,10 +13,10 @@ const Banner = () => {
       <div className="banner-container">
         <div className="banner-left">
           <p className="banner-text">
-            Hi 👋 I'm <b className="name">Dan Kam</b>, <br /> a <b className="jobtitle"> Branding Consultant </b> 🏬 <br /> & <b className="jobtitle"> Full Stack Software Engineer </b> 👨‍💻
+            hi 👋 im <b className="name">Dan Kam</b>, <br /> im a <b className="jobtitle"> Full Stack Web Developer </b> 🏬 <br /> & <b className="jobtitle"> Digital Solutions Consultant  </b> 👨‍💻
           </p>
           <Link to={"/about"} className="highlight-link learn-more">
-            about →
+            about me →
           </Link> <br />
           <Link to={"/services"} className="highlight-link learn-more">
             services →
