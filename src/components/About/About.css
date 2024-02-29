@@ -1,5 +1,5 @@
 #about-description {
-    /* font-style: italic; */
+    font-style: italic;
 }
 
 .about-img{
@@ -92,8 +92,22 @@ li > a:hover {
     padding-top: .5rem;
 }
 
-.learn-more{
+.content-link{
     font-style: italic;
+    color: #64ffea;
+    text-align: center;
+}
+
+.fresh-link{
+    color: #64ffea;
+}
+
+.fresh-link:hover{
+    text-decoration: underline;
+}
+
+.fresh-link:visited{
+    font-style: none;
 }
 
 

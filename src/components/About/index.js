@@ -32,15 +32,17 @@ const About = () => {
                     <div className="introduction">
                         <h2 className="content-heading">Introduction</h2>
                             <p className=""> 
-                                Hi I’m Dan, I’m a Branding Designer turned Web Developer who now combines all those skills to create scalable business and tech solutions for emerging startups. <br />
-                                My background is in media, with words and productions appearing in The Boston Globe, Vice, The Overwatch League, ELeague, and many other companies across industries. 
+                                Hi I’m Dan, I’m a Branding Consultant turned Web Developer who combines those skills to create scalable business and tech solutions for emerging startups and small businesses. <br />
+                                My background is in new media, with words and productions appearing in The Boston Globe, Vice, The Overwatch League, ELeague, and many other companies across industries. 
                             </p>
 
-                            <Link to={"/services"} className="learn-more"> 
-                                to learn more about my professional services click here 
-                            </Link>
+                            <h3 className="content-link"> 
+                                <Link to={"/services"} className="fresh-link">
+                                    to learn more about my professional services click here
+                                </Link>
+                            </h3>
 
-                            <h3 className="learn-more">
+                            <h3 className="content-link">
                                 to learn more about me keep scrolling
                             </h3>
 
@@ -49,14 +51,14 @@ const About = () => {
                             <ul className="about-list">
                                 <li>📓  Forgotten Design Trends</li>
                                 <li>💮  Niche Fragrances</li>
-                                <li>⚔️  07 Runscape</li>
+                                <li>⚔️  Dota 2 </li>
 
                             </ul>
-                        <h3>My Current Mission is to:</h3>
+                        <h3>My current mission is to:</h3>
                             <ul className="about-list">
-                                <li>🛰️  Build custom solutions for expanding businesses</li>
+                                <li>🛰️  Build custom solutions for small businesses</li>
                                 <li>💾  Expand my knowledge of emerging AI technologies </li>
-                                <li>🚀  Push the limits of Design and Development </li>
+                                <li>🚀  Bridge the gap between Design and Development </li>
 
                             </ul>
 
@@ -64,17 +66,14 @@ const About = () => {
                             <ul className="about-list">
                                 <li>🚲  Cycling</li>
                                 <li>🧼  Soap Making </li>
-                                <li>💪  Lifting</li>
+                                <li> 🛠️ Tinkering (breaking electronics) </li>
 
                             </ul>
 
-                        <h3>Outside of tech, I've been spending my time:</h3>
-                            <ul className="about-list">
-                                <li>🚲  Cycling</li>
-                                <li>🧼  Soap Making </li>
-                                <li>💪  Lifting</li>
-
-                            </ul>
+                            <h3>You can find me online on:</h3>
+                                <ul className="about-list">
+                                    <li> <a href="https://linkin.bio/danirl" target="_blank" rel="noreferrer" >🌲 my links in bio </a> </li>
+                                </ul>
                         <hr />
                     </div>
 
@@ -102,20 +101,19 @@ const About = () => {
 
                         <h3>& I can help you fix your website on:</h3>
                             <ul className="about-list">
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/ts.png" className="about-img" alt="Typescript Logo"/> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" > Shopify </a> - Typed Superset of JavaScript </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/p5.png" className="about-img" alt="P5.js Logo"/> <a href="https://p5js.org/" target="_blank" rel="noreferrer" > p5.js </a> - WordPress </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/3js.png" className="about-img"  alt="Three.js Logo"/> <a href="https://threejs.org/" target="_blank" rel="noreferrer"> SquareSpace </a> - 3d Graphics Library </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/hygraph.png" className="about-img" alt="Hygraph Logo"/> <a href="https://hygraph.com/" target="_blank" rel="noreferrer" > Cargo Collective  </a> - Headless CMS </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/postgres.png" className="about-img" alt="PostgresQL Logo"/> <a href="https://hygraph.com/" target="_blank" rel="noreferrer" > PostgresQL </a> - Relational Database </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/rails.png" className="about-img" alt="Rails Logo" />  <a href="https://rubyonrails.org/" target="_blank" rel="noreferrer" > Ruby on Rails </a> - Backend Web Application Framework </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/ts.png" className="about-img" alt="Typescript Logo"/> <a href="https://www.shopify.com/" target="_blank" rel="noreferrer" > Shopify </a> - Typed Superset of JavaScript </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/p5.png" className="about-img" alt="P5.js Logo"/> <a href="https://wordpress.com/" target="_blank" rel="noreferrer" > WordPress </a>  </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/3js.png" className="about-img"  alt="Three.js Logo"/> <a href="https://www.squarespace.com/" target="_blank" rel="noreferrer"> SquareSpace </a> - 3d Graphics Library </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/hygraph.png" className="about-img" alt="Hygraph Logo"/> <a href="https://u.cargo.site/" target="_blank" rel="noreferrer" > Cargo Collective  </a> - Headless CMS </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/postgres.png" className="about-img" alt="PostgresQL Logo"/> <a href="https://www.wix.com" target="_blank" rel="noreferrer" > Wix </a> - Relational Database </li>
                             </ul>
 
-                        <h3>Tools:</h3>
+                        <h3>Skills & Tools:</h3>
                             <ul className="about-list">
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/figma.png" className="about-img" alt="Figma Logo"/> <a href="https://www.figma.com/files/recent?fuid=1187876458297796354" target="_blank" rel="noreferrer" > Figma </a> - Interface Design </li>
                                 <li> 📓 <a href="https://www.1101.com/store/techo/en/" target="_blank" rel="noreferrer"> Hobonichi Techo </a> - Life Planner </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/blender.png" className="about-img" alt="Blender Logo"/> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> Blender </a> - 3D Creation Suite </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/adobe.png" className="about-img" alt="Adobe Logo"/> <a href="https://www.adobe.com/" target="_blank" rel="noreferrer"> Adobe </a> - I wish I could quit you </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/adobe.png" className="about-img" alt="Adobe Logo"/> <a href="https://www.adobe.com/" target="_blank" rel="noreferrer"> Adobe Suite</a> - I wish I could quit you </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/nts.png" className="about-img" alt="NTS Logo"/> <a href="https://www.nts.live/" target="_blank" rel="noreferrer"> NTS </a> - Pirate Radio </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/paletton.png" className="about-img" alt="Paletton"/> <a href="https://paletton.com/" target="_blank" rel="noreferrer"> Paletton </a> - Color Scheme Designer </li>
                                 <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/anki.png" className="about-img" alt="Anki Logo"/> <a href="https://apps.ankiweb.net/" target="_blank" rel="noreferrer"> Anki </a> - Open-Source Flashcard Program </li>
