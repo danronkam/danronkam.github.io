@@ -36,7 +36,7 @@
   border-radius: 25px;
   margin-bottom: 5vh;
   padding: 1vw;
-  height: 33vh;
+  height: 40vh;
   min-height: 300px;
 }
 
@@ -44,13 +44,14 @@
   float: left;
   width: 50%;
   height: 100%;
+  padding-left: ;
   
 }
 
 .service-right{
   float: right;
   width: 50%;
-  height: 100%;
+  height: auto;
   text-align: right;
 }
 
@@ -59,9 +60,13 @@
 }
 
 .service-img{
-  max-height: 250px;
+  max-height: 35vh;
   height: auto;
   width: auto;
+  /* max-width: 100%; */
+  padding-right: 18vw;
+  padding-top: vh;
+  display: block;
 }
 
 .service-title{
@@ -69,7 +74,7 @@
 }
 
 .service-list{
-  padding-left: 0;
+  /* padding-left: 0; */
 }
 
 .service-list-item{

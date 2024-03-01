@@ -60,7 +60,7 @@ const Services = () => {
 
                         </div>
                         <div className="service-right">
-                            <img className="service-img" src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg">
+                            <img className="service-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/Sequence+01.gif">
 
                             </img>
                             
@@ -113,7 +113,7 @@ const Services = () => {
 
                         </div>
                         <div className="service-right">
-                            <img className="service-img" src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg">
+                            <img className="service-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/iphone_finals.gif">
                                 
                             </img>
 
