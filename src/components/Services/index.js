@@ -121,6 +121,11 @@ const Services = () => {
                     </div>
                     
                 </div>
+
+
+                <Link to={'/contact'} className='service-cta'>
+                        need a favor? let's talk
+                </Link>
                
             </div>
                 
