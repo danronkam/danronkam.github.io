@@ -1,16 +1,9 @@
-import {useRef} from 'react'
 import emailjs from "@emailjs/browser"
-
+import EmailForm from '../EmailForm'
 
 const Contact = () => {
 
-    const form = useRef();
 
-    const sendEmail = (e) => {
-        e.preventDefault();
-
-        
-    }
 
 
     return(
@@ -51,6 +44,7 @@ const Contact = () => {
 
                     </div>
                 </div>
+                <EmailForm />
             </div>
         </>
     )
