@@ -1,6 +1,5 @@
 import { useLayoutEffect } from "react"
 import './ProjectShow.css'
-import StickyLinks from "../StickyLinks";
 
 const ProjectShow = (projectData) => {
     const project = projectData.projectData;
@@ -25,9 +24,6 @@ const ProjectShow = (projectData) => {
                 <img src={headerImg} alt="header img" className="pj-headerImg"/>
             </div>
 
-            <div className="content-right">
-                    <StickyLinks linkData={links}/>
-            </div>
 
             <div className="content-left">
 
