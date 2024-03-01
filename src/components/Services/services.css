@@ -64,10 +64,15 @@
   width: auto;
 }
 
+.service-title{
+  text-transform: uppercase;
+}
+
 .service-list{
   padding-left: 0;
 }
 
 .service-list-item{
   display: block;
+  margin-bottom: .5vh;
 }
