@@ -60,7 +60,7 @@ const Services = () => {
 
                         </div>
                         <div className="service-right">
-                            <img className="service-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/Sequence+01.gif">
+                            <img alt="iphone mock up" className="service-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/Sequence+01.gif">
 
                             </img>
                             
@@ -70,7 +70,7 @@ const Services = () => {
 
                     <div className="service-item">
                         <div className="service-left">
-                            <img className="service-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/marketing_1.gif">
+                            <img alt="iphone mock up" className="service-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/marketing_1.gif">
                                 
                             </img>
 
@@ -113,7 +113,7 @@ const Services = () => {
 
                         </div>
                         <div className="service-right">
-                            <img className="service-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/iphone_finals.gif">
+                            <img alt="iphone mock up" className="service-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/iphone_finals.gif">
                                 
                             </img>
 

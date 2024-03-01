@@ -64,9 +64,8 @@ const Contact = () => {
                         <div className="content-tags flex-child">
                             <div className="label">Email</div>
                             <div className="tags">
-                                <a className='click-copy' data-tooltip-text="Click to Copy" data-tool-text-copied="✔ Copied to clipboard">
                                     danronkam@gmail.com
-                                </a>
+
                             </div>
                         </div>
                         <div className="content-tags flex-child">
@@ -80,17 +79,17 @@ const Contact = () => {
                         <div className="introduction">
                             <h2 className="content-heading"> Dan Online </h2>
                                 <ul className="about-list">
-                                    <li> <a href="https://linkedin.com/in/danronkam" target="_blank"> 📓  Linkedin </a></li>
-                                    <li> <a href="https://github.com/danronkam" target="_blank"> 📓  Github </a></li>
-                                    <li> <a href="designdk.substack.com" target="_blank"> 📓  Substack </a></li>
-                                    <li> <a href="https://medium.com/@danronkam" target="_blank"> 📓  Medium </a></li>
+                                    <li> <a href="https://linkedin.com/in/danronkam" target="_blank" rel="noreferrer"> 📓  Linkedin </a></li>
+                                    <li> <a href="https://github.com/danronkam" target="_blank" rel="noreferrer" > 📓  Github </a></li>
+                                    <li> <a href="https://designdk.substack.com" target="_blank" rel="noreferrer"> 📓  Substack </a></li>
+                                    <li> <a href="https://medium.com/@danronkam" target="_blank" rel="noreferrer"> 📓  Medium </a></li>
                                 </ul>
                             <h2 className="content-heading"> Dan irl </h2>
                                 <ul className="about-list">
-                                    <li> <a> 📓  Tiktok </a></li>
-                                    <li> <a> 📓  Twitter </a></li>
-                                    <li> <a> 📓  Instagram </a></li>
-                                    <li> <a> 📓  Medium </a></li>
+                                    <li> <a href='https://www.tiktok.com/@doafavorforme' target='_blank' rel="noreferrer"> 📓  Tiktok </a></li>
+                                    <li> <a target='_blank' rel="noreferrer" href='https://twitter.com/kamerugh'> 📓  Twitter </a></li>
+                                    <li> <a target='_blank' rel="noreferrer" href='https://instagram.com/doafavorforme'> 📓  Instagram </a></li>
+                                    <li> <a target='_blank' rel="noreferrer" href='https://medium.com/@danronkam'> 📓  Medium </a></li>
                                 </ul>
                         </div>
 
