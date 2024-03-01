@@ -57,6 +57,8 @@ const Contact = () => {
     return(
         <>
             <div className="content-container">
+                <EmailForm />
+
                 <div className="content-left">
                     <h1 className="content-title"> Contact </h1>
                     <p className="content-description"> find me online, click the links copy, it's 2024 no more mailto </p>
@@ -96,7 +98,9 @@ const Contact = () => {
 
                     </div>
                 </div>
-                <EmailForm />
+                <div className='content-right'>
+
+                </div>
             </div>
         </>
     )

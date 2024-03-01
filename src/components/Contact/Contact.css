@@ -1,3 +1,9 @@
+.content-right{
+  float: right;
+  display: block;
+  background-color: red;
+}
+
 
 .copy-click {
     position: relative;

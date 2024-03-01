@@ -12,7 +12,6 @@ import ProjectPage from "./components/ProjectPage";
 import ErrorPage from "./components/ErrorPage";
 import Services from "./components/Services"
 import Contact from "./components/Contact";
-import LinkTree from "./components/Linktree";
 
 
 function App() {
@@ -150,9 +149,6 @@ function App() {
             <Homepage />
           </Route>
 
-          <Route exact path="/pls">
-            <LinkTree />
-          </Route>
 
           <Route exact path="/about">
             <About />
