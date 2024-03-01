@@ -59,7 +59,7 @@ const Contact = () => {
             <div className="content-container" id="contact-container">
                 <div className="content-left">
                     <h1 className="content-title"> Contact </h1>
-                    <p className="content-description"> Send me a message or find me online, I'd love to do a favor for you</p>
+                    <p className="content-description"> Send me a message or find me online, <br /> let me do a favor for you</p>
                     <div className="tag-wrapper">
                         <div className="content-tags flex-child">
                             <div className="label">Email</div>

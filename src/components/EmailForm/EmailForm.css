@@ -10,9 +10,22 @@
     width: 35%;
     float: right;
     display: block;
-    padding-top: 70vh;
+    padding-top: 50vh;
 }
 
 #contact-container{
     display: flex;
+}
+
+.email-input{
+    width: 100%;
+    border-radius: 25px;
+    padding: 1vh;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 25px;
+    min-height: 125px;
+    padding: 1vh;
 }
