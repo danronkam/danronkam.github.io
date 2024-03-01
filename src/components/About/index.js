@@ -101,11 +101,11 @@ const About = () => {
 
                         <h3>& I can help you fix your website on:</h3>
                             <ul className="about-list">
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/ts.png" className="about-img" alt="Typescript Logo"/> <a href="https://www.shopify.com/" target="_blank" rel="noreferrer" > Shopify </a> - Typed Superset of JavaScript </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/p5.png" className="about-img" alt="P5.js Logo"/> <a href="https://wordpress.com/" target="_blank" rel="noreferrer" > WordPress </a>  </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/3js.png" className="about-img"  alt="Three.js Logo"/> <a href="https://www.squarespace.com/" target="_blank" rel="noreferrer"> SquareSpace </a> - 3d Graphics Library </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/hygraph.png" className="about-img" alt="Hygraph Logo"/> <a href="https://u.cargo.site/" target="_blank" rel="noreferrer" > Cargo Collective  </a> - Headless CMS </li>
-                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/postgres.png" className="about-img" alt="PostgresQL Logo"/> <a href="https://www.wix.com" target="_blank" rel="noreferrer" > Wix </a> - Relational Database </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/shopi.png" className="about-img" alt="Shopify Logo"/> <a href="https://www.shopify.com/" target="_blank" rel="noreferrer" > Shopify </a> </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/wp.png" className="about-img" alt="Wordpress Logo"/> <a href="https://wordpress.com/" target="_blank" rel="noreferrer" > WordPress </a>  </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/sspace.png" className="about-img"  alt="Squarespace Logo"/> <a href="https://www.squarespace.com/" target="_blank" rel="noreferrer"> SquareSpace </a>  </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/cargo.png" className="about-img" alt="Cargo Collective Logo"/> <a href="https://u.cargo.site/" target="_blank" rel="noreferrer" > Cargo Collective  </a>  </li>
+                                <li><img src="https://derailed-seed.s3.us-west-1.amazonaws.com/Untitled-1.png" className="about-img" alt="Wix Logo"/> <a href="https://www.wix.com" target="_blank" rel="noreferrer" > Wix </a>  </li>
                             </ul>
 
                         <h3>Skills & Tools:</h3>
