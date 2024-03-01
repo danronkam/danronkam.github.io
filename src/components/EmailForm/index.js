@@ -1,5 +1,6 @@
 import emailjs from "@emailjs/browser"
 import {useRef} from 'react'
+import './EmailForm.css'
 
 
 const EmailForm = () => {
@@ -25,12 +26,25 @@ const EmailForm = () => {
     return (
       <div className="email-container">
         <form ref={form} onSubmit={sendEmail} className="email-form">
-          <label className="email-label">Name</label>
-            <input type="text" name="user_name" />
-          <label className="email-label">Email</label>
-            <input type="email" name="user_email" />
-          <label className="email-label">Message</label>
+          <label className="email-label">
+            <h2 className="content-heading">
+              Name
+            </h2>
+          </label>
+            <input type="text" name="user_name" className="email-input"/>
+          <label className="email-label">
+            <h2 className="content-heading">
+              Email
+            </h2>
+          </label>
+            <input type="email" name="user_email" className="email-input"/>
+          <label className="email-label">
+            <h2 className="content-heading">
+              Message
+            </h2>
+          </label>
             <textarea name="message" />
+            <br />
           <input type="submit" value="Send" />
         </form>
 

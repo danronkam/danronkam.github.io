@@ -56,12 +56,10 @@ const Contact = () => {
 
     return(
         <>
-            <div className="content-container">
-                <EmailForm />
-
+            <div className="content-container" id="contact-container">
                 <div className="content-left">
                     <h1 className="content-title"> Contact </h1>
-                    <p className="content-description"> find me online, click the links copy, it's 2024 no more mailto </p>
+                    <p className="content-description"> Send me a message or find me online, I'd love to do a favor for you</p>
                     <div className="tag-wrapper">
                         <div className="content-tags flex-child">
                             <div className="label">Email</div>
@@ -99,7 +97,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='content-right'>
-
+                    <EmailForm />
                 </div>
             </div>
         </>

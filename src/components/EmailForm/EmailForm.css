@@ -1,0 +1,18 @@
+.email-form{
+    display: block;
+}
+
+.email-container{
+    text-align: left;
+}
+
+.content-right{
+    width: 35%;
+    float: right;
+    display: block;
+    padding-top: 70vh;
+}
+
+#contact-container{
+    display: flex;
+}
