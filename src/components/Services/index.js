@@ -70,7 +70,7 @@ const Services = () => {
 
                     <div className="service-item">
                         <div className="service-left">
-                            <img className="service-img" src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg">
+                            <img className="service-img" src="https://derailed-seed.s3.us-west-1.amazonaws.com/marketing_1.gif">
                                 
                             </img>
 
