@@ -9,25 +9,20 @@ const RotatingObject = () => {
   const object = useRef(null);
 
   useEffect(() => {
-    // Set up scene
     scene.current = new THREE.Scene();
 
-    // Set up camera
     camera.current = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     camera.current.position.z = 5;
 
-    // Set up renderer
     renderer.current = new THREE.WebGLRenderer({ antialias: true });
     renderer.current.setSize(window.innerWidth, window.innerHeight);
     containerRef.current.appendChild(renderer.current.domElement);
 
-    // Create object
     const geometry = new THREE.BoxGeometry();
     const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
     object.current = new THREE.Mesh(geometry, material);
     scene.current.add(object.current);
 
-    // Handle resize
     const handleResize = () => {
       camera.current.aspect = window.innerWidth / window.innerHeight;
       camera.current.updateProjectionMatrix();
@@ -35,7 +30,6 @@ const RotatingObject = () => {
     };
     window.addEventListener('resize', handleResize);
 
-    // Render loop
     const animate = () => {
       requestAnimationFrame(animate);
       object.current.rotation.x += 0.01;
@@ -44,7 +38,6 @@ const RotatingObject = () => {
     };
     animate();
 
-    // Clean up
     return () => {
       window.removeEventListener('resize', handleResize);
       containerRef.current.removeChild(renderer.current.domElement);
@@ -52,7 +45,6 @@ const RotatingObject = () => {
   }, []);
 
   const handleScroll = () => {
-    // Rotate object based on scroll position
     if (object.current) {
       object.current.rotation.y = window.scrollY * 0.001;
     }
