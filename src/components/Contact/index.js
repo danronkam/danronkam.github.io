@@ -13,8 +13,8 @@ const Contact = () => {
   const handleCopy = () => {
     navigator.clipboard.writeText(textToCopy);
     setCopied(true);
-    setTimeout(() => setCopied(false), 2000); // Reset copied state after 2 seconds
-  };
+    setTimeout(() => setCopied(false), 2000); 
+  }
 
     // const links = document.querySelectorAll('.copy-click');
 
@@ -67,6 +67,8 @@ const Contact = () => {
 
     return(
         <>
+              {copied && <div className="popup">Copied!</div>}
+
             <div className="content-container" id="contact-container">
                 <div className="content-left">
                     <h1 className="content-title"> Contact </h1>
