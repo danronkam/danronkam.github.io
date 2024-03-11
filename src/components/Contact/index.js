@@ -7,6 +7,16 @@ const Contact = () => {
     useLayoutEffect(() => {
         window.scrollTo(0,0);
     });
+    import React, { useState } from 'react';
+
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(textToCopy);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000); // Reset copied state after 2 seconds
+  };
+
     // const links = document.querySelectorAll('.copy-click');
 
 
