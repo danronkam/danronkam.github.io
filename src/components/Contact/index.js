@@ -7,7 +7,6 @@ const Contact = () => {
     useLayoutEffect(() => {
         window.scrollTo(0,0);
     });
-    import React, { useState } from 'react';
 
   const [copied, setCopied] = useState(false);
 
