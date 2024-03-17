@@ -55,16 +55,12 @@
   text-align: right;
 }
 
-.service-right:hover{
-
-}
 
 .service-img{
   max-height: 35vh;
   height: auto;
   width: auto;
-  /* max-width: 100%; */
-  /* padding-right: 10vw; */
+
   display: block;
 }
 
@@ -72,9 +68,6 @@
   text-transform: uppercase;
 }
 
-.service-list{
-  /* padding-left: 0; */
-}
 
 .service-list-item{
   display: block;
