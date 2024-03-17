@@ -5,12 +5,10 @@ const LoadingPage = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate some async operation
     const timeout = setTimeout(() => {
       setLoading(false);
     }, 2000);
 
-    // Clear timeout on component unmount
     return () => clearTimeout(timeout);
   }, []);
 
@@ -22,7 +20,7 @@ const LoadingPage = ({ children }) => {
           <div>Loading...</div>
         </div>
       ) : (
-        children // Render children components when loading is finished
+        children 
       )}
     </div>
   );
