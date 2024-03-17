@@ -80,3 +80,14 @@
   display: block;
   margin-bottom: .5vh;
 }
+
+/* ANIMATION  */
+  /* reveal on scroll */
+.hidden-element {
+  opacity: 0;
+  transition: opacity 0.5s ease; /* Smooth transition effect */
+}
+
+.visible {
+  opacity: 1;
+}
