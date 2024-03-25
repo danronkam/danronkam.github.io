@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom'
 import FlatCube from "../FlatCube";
+import {motion} from "framer-motion"
 import "./Banner.css"
 
 
@@ -10,7 +11,11 @@ const Banner = () => {
 
   return(
     <>
-      <div className="banner-container">
+      <motion.div 
+        className="banner-container"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        >
         <div className="banner-left">
           <p className="banner-text">
             Hi 👋 I'm <b className="name">Dan Kam</b>, <br /> I'm a <b className="jobtitle"> Web Developer </b> 🏬 <br /> & <b className="jobtitle"> Digital Solutions Consultant  </b> 👨‍💻
@@ -26,7 +31,7 @@ const Banner = () => {
         <div className="banner-right">
           < FlatCube />
         </div>
-      </div>
+      </motion.div>
     </>
   )
 

@@ -1,9 +1,11 @@
 import React from "react";
 import HighlightsItem from "../HighlightsItem";
 import "./Highlights.css"
+import {motion} from "framer-motion"
 
 
 const Highlights = () => {
+    
     const highlightsData = [
         {
             id: 3,
@@ -37,7 +39,10 @@ const Highlights = () => {
 
     return(
         <>
-        <div className="highlights-container" >
+        <motion.div 
+            className="highlights-container" 
+            initial="offscreen"
+            >
             { highlightsData.map(highlightData => {
                 return <HighlightsItem key={highlightData.id} highlight={highlightData} />
             })}
@@ -62,7 +67,7 @@ const Highlights = () => {
 
         
 
-        </div>
+        </motion.div>
 
         </>
     )
