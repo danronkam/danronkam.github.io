@@ -1,6 +1,7 @@
 import EmailForm from '../EmailForm'
 import { useLayoutEffect } from "react";
 import "./Contact.css"
+import { useState } from 'react';
 
 const Contact = () => {
     
@@ -10,11 +11,11 @@ const Contact = () => {
 
   const [copied, setCopied] = useState(false);
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(textToCopy);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000); 
-  }
+//   const handleCopy = () => {
+//     navigator.clipboard.writeText(textToCopy);
+//     setCopied(true);
+//     setTimeout(() => setCopied(false), 2000); 
+//   }
 
     // const links = document.querySelectorAll('.copy-click');
 
@@ -67,7 +68,7 @@ const Contact = () => {
 
     return(
         <>
-              {copied && <div className="popup">Copied!</div>}
+            {copied && <div className="popup">Copied!</div>}
 
             <div className="content-container" id="contact-container">
                 <div className="content-left">
@@ -82,8 +83,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="content-tags flex-child">
-                            <div className="label">Phone</div>
-                            <div className="tags">808-256-6994</div>
+
                         </div>
                     </div>
                     <hr />
@@ -92,17 +92,17 @@ const Contact = () => {
                         <div className="introduction">
                             <h2 className="content-heading"> Dan Online </h2>
                                 <ul className="about-list">
-                                    <li> <a href="https://linkedin.com/in/danronkam" target="_blank" rel="noreferrer"> 📓  Linkedin </a></li>
-                                    <li> <a href="https://github.com/danronkam" target="_blank" rel="noreferrer" > 📓  Github </a></li>
-                                    <li> <a href="https://designdk.substack.com" target="_blank" rel="noreferrer"> 📓  Substack </a></li>
-                                    <li> <a href="https://medium.com/@danronkam" target="_blank" rel="noreferrer"> 📓  Medium </a></li>
+                                    <li> <a href="https://linkedin.com/in/danronkam" target="_blank" rel="noreferrer"> <i class="fa-brands fa-linkedin" />  Linkedin </a></li>
+                                    <li> <a href="https://github.com/danronkam" target="_blank" rel="noreferrer" > <i class="fa-brands fa-square-github" />  Github </a></li>
+                                    <li> <a href="https://designdk.substack.com" target="_blank" rel="noreferrer"> <i class="fa-solid fa-up-right-from-square" />  Substack </a></li>
+                                    <li> <a href="https://medium.com/@danronkam" target="_blank" rel="noreferrer"> <i class="fa-brands fa-medium"/>  Medium </a></li>
                                 </ul>
                             <h2 className="content-heading"> Dan irl </h2>
                                 <ul className="about-list">
-                                    <li> <a href='https://www.tiktok.com/@doafavorforme' target='_blank' rel="noreferrer"> 📓  Tiktok </a></li>
-                                    <li> <a target='_blank' rel="noreferrer" href='https://twitter.com/kamerugh'> 📓  Twitter </a></li>
-                                    <li> <a target='_blank' rel="noreferrer" href='https://instagram.com/doafavorforme'> 📓  Instagram </a></li>
-                                    <li> <a target='_blank' rel="noreferrer" href='https://medium.com/@danronkam'> 📓  Medium </a></li>
+                                    <li> <a href='https://www.tiktok.com/@doafavorforme' target='_blank' rel="noreferrer"> <i class="fa-brands fa-tiktok" />  Tiktok </a></li>
+                                    <li> <a target='_blank' rel="noreferrer" href='https://twitter.com/kamerugh'> <i class="fa-brands fa-square-twitter" />  Twitter </a></li>
+                                    <li> <a target='_blank' rel="noreferrer" href='https://instagram.com/doafavorforme'> <i class="fa-brands fa-square-instagram" />  Instagram </a></li>
+                                    <li> <a target='_blank' rel="noreferrer" href='https://medium.com/@danronkam'> 📓  TBD </a></li>
                                 </ul>
                         </div>
 

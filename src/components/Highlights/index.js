@@ -60,24 +60,6 @@ const Highlights = () => {
                 </div>   
             </a> 
 
-            <a href="https://open.substack.com/pub/designdk/p/04-nvidia-days-of-living-dangerously?r=1z8i3t&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" target="_blank" id="substack-highlight" rel="noreferrer">
-
-                <div className="highlight-container" >
-                    <div className="highlight-head">
-                        <p> <b className="type"> Substack</b> <b className="date">  2024 </b></p>
-                        <h1 className="highlight-head">Writing</h1>
-                    </div>
-                    <div className="highlight-body">
-                        <p> 
-                        scans and full transcript from a 2000s interview with NVidia co-founders Curtis Priem, Jen-Hsun Huang, and Chris Malachowsky from EDGE
-                        </p>
-                    </div>
-                    <div className="highlight-link">
-                        <p href="https://open.substack.com/pub/designdk/p/04-nvidia-days-of-living-dangerously?r=1z8i3t&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true"  target="_blank" className="highlight-link">Click Me</p>
-                    </div>
-
-                </div>   
-            </a>    
         
 
         </div>
