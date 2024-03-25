@@ -1,7 +1,10 @@
 .flatCube-container{
-    transform-style: preserve-3d;
-    perspective: 100px;
-    /* position: fixed; */
+    perspective: 800;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center,
 }
 
 .flatCube{
@@ -9,4 +12,6 @@
     height: 400px;
     width: 400px;
     background-size: contain;
+    transform-Style: preserve-3d;
+
 }

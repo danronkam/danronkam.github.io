@@ -1,7 +1,6 @@
 .banner-container{
     display: flex;
-    padding-top: 20vh;
-    min-height: 65vh;
+    min-height: 100vh;
     margin-bottom: 10vh;
 }
 
@@ -9,13 +8,13 @@
     font-size: 3rem;
     font-family: 'Inconsolata', monospace;
     width: 70%;
+    padding-top: 20vh;
     /* padding-right: 5vw;
     padding-left: 10vw; */
 }
 
 .banner-right{
-    padding-top: 5vh;
-    width: 30%;
+    width: 50%;
 }
 
 .name{

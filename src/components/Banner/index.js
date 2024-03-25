@@ -1,5 +1,4 @@
 import React from "react";
-import LogoCube from "../Cube";
 import {Link} from 'react-router-dom'
 import FlatCube from "../FlatCube";
 import "./Banner.css"
@@ -25,7 +24,7 @@ const Banner = () => {
 
         </div>
         <div className="banner-right">
-          <LogoCube />
+          < FlatCube />
         </div>
       </div>
     </>
