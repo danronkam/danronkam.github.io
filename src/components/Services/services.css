@@ -43,16 +43,23 @@
 .service-left{
   float: left;
   width: 50%;
-  height: 100%;
-  padding-left: ;
-  
+  height: 100%;  
+  text-align: center;
+}
+
+.left-copy{
+  /* padding-left: 6vw; */
 }
 
 .service-right{
   float: right;
   width: 50%;
   height: auto;
-  text-align: right;
+  text-align: center;
+}
+
+.right-copy{
+  /* padding-right: 6vw; */
 }
 
 
@@ -60,7 +67,7 @@
   max-height: 35vh;
   height: auto;
   width: auto;
-
+  margin: auto;
   display: block;
 }
 
@@ -72,6 +79,7 @@
 .service-list-item{
   display: block;
   margin-bottom: .5vh;
+  
 }
 
 /* ANIMATION  */

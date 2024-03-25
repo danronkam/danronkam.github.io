@@ -29,7 +29,7 @@ const Services = () => {
 
                 <div className="service-grid">
                     <div className="service-item">
-                        <div className="service-left">
+                        <div className="service-left left-copy">
                             <h1 className="service-title">
                                 Technical
                             </h1>
@@ -75,7 +75,7 @@ const Services = () => {
                             </img>
 
                         </div>
-                        <div className="service-right">
+                        <div className="service-right right-copy">
                             <h1 className="service-title">
                                 Marketing
                             </h1>
@@ -92,7 +92,7 @@ const Services = () => {
                     </div>
 
                     <div className="service-item">
-                        <div className="service-left">
+                        <div className="service-left left-copy">
                             <h1 className="service-title">
                                 Production
                             </h1>
