@@ -1,0 +1,12 @@
+.flatCube-container{
+    transform-style: preserve-3d;
+    perspective: 100px;
+    /* position: fixed; */
+}
+
+.flatCube{
+    background-image: url("https://derailed-seed.s3.us-west-1.amazonaws.com/kamcube_11.png");
+    height: 400px;
+    width: 400px;
+    background-size: contain;
+}

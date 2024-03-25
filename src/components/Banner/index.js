@@ -1,6 +1,7 @@
 import React from "react";
 import LogoCube from "../Cube";
 import {Link} from 'react-router-dom'
+import FlatCube from "../FlatCube";
 import "./Banner.css"
 
 
