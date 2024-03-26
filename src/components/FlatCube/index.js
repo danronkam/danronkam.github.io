@@ -2,9 +2,6 @@ import "./FlatCube.css"
 import {motion, useMotionValue, useTransform} from "framer-motion";
 
 const FlatCube = () => {
-    const cubeX = useMotionValue(0);
-    const cubeY = useMotionValue(0);
-
     const cardX = useMotionValue(0);
     const cardY = useMotionValue(0);
     const rotateX = useTransform(cardY, [-300, 300], [10, -10]); // Reversed values

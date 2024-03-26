@@ -1,12 +1,10 @@
 import emailjs from "@emailjs/browser"
-import {useRef, useState} from 'react'
+import {useRef, } from 'react'
 import './EmailForm.css'
 
 
 const EmailForm = () => {
     const form = useRef();
-
-    const [emailSent, setEmailSent] = useState(false);
 
     const sendEmail = (e) => {
       e.preventDefault();

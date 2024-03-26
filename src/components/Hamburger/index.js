@@ -16,10 +16,9 @@ const HamburgerMenu = () => {
         >
         <Link exact to="/" className="burger-link">Home</Link>
         <Link exact to="/about" className="burger-link">About</Link>
-        <Link exact to="/ecom" className="burger-link">Ecommerce Development</Link>
-        <Link exact to="/work" className="burger-link">Projects</Link>
-        <Link exact to="/about" className="burger-link">Substack</Link>
-        <Link exact to="/about" className="burger-link">Contact</Link>
+        <Link exact to="/services" className="burger-link">Services </Link>
+        <Link exact to="/contact" className="burger-link">Contact</Link>
+
 
       </Menu>
 

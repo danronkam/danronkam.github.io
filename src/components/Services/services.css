@@ -78,7 +78,38 @@
 
 .service-list-item{
   display: block;
-  margin-bottom: .5vh;
-  
+  margin-bottom: .5vh; 
+}
+
+@media screen and (max-width: 960px) {
+  #services-container{
+    width: 100%;
+  }
+
+  .hero-container{
+      margin-bottom: 5vh;
+      padding-top: 7vh;
+      text-align: center;
+  }
+
+  .service-hero-head{
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 15vw;
+    text-align: center;
+  }
+
+  .service-hero-sub{
+    font-size: 5vw;
+  }
+
+  .service-cta{
+    font-size: 7.5vw;
+    margin-bottom: 5vh;
+  }
+
+  .service-left{
+    text-align: left;
+  }
 }
 

@@ -1,18 +1,12 @@
 import EmailForm from '../EmailForm'
 import { useLayoutEffect } from "react";
 import "./Contact.css"
-import { useState } from 'react';
 
 const Contact = () => {
     
     useLayoutEffect(() => {
         window.scrollTo(0,0);
     });
-
-  const [copied, setCopied] = useState(false);
-
-
-
 
 
 

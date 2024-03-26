@@ -21,7 +21,7 @@ const About = () => {
                     </div>
                     <div className="content-tags flex-child">
                             <div className="label">Updated</div>
-                            <div className="tags">Feb 2024</div>
+                            <div className="tags">March 2024</div>
                     </div>
                 </div>
                 

@@ -9,7 +9,7 @@ const ErrorPage = () => {
         <>
         <div className="error-container">
             <h1 className="error-title">
-                page not found, return <Link className="error-link"> home?</Link>
+                page not found, return <Link className="error-link" exact to="/"> home?</Link>
             </h1>
         </div>
         
