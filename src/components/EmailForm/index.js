@@ -29,25 +29,25 @@ const EmailForm = () => {
       <div className="email-container">
         <form ref={form} onSubmit={sendEmail} className="email-form">
           <label className="email-label">
-            <h2 className="content-heading">
+            <h2 className="content-heading email-label">
               Name
             </h2>
           </label>
             <input type="text" name="user_name" className="email-input"/>
           <label className="email-label">
-            <h2 className="content-heading">
+            <h2 className="content-heading email-label">
               Email
             </h2>
           </label>
             <input type="email" name="user_email" className="email-input"/>
           <label className="email-label">
-            <h2 className="content-heading">
+            <h2 className="content-heading email-label">
               Message
             </h2>
           </label>
-            <textarea name="message" />
+            <textarea name="message" className="email-textArea" maxLength="250"/>
             <br />
-          <input type="submit" value="Send" />
+          <input type="submit" value="Send" className="email-submit"/>
         </form>
 
       </div>

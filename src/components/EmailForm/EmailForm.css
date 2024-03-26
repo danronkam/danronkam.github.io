@@ -86,3 +86,59 @@ textarea{
     background-color: #0056b3;
   }
   
+  .email-label{
+    color: #a0a0c0;
+  }
+
+  .email-input{
+    border: 1px solid #a0a0c0;
+    width: 25%;
+    border-radius: 5px;
+    height: 20px;
+    background-color: #1f1f2e;
+    color: white;
+    padding: 3px;
+  }
+
+  .email-textArea{
+    background-color: #1f1f2e;
+    border: 1px solid #a0a0c0;
+    width: 45%;
+    border-radius: 5px;
+    height: 60px;
+    color: white;
+    margin-bottom: 2.5vh;
+  }
+
+  .email-submit{
+    padding: 1.5vh;
+    height: 5vh;
+    vertical-align: middle;
+    background-color: transparent;
+    border: none;
+    color: #a0a0c0;
+    transition-duration: .5s;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #a0a0c0;
+    margin-bottom: 5vh;
+  }
+
+  .email-submit:hover{
+    color: #e8e9ed;
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+    transition-duration: .5s;
+  }
+
+  @media screen and (max-width: 960px) {
+    .email-input{
+      width: 80%;
+    }
+
+    .email-textArea{
+      width: 80%;
+    }
+
+  
+  }

@@ -18,3 +18,9 @@
     font-style: italic;
     color: white;
 }
+
+@media screen and (max-width: 960px) {
+    .content-title{
+        padding-top: 10vh;
+    }
+}

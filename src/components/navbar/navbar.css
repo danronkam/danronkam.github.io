@@ -132,7 +132,7 @@ a{
 }
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 960px) {
     .navbar-left{
         margin-left: 0;
         padding-left: 1vh;

@@ -134,7 +134,7 @@ li > a:hover {
 
 
 /* mobile screen */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500@px) {
 
     .page-container{
         min-height: 100%;
