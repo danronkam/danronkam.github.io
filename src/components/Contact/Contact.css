@@ -1,59 +1,20 @@
 
-.copy-click {
-    position: relative;
-    padding-bottom: 2px;
+
+.contact-socialLink:visited{
     text-decoration: none;
-    cursor: copy;
-    color: #484848;
-    border-bottom: 1px dashed #767676;
-    transition: background-color calc(var(--duration) * 2) var(--ease);
-    
-    &:after {
-      content: attr(data-tooltip-text);
-      position: absolute;
-      bottom: calc(100% + 6px);
-      left: 50%;
-      padding: 8px 16px;
-      white-space: nowrap;
-      background-color: white;
-      border-radius: 4px;
-      box-shadow: 0 0 0 -12px rgba(0,0,0,0);
-      pointer-events: none;
-      backface-visibility: hidden;
-      opacity: 0;
-      transform: translate(-50%, 12px);
-      transition: 
-        box-shadow calc(var(--duration) / 1.5) var(--bounce),
-        opacity calc(var(--duration) / 1.5) var(--bounce),
-        transform calc(var(--duration) / 1.5) var(--bounce);
-    }
-   
-    &.is-hovered {    
-      &:after {
-        box-shadow: 0 4px 8px rgba(0,0,0,0.10);
-        opacity: 1;
-        transform: translate(-50%, 0);
-        transition-timing-function: var(--ease);
-      }
-    }
-    
-    &.is-copied {
-      background-color: yellow;
-      
-      &:after { 
-        content: attr(data-tooltip-text-copied); 
-      }
-    }
 }
 
-.popup {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  padding: 10px 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+.contact-socialLink {
+    color: #64ffea;
+    padding-right: 1vw;
+
+}
+
+.contact-socialLink:hover{
+    text-decoration: underline;
+}
+
+#contact-description{
+    font-style: italic;
+    color: white;
 }

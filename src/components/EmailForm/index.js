@@ -8,18 +8,6 @@ const EmailForm = () => {
 
     const [emailSent, setEmailSent] = useState(false);
 
-    const sendEmail1 = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-        .then((result) => {
-          console.log(result.text);
-          setEmailSent(true);
-        }, (error) => {
-          console.log(error.text);
-        });
-    }
-
     const sendEmail = (e) => {
       e.preventDefault();
   
