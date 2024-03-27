@@ -1,5 +1,5 @@
 import emailjs from "@emailjs/browser"
-import {useRef, } from 'react'
+import {useRef, useState } from 'react'
 import './EmailForm.css'
 
 
@@ -22,6 +22,21 @@ const EmailForm = () => {
           },
         );
     };
+
+    const [notification, setNotification] = useState({ message: '', type: '' });
+
+    const sendEmail = () => {
+      emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', { /* Email parameters */ }, 'YOUR_USER_ID')
+        .then((response) => {
+          console.log('Email sent:', response);
+          setNotification({ message: 'Email sent successfully!', type: 'success' });
+        })
+        .catch((error) => {
+          console.error('Email send error:', error);
+          setNotification({ message: 'Failed to send email.', type: 'error' });
+        });
+    };
+  
   
     return (
       <div className="email-container">
