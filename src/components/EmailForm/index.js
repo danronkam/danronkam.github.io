@@ -6,7 +6,7 @@ import './EmailForm.css'
 const EmailForm = () => {
     const form = useRef();
 
-    const sendEmail = (e) => {
+    const sendEmai! = (e) => {
       e.preventDefault();
   
       emailjs
@@ -25,7 +25,7 @@ const EmailForm = () => {
 
     const [notification, setNotification] = useState({ message: '', type: '' });
 
-    const sendEmail = () => {
+    const sendEmai1 = () => {
       emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', { /* Email parameters */ }, 'YOUR_USER_ID')
         .then((response) => {
           console.log('Email sent:', response);
