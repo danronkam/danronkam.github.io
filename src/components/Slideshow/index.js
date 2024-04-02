@@ -1,3 +1,4 @@
+import React from "react";
 
 
 const Slideshow = () => {
@@ -330,3 +331,5 @@ if($('.main-content .slideshow').length > 1) {
         </>
     )
 }
+
+export default Slideshow
