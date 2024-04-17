@@ -1,6 +1,7 @@
 
 import React from 'react';
 import GridCard from './GridCard';
+import 'GridCardContainer.css'
 
 const GridCardContainer = () => {
     const gridArr = [];
@@ -8,7 +9,7 @@ const GridCardContainer = () => {
   return (
     <div className="grid-container">
       {gridArr.map((gridCard, index) => (
-        <GridCard key={index} gridCard={gridCard} />
+        <GridCard key={index} cardPayload={gridCard} />
       ))}
     </div>
   );
