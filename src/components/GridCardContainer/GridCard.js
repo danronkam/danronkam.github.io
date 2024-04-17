@@ -4,7 +4,11 @@ const GridCard = ({ cardPayload }) => {
     let imgSrc, heading, body;
 
     if(cardPayload) {
-        imgSrc 
+
+        let cardData = cardPayload.cardPayload;
+        imgSrc = cardData.imageSrc;
+        heading = cardData.heading;
+        body = cardData.body;
     }
 
 
@@ -12,8 +16,8 @@ const GridCard = ({ cardPayload }) => {
     <div className="grid-card">
       <img src={imageSrc} alt={title} className="grid-card-image" />
       <div className="grid-card-content">
-        <h2 className="grid-card-title">{title}</h2>
-        <p className="grid-card-description">{description}</p>
+        <h2 className="grid-card-title">{heading}</h2>
+        <p className="grid-card-description">{body}</p>
       </div>
     </div>
   );
