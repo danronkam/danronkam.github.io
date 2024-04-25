@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 const LandingPage = () => {
@@ -9,8 +10,13 @@ const LandingPage = () => {
 
   return (
     <div className="slideshow">
-      <h2>Dan Kam:</h2>
-      <h3 onClick={handleSubheadingChange}>{subheading}</h3>
+      <h2 className='landing-name'>Dan Kam:</h2>
+      <h3 onClick={handleSubheadingChange} className='landing-subHead swipe'>
+        {subheading}
+        </h3>
+      <Link exact to={'/'} className='landing-Link'>
+        learn more...
+      </Link>
     </div>
   );
 };

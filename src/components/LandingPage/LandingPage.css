@@ -1,0 +1,35 @@
+
+  .slideshow {
+    text-align: center;
+  }
+  
+  .landing-name, .landing-subhead {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .landing-name {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .landing-subhead {
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .swipe-animation {
+    animation: swipe 0.5s forwards;
+  }
+  
+  @keyframes swipe {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
