@@ -6,7 +6,7 @@ import './EmailForm.css'
 const EmailForm = () => {
     const form = useRef();
 
-    const sendEmai! = (e) => {
+    const sendEmail = (e) => {
       e.preventDefault();
   
       emailjs
@@ -25,17 +25,17 @@ const EmailForm = () => {
 
     const [notification, setNotification] = useState({ message: '', type: '' });
 
-    const sendEmai1 = () => {
-      emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', { /* Email parameters */ }, 'YOUR_USER_ID')
-        .then((response) => {
-          console.log('Email sent:', response);
-          setNotification({ message: 'Email sent successfully!', type: 'success' });
-        })
-        .catch((error) => {
-          console.error('Email send error:', error);
-          setNotification({ message: 'Failed to send email.', type: 'error' });
-        });
-    };
+    // const sendEmai1 = () => {
+    //   emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', { /* Email parameters */ }, 'YOUR_USER_ID')
+    //     .then((response) => {
+    //       console.log('Email sent:', response);
+    //       setNotification({ message: 'Email sent successfully!', type: 'success' });
+    //     })
+    //     .catch((error) => {
+    //       console.error('Email send error:', error);
+    //       setNotification({ message: 'Failed to send email.', type: 'error' });
+    //     });
+    // };
   
   
     return (
