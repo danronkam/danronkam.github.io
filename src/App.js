@@ -12,6 +12,7 @@ import ProjectPage from "./components/ProjectPage";
 import ErrorPage from "./components/ErrorPage";
 import Services from "./components/Services"
 import Contact from "./components/Contact";
+import LandingPage from "./components/LandingPage";
 
 
 function App() {
@@ -173,6 +174,10 @@ function App() {
 
           <Route path="/contact" >
             <Contact  />
+          </Route>
+
+          <Route path="testkitchen" >
+            <LandingPage />
           </Route>
 
           <Route path="*" >

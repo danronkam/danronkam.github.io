@@ -9,12 +9,12 @@ const LandingPage = () => {
   };
 
   return (
-    <div className="slideshow">
-      <h2 className='landing-name'>Dan Kam:</h2>
+    <div className="landingPage-container">
+      <h2 className='landingPage-name'>Dan Kam:</h2>
       <h3 onClick={handleSubheadingChange} className='landing-subHead swipe'>
         {subheading}
         </h3>
-      <Link exact to={'/'} className='landing-Link'>
+      <Link exact to={'/'} className='landingPage-link'>
         learn more...
       </Link>
     </div>
