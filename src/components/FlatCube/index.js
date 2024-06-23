@@ -1,5 +1,5 @@
 import "./FlatCube.css"
-import {motion, useMotionValue, useTransform} from "framer-motion";
+import React from 'react'
 
 const FlatCube = () => {
     const cardX = useMotionValue(0);

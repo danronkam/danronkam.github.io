@@ -1,7 +1,6 @@
 import React from "react";
 import HighlightsItem from "../HighlightsItem";
 import "./Highlights.css"
-import {motion} from "framer-motion"
 
 
 const Highlights = () => {
@@ -39,7 +38,7 @@ const Highlights = () => {
 
     return(
         <>
-        <motion.div 
+        <div 
             className="highlights-container" 
             initial="offscreen"
             >
@@ -67,7 +66,7 @@ const Highlights = () => {
 
         
 
-        </motion.div>
+        </div>
 
         </>
     )

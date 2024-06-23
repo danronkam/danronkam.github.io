@@ -1,7 +1,7 @@
 import { Switch, Route } from "react-router-dom";
 import { Redirect } from "react-router-dom";
 import "./index.css"
-
+import React from 'react';
 import TLDR from "./components/Tldr";
 import Homepage from "./components/homepage";
 import Navbar from "./components/navbar";

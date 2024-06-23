@@ -1,6 +1,6 @@
-import EmailForm from '../EmailForm'
 import { useLayoutEffect } from "react";
 import "./Contact.css"
+import React from 'react'
 
 const Contact = () => {
     
@@ -40,7 +40,6 @@ const Contact = () => {
                         </div>
                     </div>
                     <hr />
-                    <EmailForm />
 
                 </div>
 

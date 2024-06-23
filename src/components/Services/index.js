@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./services.css"
-import { useLayoutEffect } from "react";
+import React, { useLayoutEffect } from "react";
 
 const Services = () => {
 

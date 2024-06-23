@@ -1,4 +1,6 @@
 import ProjectIndexItem from "../ProjectIndexItem";
+import React from 'react'
+
 
 const ProjectsIndex = () => {
 
