@@ -1,0 +1,8 @@
+{
+  "short_name": "Dan Kam Portfolio",
+  "name": "Dan Kam | Software Dev",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
